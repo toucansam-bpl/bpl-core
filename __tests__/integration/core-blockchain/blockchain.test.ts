@@ -119,10 +119,10 @@ describe("Blockchain", () => {
             // FIXME: using jest.spyOn getActiveDelegates with toHaveLastReturnedWith() somehow gets
             // overwritten in afterEach
             // FIXME: wallet.lastBlock needs to be properly restored when reverting
-            forgingDelegates.forEach(forger => (forger.lastBlock = undefined));
+            forgingDelegates.forEach(forger => (forger.unsetExtraAttribute("delegate.lastBlock")));
             expect(forgingDelegates).toEqual(
                 (blockchain.database as any).forgingDelegates.map(forger => {
-                    forger.lastBlock = undefined;
+                    forger.unsetExtraAttribute("delegate.lastBlock");
                     return forger;
                 }),
             );
@@ -184,7 +184,7 @@ describe("Blockchain", () => {
             const recipient = Identities.Address.fromPublicKey(keyPair.publicKey);
 
             let nextForger = await getNextForger();
-            const initialVoteBalance = nextForger.voteBalance;
+            const initialVoteBalance: Utils.BigNumber = nextForger.getExtraAttribute("delegate.voteBalance");
 
             // First send funds to new voter wallet
             const forgerKeys = delegates.find(wallet => wallet.publicKey === nextForger.publicKey);
@@ -201,7 +201,7 @@ describe("Blockchain", () => {
             // New wallet received funds and vote balance of delegate has been reduced by the same amount,
             // since it forged it's own transaction the fees for the transaction have been recovered.
             expect(wallet.balance).toEqual(transfer.amount);
-            expect(walletForger.voteBalance).toEqual(initialVoteBalance.minus(transfer.amount));
+            expect(walletForger.getExtraAttribute<Utils.BigNumber>("delegate.voteBalance")).toEqual(initialVoteBalance.minus(transfer.amount));
 
             // Now vote with newly created wallet for previous forger.
             const vote = TransactionFactory.vote(forgerKeys.publicKey)
@@ -217,11 +217,11 @@ describe("Blockchain", () => {
 
             // Wallet paid a fee of 1 and the vote has been placed.
             expect(wallet.balance).toEqual(Utils.BigNumber.make(124));
-            expect(wallet.vote).toEqual(forgerKeys.publicKey);
+            expect(wallet.getExtraAttribute<string>("vote")).toEqual(forgerKeys.publicKey);
 
             // Vote balance of delegate now equals initial vote balance minus 1 for the vote fee
             // since it was forged by a different delegate.
-            expect(walletForger.voteBalance).toEqual(initialVoteBalance.minus(vote.fee));
+            expect(walletForger.getExtraAttribute<Utils.BigNumber>("delegate.voteBalance")).toEqual(initialVoteBalance.minus(vote.fee));
 
             // Now unvote again
             const unvote = TransactionFactory.unvote(forgerKeys.publicKey)
@@ -237,17 +237,17 @@ describe("Blockchain", () => {
 
             // Wallet paid a fee of 1 and no longer voted a delegate
             expect(wallet.balance).toEqual(Utils.BigNumber.make(123));
-            expect(wallet.vote).toBeUndefined();
+            expect(wallet.hasVoted()).toBeFalse();
 
             // Vote balance of delegate now equals initial vote balance minus the amount sent to the voter wallet.
-            expect(walletForger.voteBalance).toEqual(initialVoteBalance.minus(transfer.amount));
+            expect(walletForger.getExtraAttribute<Utils.BigNumber>("delegate.voteBalance")).toEqual(initialVoteBalance.minus(transfer.amount));
 
             // Now rewind 3 blocks back to the initial state
             await blockchain.removeBlocks(3);
 
             // Wallet is now a cold wallet and the initial vote balance has been restored.
             expect(wallet.balance).toEqual(Utils.BigNumber.ZERO);
-            expect(walletForger.voteBalance).toEqual(initialVoteBalance);
+            expect(walletForger.getExtraAttribute<Utils.BigNumber>("delegate.voteBalance")).toEqual(initialVoteBalance);
         });
     });
 
@@ -309,7 +309,7 @@ async function __resetToHeight1() {
         const generator = Identities.Address.fromPublicKey(genesisBlock.data.generatorPublicKey);
         const genesis = new Wallets.Wallet(generator);
         genesis.publicKey = genesisBlock.data.generatorPublicKey;
-        genesis.username = "genesis";
+        genesis.setExtraAttribute("delegate", { username: "genesis" });
         blockchain.database.walletManager.reindex(genesis);
 
         blockchain.state.clear();
