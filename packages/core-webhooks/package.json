@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-webhooks",
     "description": "Webhooks for ARK Core",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,11 +19,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-http-utils": "file:../core-http-utils",
-        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
-        "@toucansam-bpl/core-transaction-event-emitter": "file:../core-event-emitter",
-        "@toucansam-bpl/core-utils": "file:../core-utils",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-event-emitter": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
         "boom": "^7.3.0",
         "fs-extra": "^7.0.1",
         "hapi-pagination": "^2.1.0",

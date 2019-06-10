@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-database-postgres",
     "description": "PostgreSQL integration for ARK Core",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -23,11 +23,11 @@
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-database": "file:../core-database",
-        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
-        "@toucansam-bpl/core-utils": "file:../core-utils",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-database": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
         "@types/bluebird": "^3.5.26",
         "@types/lodash.chunk": "^4.2.6",
         "@types/pluralize": "^0.0.29",

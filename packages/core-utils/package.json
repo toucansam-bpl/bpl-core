@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-utils",
     "description": "Utilities for ARK Core",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,9 +19,9 @@
     },
     "dependencies": {
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
         "cli-table3": "^0.5.1",
         "fast-json-parse": "^1.0.3",
         "got": "^9.6.0"

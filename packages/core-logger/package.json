@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-logger",
     "description": "Logger Manager for ARK Core",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {

@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-transactions",
     "description": "Transaction Services for ARK Core",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.10",
     "contributors": [
         "Joshua Noack <joshua@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
         "bs58check": "^2.1.2"
     },
     "publishConfig": {
