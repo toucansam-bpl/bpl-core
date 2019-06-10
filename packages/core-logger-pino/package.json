@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-logger-pino",
     "description": "Pino integration for ARK Core",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.3",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],

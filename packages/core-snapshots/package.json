@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-snapshots",
     "description": "Provides live local streamed snapshots functionality for ARK Core",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.3",
     "contributors": [
         "Kristjan Košič <chris@ark.io>"
     ],
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-transaction-database-postgres": "file:../core-database-postgres",
         "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
+        "@toucansam-bpl/core-transaction-database-postgres": "file:../core-database-postgres",
         "@toucansam-bpl/core-utils": "file:../core-utils",
         "@toucansam-bpl/crypto": "file:../crypto",
         "JSONStream": "^1.3.5",

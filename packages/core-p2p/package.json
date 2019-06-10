@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-p2p",
     "description": "P2P API for BPL Core",
-    "version": "2.0.0-alpha.1",
+    "version": "2.0.0-alpha.3",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
