@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import AirBrake from "airbrake-js";
 import { defaults } from "./defaults";
 

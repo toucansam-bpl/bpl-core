@@ -1,5 +1,5 @@
-import { Address } from "@arkecosystem/crypto";
 import { flags } from "@oclif/command";
+import { Address } from "@toucansam-bpl/crypto";
 import { satoshiFlag } from "../../flags";
 import { logger } from "../../logger";
 import { SendCommand } from "../../shared/send";

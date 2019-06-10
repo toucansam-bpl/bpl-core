@@ -1,5 +1,5 @@
-import { Database, EventEmitter, TransactionPool } from "@arkecosystem/core-interfaces";
-import { ITransactionData, Transaction, TransactionConstructor, VoteTransaction } from "@arkecosystem/crypto";
+import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { ITransactionData, Transaction, TransactionConstructor, VoteTransaction } from "@toucansam-bpl/crypto";
 import { AlreadyVotedError, NoVoteError, UnvoteMismatchError, VotedForNonDelegateError } from "../errors";
 import { TransactionHandler } from "./transaction";
 

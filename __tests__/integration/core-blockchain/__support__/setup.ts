@@ -1,12 +1,12 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@toucansam-bpl/core-container";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
 
 jest.setTimeout(60000);
 
 export const setUpFull = async () => {
     await setUpContainer({
-        exit: "@arkecosystem/core-p2p",
-        exclude: ["@arkecosystem/core-blockchain"],
+        exit: "@toucansam-bpl/core-p2p",
+        exclude: ["@toucansam-bpl/core-blockchain"],
     });
 
     const { plugin } = require("../../../../packages/core-blockchain/src/plugin");
@@ -24,8 +24,8 @@ export const tearDownFull = async () => {
 
 export const setUp = async () =>
     setUpContainer({
-        exit: "@arkecosystem/core-p2p",
-        exclude: ["@arkecosystem/core-blockchain"],
+        exit: "@toucansam-bpl/core-p2p",
+        exclude: ["@toucansam-bpl/core-blockchain"],
     });
 
 export const tearDown = async () => {

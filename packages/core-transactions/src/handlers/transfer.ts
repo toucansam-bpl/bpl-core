@@ -1,4 +1,4 @@
-import { Database, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Database, TransactionPool } from "@toucansam-bpl/core-interfaces";
 import {
     configManager,
     constants,
@@ -6,7 +6,7 @@ import {
     Transaction,
     TransactionConstructor,
     TransferTransaction,
-} from "@arkecosystem/crypto";
+} from "@toucansam-bpl/crypto";
 import { isRecipientOnActiveNetwork } from "../utils";
 import { TransactionHandler } from "./transaction";
 

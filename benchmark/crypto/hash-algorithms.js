@@ -1,7 +1,7 @@
 const {
     HashAlgorithms,
     Transaction
-} = require('@arkecosystem/crypto')
+} = require('@toucansam-bpl/crypto')
 const createHash = require("create-hash");
 const nodeSha256 = (bytes) => createHash("sha256").update(bytes).digest()
 

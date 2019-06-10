@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { MultiPaymentTransaction, Transaction, TransactionConstructor } from "@arkecosystem/crypto";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { MultiPaymentTransaction, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
 import { TransactionHandler } from "./transaction";
 
 export class MultiPaymentTransactionHandler extends TransactionHandler {

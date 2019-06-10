@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@toucansam-bpl/core-interfaces";
 import { SearchParameterConverter } from "../../../../../packages/core-database/src/repositories/utils/search-parameter-converter";
 import { MockDatabaseModel } from "../../__fixtures__/mock-database-model";
 

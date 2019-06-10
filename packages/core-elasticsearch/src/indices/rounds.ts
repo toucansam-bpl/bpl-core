@@ -1,4 +1,4 @@
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
+import { ApplicationEvents } from "@toucansam-bpl/core-event-emitter";
 import { storage } from "../storage";
 import { first, last } from "../utils";
 import { Index } from "./base";

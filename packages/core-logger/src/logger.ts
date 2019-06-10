@@ -1,4 +1,4 @@
-import { Logger } from "@arkecosystem/core-interfaces";
+import { Logger } from "@toucansam-bpl/core-interfaces";
 import isEmpty from "lodash.isempty";
 import { inspect } from "util";
 

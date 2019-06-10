@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
+import { app } from "@toucansam-bpl/core-container";
+import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
 import { setUpLite } from "../utils";
 import { BaseCommand } from "./command";
 

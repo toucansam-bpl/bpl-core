@@ -1,4 +1,4 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@toucansam-bpl/core-utils";
 import { logger } from "./logger";
 
 export class HttpClient {

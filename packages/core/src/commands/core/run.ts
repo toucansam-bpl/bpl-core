@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
 import { flags } from "@oclif/command";
+import { app } from "@toucansam-bpl/core-container";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
 
@@ -42,11 +42,11 @@ $ ark core:run --launchMode=seed
 
         await this.buildApplication(app, flags, {
             options: {
-                "@arkecosystem/core-p2p": this.buildPeerOptions(flags),
-                "@arkecosystem/core-blockchain": {
+                "@toucansam-bpl/core-p2p": this.buildPeerOptions(flags),
+                "@toucansam-bpl/core-blockchain": {
                     networkStart: flags.networkStart,
                 },
-                "@arkecosystem/core-forger": await this.buildBIP38(flags),
+                "@toucansam-bpl/core-forger": await this.buildBIP38(flags),
             },
         });
     }

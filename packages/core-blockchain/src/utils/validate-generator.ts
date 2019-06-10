@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { models, slots } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { models, slots } from "@toucansam-bpl/crypto";
 
 export const validateGenerator = async (block: models.Block): Promise<boolean> => {
     const database = app.resolvePlugin("database");

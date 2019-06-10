@@ -1,4 +1,4 @@
-import { Address } from "@arkecosystem/crypto";
+import { Address } from "@toucansam-bpl/crypto";
 import pokemon from "pokemon";
 import { satoshiFlag } from "../../flags";
 import { logger } from "../../logger";

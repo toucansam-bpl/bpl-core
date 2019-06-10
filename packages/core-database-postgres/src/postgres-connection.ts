@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter, Logger } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { configManager, models, Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { configManager, models, Transaction } from "@toucansam-bpl/crypto";
 import chunk from "lodash.chunk";
 import path from "path";
 import pgPromise, { IMain } from "pg-promise";

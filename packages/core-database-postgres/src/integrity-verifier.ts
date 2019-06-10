@@ -1,8 +1,8 @@
-import { Bignum } from "@arkecosystem/crypto";
-import { sortBy } from "@arkecosystem/utils";
+import { Bignum } from "@toucansam-bpl/crypto";
+import { sortBy } from "@toucansam-bpl/utils";
 
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, Logger } from "@toucansam-bpl/core-interfaces";
 import { queries } from "./queries";
 import { QueryExecutor } from "./sql/query-executor";
 

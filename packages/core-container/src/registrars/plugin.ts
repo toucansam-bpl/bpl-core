@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import { asValue } from "awilix";
 import Hoek from "hoek";
 import isString from "lodash.isstring";

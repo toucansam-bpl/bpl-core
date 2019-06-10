@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { Wallet } from "@arkecosystem/core-database";
-import { Bignum, configManager, constants, crypto, ITransactionData, Transaction } from "@arkecosystem/crypto";
+import { Wallet } from "@toucansam-bpl/core-database";
+import { Bignum, configManager, constants, crypto, ITransactionData, Transaction } from "@toucansam-bpl/crypto";
 import {
     AlreadyVotedError,
     InsufficientBalanceError,

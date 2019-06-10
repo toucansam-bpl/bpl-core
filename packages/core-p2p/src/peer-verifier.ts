@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger, Shared } from "@arkecosystem/core-interfaces";
-import { CappedSet, NSect, roundCalculator } from "@arkecosystem/core-utils";
-import { models } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, Logger, Shared } from "@toucansam-bpl/core-interfaces";
+import { CappedSet, NSect, roundCalculator } from "@toucansam-bpl/core-utils";
+import { models } from "@toucansam-bpl/crypto";
 import assert from "assert";
 import { inspect } from "util";
 import { Peer } from "./peer";

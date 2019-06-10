@@ -1,4 +1,4 @@
-import { models } from "@arkecosystem/crypto";
+import { models } from "@toucansam-bpl/crypto";
 import { TransactionFactory } from "../../../helpers/transaction-factory";
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../__support__/utils";

@@ -1,4 +1,4 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@toucansam-bpl/core-utils";
 import "jest-extended";
 import nock from "nock";
 import { SecondSignatureRegistrationCommand } from "../../../../../packages/core-tester-cli/src/commands/send/second-signature-registration";

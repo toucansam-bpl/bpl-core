@@ -1,5 +1,5 @@
 /* tslint:disable:max-line-length */
-import { app } from "@arkecosystem/core-container";
+import { app } from "@toucansam-bpl/core-container";
 import {
     Blockchain as blockchain,
     Database,
@@ -7,8 +7,8 @@ import {
     Logger,
     P2P,
     TransactionPool,
-} from "@arkecosystem/core-interfaces";
-import { models, slots, Transaction } from "@arkecosystem/crypto";
+} from "@toucansam-bpl/core-interfaces";
+import { models, slots, Transaction } from "@toucansam-bpl/crypto";
 
 import async from "async";
 import delay from "delay";

@@ -1,5 +1,5 @@
-import { constants, slots } from "@arkecosystem/crypto";
 import { dato } from "@faustbrian/dato";
+import { constants, slots } from "@toucansam-bpl/crypto";
 import partition from "lodash.partition";
 import snakeCase from "lodash.snakecase";
 import { IRepository } from "../interfaces";

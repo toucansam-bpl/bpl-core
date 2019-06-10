@@ -1,4 +1,4 @@
-import { Logger } from "@arkecosystem/core-interfaces";
+import { Logger } from "@toucansam-bpl/core-interfaces";
 import * as capcon from "capture-console";
 import "jest-extended";
 import { tmpdir } from "os";

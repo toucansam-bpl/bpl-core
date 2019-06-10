@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger, P2P } from "@arkecosystem/core-interfaces";
-import { httpie } from "@arkecosystem/core-utils";
 import { dato, Dato } from "@faustbrian/dato";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger, P2P } from "@toucansam-bpl/core-interfaces";
+import { httpie } from "@toucansam-bpl/core-utils";
 import Joi from "joi";
 import util from "util";
 import { config as localConfig } from "./config";

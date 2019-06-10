@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@toucansam-bpl/core-interfaces";
 import {
     Bignum,
     constants,
@@ -7,7 +7,7 @@ import {
     IMultiSignatureAsset,
     ITransactionData,
     models,
-} from "@arkecosystem/crypto";
+} from "@toucansam-bpl/crypto";
 
 const { TransactionTypes } = constants;
 

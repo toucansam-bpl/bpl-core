@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { HashAlgorithms } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { HashAlgorithms } from "@toucansam-bpl/crypto";
 import Hapi, { ServerMethod } from "hapi";
 
 export class ServerCache {

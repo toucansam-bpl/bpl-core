@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { EventEmitter } from "@toucansam-bpl/core-interfaces";
 
 const emitter = app.resolvePlugin<EventEmitter.EventEmitter>("event-emitter");
 

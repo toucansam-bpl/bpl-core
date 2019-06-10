@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@toucansam-bpl/core-container";
 
 export async function mountServer(name, server) {
     try {

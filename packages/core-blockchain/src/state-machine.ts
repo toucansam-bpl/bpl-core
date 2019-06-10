@@ -1,10 +1,10 @@
 /* tslint:disable:jsdoc-format max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
 
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { isException, models } from "@arkecosystem/crypto";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { isException, models } from "@toucansam-bpl/crypto";
 
 import pluralize from "pluralize";
 import { config as localConfig } from "./config";

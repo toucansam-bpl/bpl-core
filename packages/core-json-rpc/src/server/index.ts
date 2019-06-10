@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { createServer, mountServer, plugins } from "@arkecosystem/core-http-utils";
-import { Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { createServer, mountServer, plugins } from "@toucansam-bpl/core-http-utils";
+import { Logger } from "@toucansam-bpl/core-interfaces";
 import { registerMethods } from "./methods";
 import { Processor } from "./services/processor";
 

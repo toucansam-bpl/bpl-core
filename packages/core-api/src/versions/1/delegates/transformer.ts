@@ -1,4 +1,4 @@
-import { delegateCalculator } from "@arkecosystem/core-utils";
+import { delegateCalculator } from "@toucansam-bpl/core-utils";
 
 export function transformDelegateLegacy(model) {
     return {

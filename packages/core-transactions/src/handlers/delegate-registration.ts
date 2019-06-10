@@ -1,11 +1,11 @@
-import { Database, EventEmitter, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
 import {
     constants,
     DelegateRegistrationTransaction,
     ITransactionData,
     Transaction,
     TransactionConstructor,
-} from "@arkecosystem/crypto";
+} from "@toucansam-bpl/crypto";
 import { WalletUsernameAlreadyRegisteredError, WalletUsernameEmptyError, WalletUsernameNotEmptyError } from "../errors";
 import { TransactionHandler } from "./transaction";
 

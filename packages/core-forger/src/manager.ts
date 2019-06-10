@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { ICurrentRound, NetworkState, NetworkStateStatus } from "@arkecosystem/core-p2p";
-import { configManager, ITransactionData, models, networks, slots, Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { ICurrentRound, NetworkState, NetworkStateStatus } from "@toucansam-bpl/core-p2p";
+import { configManager, ITransactionData, models, networks, slots, Transaction } from "@toucansam-bpl/crypto";
 import isEmpty from "lodash.isempty";
 import uniq from "lodash.uniq";
 import pluralize from "pluralize";

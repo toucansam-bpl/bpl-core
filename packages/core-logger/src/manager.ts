@@ -1,4 +1,4 @@
-import { Logger } from "@arkecosystem/core-interfaces";
+import { Logger } from "@toucansam-bpl/core-interfaces";
 import { LoggerFactory } from "./factory";
 
 export class LoggerManager {

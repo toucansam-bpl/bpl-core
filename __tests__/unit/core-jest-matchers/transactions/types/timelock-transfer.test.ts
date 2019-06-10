@@ -1,6 +1,6 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/timelock-transfer";
 
-import { constants } from "@arkecosystem/crypto";
+import { constants } from "@toucansam-bpl/crypto";
 const { TransactionTypes } = constants;
 
 describe(".toBeTimelockTransferType", () => {

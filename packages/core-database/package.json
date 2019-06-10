@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-database",
+    "name": "@toucansam-bpl/core-database",
     "description": "Database Interface for ARK Core",
-    "version": "2.3.23",
+    "version": "2.0.0-alpha",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -22,13 +22,13 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-event-emitter": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-transactions": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
-        "@arkecosystem/utils": "^0.3.0",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha",
+        "@toucansam-bpl/core-event-emitter": "^2.0.0-alpha",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha",
+        "@toucansam-bpl/core-transactions": "^2.0.0-alpha",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha",
+        "@toucansam-bpl/utils": "^0.3.0",
         "lodash.clonedeep": "^4.5.0",
         "lodash.compact": "^3.0.1",
         "lodash.uniq": "^4.5.0",

@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Shared } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Shared } from "@toucansam-bpl/core-interfaces";
 
 export const calculateRound = (height: number): Shared.IRoundInfo => {
     const config = app.getConfig();

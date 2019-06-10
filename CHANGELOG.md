@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
-## [2.3.23] - 2019-05-21
+## [2.0.0-alpha] - 2019-05-21
 
 ### Fixed
 
@@ -251,7 +251,7 @@ Fix release of `2.3.14` due to npm connectivity issues.
 ### Removed
 
 -   Removed the `transactionsFromIds` P2P endpoint ([#1911])
--   Removed the `validator` and `rules` fron `@arkecosystem/crypto` ([#2021])
+-   Removed the `validator` and `rules` fron `@toucansam-bpl/crypto` ([#2021])
 -   Ended support for the legacy multisignatures from the previous LISK fork ([#2057])
 
 ## [2.0.19] - 2019-01-31

@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
-import { constants } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { constants } from "@toucansam-bpl/crypto";
 import { TransactionsBusinessRepository } from "../../../../packages/core-database/src/repositories/transactions-business-repository";
 import { DatabaseConnectionStub } from "../__fixtures__/database-connection-stub";
 import { MockDatabaseModel } from "../__fixtures__/mock-database-model";

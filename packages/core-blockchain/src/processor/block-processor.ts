@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
 
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { isException, models } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { isException, models } from "@toucansam-bpl/crypto";
 import { Blockchain } from "../blockchain";
 import { isBlockChained } from "../utils/is-block-chained";
 import { validateGenerator } from "../utils/validate-generator";

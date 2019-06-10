@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@arkecosystem/core-p2p";
-import { httpie, IHttpieResponse } from "@arkecosystem/core-utils";
-import { ITransactionData, models } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@toucansam-bpl/core-p2p";
+import { httpie, IHttpieResponse } from "@toucansam-bpl/core-utils";
+import { ITransactionData, models } from "@toucansam-bpl/crypto";
 import { URL } from "url";
 import { HostNoResponseError, RelayCommunicationError } from "./errors";
 

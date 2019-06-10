@@ -1,9 +1,9 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { PostgresConnection } from "@arkecosystem/core-database-postgres";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { app } from "@toucansam-bpl/core-container";
+import { PostgresConnection } from "@toucansam-bpl/core-database-postgres";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
 
 import pick from "lodash.pick";
 

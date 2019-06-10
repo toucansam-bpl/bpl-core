@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { Bignum, constants, feeManager, formatSatoshi, Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { Bignum, constants, feeManager, formatSatoshi, Transaction } from "@toucansam-bpl/crypto";
 import camelCase from "lodash.camelcase";
 import { config as localConfig } from "../config";
 

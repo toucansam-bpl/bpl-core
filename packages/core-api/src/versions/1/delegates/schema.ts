@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { app } from "@toucansam-bpl/core-container";
+import { Blockchain } from "@toucansam-bpl/core-interfaces";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
 
 const lastBlock = app.resolvePlugin<Blockchain.IBlockchain>("blockchain").getLastBlock();
 

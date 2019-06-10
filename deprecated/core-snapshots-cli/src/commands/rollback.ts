@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
 import { flags } from "@oclif/command";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
 import { setUpLite } from "../utils";
 import { BaseCommand } from "./command";
 

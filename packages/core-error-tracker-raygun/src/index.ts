@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import raygun from "raygun";
 import { defaults } from "./defaults";
 

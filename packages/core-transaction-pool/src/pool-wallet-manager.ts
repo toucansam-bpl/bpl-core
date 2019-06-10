@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { Wallet, WalletManager } from "@arkecosystem/core-database";
-import { Database } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { crypto, isException, Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Wallet, WalletManager } from "@toucansam-bpl/core-database";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
+import { crypto, isException, Transaction } from "@toucansam-bpl/crypto";
 
 export class PoolWalletManager extends WalletManager {
     public readonly databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

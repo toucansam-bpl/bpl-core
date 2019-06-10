@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import Rollbar from "rollbar";
 import { defaults } from "./defaults";
 

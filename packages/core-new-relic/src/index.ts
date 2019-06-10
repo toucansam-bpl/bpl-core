@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import newrelic from "newrelic";
 
 export const plugin: Container.PluginDescriptor = {

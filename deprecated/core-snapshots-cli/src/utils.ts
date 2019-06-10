@@ -1,14 +1,14 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@toucansam-bpl/core-container";
 
 export const setUpLite = async options => {
     process.env.CORE_SKIP_BLOCKCHAIN = "true";
 
     await app.setUp("2.0.0", options, {
         include: [
-            "@arkecosystem/core-logger",
-            "@arkecosystem/core-logger-pino",
-            "@arkecosystem/core-event-emitter",
-            "@arkecosystem/core-snapshots",
+            "@toucansam-bpl/core-logger",
+            "@toucansam-bpl/core-logger-pino",
+            "@toucansam-bpl/core-event-emitter",
+            "@toucansam-bpl/core-snapshots",
         ],
     });
 

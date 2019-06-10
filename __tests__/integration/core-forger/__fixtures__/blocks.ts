@@ -1,4 +1,4 @@
-import { models } from "@arkecosystem/crypto";
+import { models } from "@toucansam-bpl/crypto";
 
 export const sampleBlocks = [
     new models.Block({

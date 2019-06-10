@@ -1,5 +1,5 @@
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { slots } from "@arkecosystem/crypto";
+import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { slots } from "@toucansam-bpl/crypto";
 import Boom from "boom";
 import Hapi from "hapi";
 import { Controller } from "../shared/controller";

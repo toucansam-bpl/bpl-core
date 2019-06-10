@@ -1,4 +1,4 @@
-import { Wallet } from "@arkecosystem/core-database";
+import { Wallet } from "@toucansam-bpl/core-database";
 import { Bignum } from "../../../../../packages/crypto/src/utils";
 
 export const wallet = {

@@ -1,5 +1,5 @@
-import { crypto } from "@arkecosystem/crypto";
 import { flags } from "@oclif/command";
+import { crypto } from "@toucansam-bpl/crypto";
 import { generateMnemonic } from "bip39";
 import { writeFileSync } from "fs";
 import { copyToClipboard } from "../../utils";

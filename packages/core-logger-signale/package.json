@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-logger-signale",
+    "name": "@toucansam-bpl/core-logger-signale",
     "description": "Signale integration for ARK Core",
-    "version": "2.3.23",
+    "version": "2.0.0-alpha",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-logger": "^2.3.23",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha",
+        "@toucansam-bpl/core-logger": "^2.0.0-alpha",
         "signale": "^1.4.0"
     },
     "publishConfig": {

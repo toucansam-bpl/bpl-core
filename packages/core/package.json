@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core",
-    "description": "Core of the ARK Blockchain",
-    "version": "2.3.23",
+    "name": "@toucansam-bpl/core",
+    "description": "Core of the Blockpool Blockchain",
+    "version": "2.0.0-alpha",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -17,7 +17,7 @@
         "/oclif.manifest.json"
     ],
     "bin": {
-        "ark": "./bin/run"
+        "bpl": "./bin/run"
     },
     "scripts": {
         "prepublishOnly": "yarn build",
@@ -31,7 +31,6 @@
         "debug:start": "node --inspect-brk yarn ark core:run",
         "debug:relay": "node --inspect-brk yarn ark relay:run",
         "debug:forger": "node --inspect-brk yarn ark forger:run",
-        "ark": "./bin/run",
         "start:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark core:run",
         "start:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark core:run",
         "start:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run",
@@ -41,23 +40,24 @@
         "forger:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark forger:run",
         "forger:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark forger:run",
         "forger:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark forger:run",
-        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run --networkStart"
+        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run --networkStart",
+        "bpl": "./bin/run"
     },
     "dependencies": {
-        "@arkecosystem/core-api": "^2.3.23",
-        "@arkecosystem/core-blockchain": "^2.3.23",
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-database-postgres": "^2.3.23",
-        "@arkecosystem/core-event-emitter": "^2.3.23",
-        "@arkecosystem/core-forger": "^2.3.23",
-        "@arkecosystem/core-json-rpc": "^2.3.23",
-        "@arkecosystem/core-logger-pino": "^2.3.23",
-        "@arkecosystem/core-p2p": "^2.3.23",
-        "@arkecosystem/core-snapshots": "^2.3.23",
-        "@arkecosystem/core-transaction-pool": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/core-webhooks": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@toucansam-bpl/core-api": "^2.0.0-alpha",
+        "@toucansam-bpl/core-blockchain": "^2.0.0-alpha",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha",
+        "@toucansam-bpl/core-database-postgres": "^2.0.0-alpha",
+        "@toucansam-bpl/core-event-emitter": "^2.0.0-alpha",
+        "@toucansam-bpl/core-forger": "^2.0.0-alpha",
+        "@toucansam-bpl/core-json-rpc": "^2.0.0-alpha",
+        "@toucansam-bpl/core-logger-pino": "^2.0.0-alpha",
+        "@toucansam-bpl/core-p2p": "^2.0.0-alpha",
+        "@toucansam-bpl/core-snapshots": "^2.0.0-alpha",
+        "@toucansam-bpl/core-transaction-pool": "^2.0.0-alpha",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha",
+        "@toucansam-bpl/core-webhooks": "^2.0.0-alpha",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha",
         "@faustbrian/dato": "^0.2.0",
         "@oclif/command": "^1.5.11",
         "@oclif/config": "^1.12.9",
@@ -124,7 +124,7 @@
                 "./dist/hooks/command_not_found/suggest"
             ]
         },
-        "bin": "ark",
+        "bin": "bpl",
         "topics": {
             "config": {
                 "description": "manage core config variables"

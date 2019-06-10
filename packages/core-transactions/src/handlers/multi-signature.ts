@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { MultiSignatureRegistrationTransaction, Transaction, TransactionConstructor } from "@arkecosystem/crypto";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { MultiSignatureRegistrationTransaction, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
 import {
     InvalidMultiSignatureError,
     MultiSignatureAlreadyRegisteredError,

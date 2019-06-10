@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { configManager, crypto, HashAlgorithms, models, Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { configManager, crypto, HashAlgorithms, models, Transaction } from "@toucansam-bpl/crypto";
 import { camelizeKeys } from "xcase";
 
 const { Block } = models;

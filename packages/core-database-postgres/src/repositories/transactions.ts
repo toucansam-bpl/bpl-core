@@ -1,6 +1,6 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { slots } from "@arkecosystem/crypto";
 import { dato } from "@faustbrian/dato";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { slots } from "@toucansam-bpl/crypto";
 import partition from "lodash.partition";
 import { Transaction } from "../models";
 import { queries } from "../queries";

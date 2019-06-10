@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@toucansam-bpl/core-container";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
 
@@ -24,14 +24,14 @@ $ ark forger:run --bip38="..." --password="..."
 
         await this.buildApplication(app, flags, {
             include: [
-                "@arkecosystem/core-event-emitter",
-                "@arkecosystem/core-config",
-                "@arkecosystem/core-logger",
-                "@arkecosystem/core-logger-pino",
-                "@arkecosystem/core-forger",
+                "@toucansam-bpl/core-event-emitter",
+                "@toucansam-bpl/core-config",
+                "@toucansam-bpl/core-logger",
+                "@toucansam-bpl/core-logger-pino",
+                "@toucansam-bpl/core-forger",
             ],
             options: {
-                "@arkecosystem/core-forger": await this.buildBIP38(flags),
+                "@toucansam-bpl/core-forger": await this.buildBIP38(flags),
             },
         });
     }

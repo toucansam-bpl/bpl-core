@@ -1,6 +1,6 @@
 /* tslint:disable:no-shadowed-variable member-ordering max-classes-per-file */
-import { app } from "@arkecosystem/core-container";
-import { slots } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { slots } from "@toucansam-bpl/crypto";
 import { config as localConfig } from "./config";
 import { Monitor } from "./monitor";
 import { Peer } from "./peer";

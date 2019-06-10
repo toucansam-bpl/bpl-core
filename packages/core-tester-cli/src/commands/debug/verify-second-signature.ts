@@ -1,5 +1,5 @@
-import { configManager, crypto, NetworkName, Transaction } from "@arkecosystem/crypto";
 import { flags } from "@oclif/command";
+import { configManager, crypto, NetworkName, Transaction } from "@toucansam-bpl/crypto";
 import { handleOutput } from "../../utils";
 import { BaseCommand } from "../command";
 

@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@toucansam-bpl/core-interfaces";
 import { IMain } from "pg-promise";
 import sql from "sql";
 

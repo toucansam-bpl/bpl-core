@@ -1,5 +1,5 @@
-import { Container } from "@arkecosystem/core-interfaces";
 import Sentry from "@sentry/node";
+import { Container } from "@toucansam-bpl/core-interfaces";
 import { defaults } from "./defaults";
 
 export const plugin: Container.PluginDescriptor = {

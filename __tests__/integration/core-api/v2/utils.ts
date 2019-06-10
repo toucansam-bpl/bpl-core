@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { httpie } from "@arkecosystem/core-utils";
-import { client, NetworkManager, transactionBuilder } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { httpie } from "@toucansam-bpl/core-utils";
+import { client, NetworkManager, transactionBuilder } from "@toucansam-bpl/crypto";
 import "jest-extended";
 import { ApiHelpers } from "../../../utils/helpers/api";
 

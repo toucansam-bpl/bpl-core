@@ -1,5 +1,5 @@
-import { bignumify } from "@arkecosystem/core-utils";
-import { client } from "@arkecosystem/crypto";
+import { bignumify } from "@toucansam-bpl/core-utils";
+import { client } from "@toucansam-bpl/crypto";
 
 export class Signer {
     protected network: Record<string, any>;

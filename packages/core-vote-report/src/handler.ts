@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database } from "@arkecosystem/core-interfaces";
-import { delegateCalculator, roundCalculator, supplyCalculator } from "@arkecosystem/core-utils";
-import { Bignum, configManager } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Blockchain, Database } from "@toucansam-bpl/core-interfaces";
+import { delegateCalculator, roundCalculator, supplyCalculator } from "@toucansam-bpl/core-utils";
+import { Bignum, configManager } from "@toucansam-bpl/crypto";
 import sumBy from "lodash.sumby";
 
 export function handler(request, h) {

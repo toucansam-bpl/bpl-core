@@ -1,4 +1,4 @@
-import { constants } from "@arkecosystem/crypto";
+import { constants } from "@toucansam-bpl/crypto";
 
 const { SecondSignature } = constants.TransactionTypes;
 

@@ -1,4 +1,4 @@
-import { client, models } from "@arkecosystem/crypto";
+import { client, models } from "@toucansam-bpl/crypto";
 
 client.getConfigManager().setFromPreset("unitnet");
 

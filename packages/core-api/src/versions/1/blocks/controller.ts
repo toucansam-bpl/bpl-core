@@ -1,5 +1,5 @@
-import { supplyCalculator } from "@arkecosystem/core-utils";
-import { bignumify } from "@arkecosystem/core-utils";
+import { supplyCalculator } from "@toucansam-bpl/core-utils";
+import { bignumify } from "@toucansam-bpl/core-utils";
 import Boom from "boom";
 import Hapi from "hapi";
 import { Controller } from "../shared/controller";

@@ -1,10 +1,10 @@
 import "jest-extended";
 import "./mocks/core-container";
 
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { Address, Bignum, constants, models, Transaction, transactionBuilder } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, EventEmitter } from "@toucansam-bpl/core-interfaces";
+import { TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
+import { Address, Bignum, constants, models, Transaction, transactionBuilder } from "@toucansam-bpl/crypto";
 import { Wallet, WalletManager } from "../../../packages/core-database/src";
 import { DatabaseService } from "../../../packages/core-database/src/database-service";
 import { roundCalculator } from "../../../packages/core-utils/dist";

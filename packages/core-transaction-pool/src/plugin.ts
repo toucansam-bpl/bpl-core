@@ -1,4 +1,4 @@
-import { Container, Logger, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Container, Logger, TransactionPool } from "@toucansam-bpl/core-interfaces";
 import { config } from "./config";
 import { Connection } from "./connection";
 import { defaults } from "./defaults";

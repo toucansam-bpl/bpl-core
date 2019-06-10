@@ -1,7 +1,7 @@
 import "./mocks/core-container";
 
-import { NetworkState, NetworkStateStatus } from "@arkecosystem/core-p2p";
-import { httpie } from "@arkecosystem/core-utils";
+import { NetworkState, NetworkStateStatus } from "@toucansam-bpl/core-p2p";
+import { httpie } from "@toucansam-bpl/core-utils";
 import "jest-extended";
 import nock from "nock";
 import { Client } from "../../../packages/core-forger/src/client";

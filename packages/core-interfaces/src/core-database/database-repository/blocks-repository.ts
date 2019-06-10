@@ -1,4 +1,4 @@
-import { Bignum } from "@arkecosystem/crypto";
+import { Bignum } from "@toucansam-bpl/crypto";
 import { SearchParameters } from "../search";
 import { IRepository } from "./repository";
 

@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, TransactionPool } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, TransactionPool } from "@toucansam-bpl/core-interfaces";
 
 export abstract class Repository {
     protected readonly databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

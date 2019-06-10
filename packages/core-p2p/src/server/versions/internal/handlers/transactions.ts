@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database } from "@arkecosystem/core-interfaces";
-import { Transaction } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Blockchain, Database } from "@toucansam-bpl/core-interfaces";
+import { Transaction } from "@toucansam-bpl/crypto";
 import * as schema from "../schemas/transactions";
 
 const config = app.getConfig();

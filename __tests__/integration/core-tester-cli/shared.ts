@@ -1,4 +1,4 @@
-import { bignumify, httpie } from "@arkecosystem/core-utils";
+import { bignumify, httpie } from "@toucansam-bpl/core-utils";
 
 const defaultOpts = ["--skipProbing"];
 

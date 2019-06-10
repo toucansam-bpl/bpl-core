@@ -1,4 +1,4 @@
-import { Transaction } from "@arkecosystem/crypto";
+import { Transaction } from "@toucansam-bpl/crypto";
 
 /**
  * Deserialize multiple transactions

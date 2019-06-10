@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
 import { copyFileSync, ensureFileSync, existsSync, readJSONSync, writeFileSync } from "fs-extra";
 
 export const writeMetaFile = snapshotInfo =>

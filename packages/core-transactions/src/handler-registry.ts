@@ -1,4 +1,4 @@
-import { constants, TransactionRegistry } from "@arkecosystem/crypto";
+import { constants, TransactionRegistry } from "@toucansam-bpl/crypto";
 import { InvalidTransactionTypeError, TransactionHandlerAlreadyRegisteredError } from "./errors";
 import { transactionHandlers } from "./handlers";
 import { TransactionHandler } from "./handlers/transaction";

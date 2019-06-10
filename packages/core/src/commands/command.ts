@@ -1,6 +1,6 @@
-import { Container } from "@arkecosystem/core-interfaces";
-import { networks } from "@arkecosystem/crypto";
 import Command, { flags } from "@oclif/command";
+import { Container } from "@toucansam-bpl/core-interfaces";
+import { networks } from "@toucansam-bpl/crypto";
 import cli from "cli-ux";
 import envPaths, { Paths } from "env-paths";
 import { existsSync, readdirSync } from "fs";

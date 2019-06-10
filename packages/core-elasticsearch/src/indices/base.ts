@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Database, EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
 import { client } from "../client";
 import { storage } from "../storage";
 

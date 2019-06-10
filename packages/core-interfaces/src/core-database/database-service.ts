@@ -1,4 +1,4 @@
-import { models, Transaction } from "@arkecosystem/crypto";
+import { models, Transaction } from "@toucansam-bpl/crypto";
 import { EventEmitter, Logger } from "../index";
 import { IRoundInfo } from "../shared";
 import {

@@ -4,11 +4,11 @@ import { utils } from "../utils";
 
 import { blocks2to100 } from "../../../../utils/fixtures/testnet/blocks2to100";
 
-import { Bignum, models } from "@arkecosystem/crypto";
+import { Bignum, models } from "@toucansam-bpl/crypto";
 const { Block } = models;
 
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Database } from "@toucansam-bpl/core-interfaces";
 
 const delegate = {
     username: "genesis_10",

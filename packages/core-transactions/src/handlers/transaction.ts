@@ -1,6 +1,6 @@
 // tslint:disable:max-classes-per-file
 
-import { Database, EventEmitter, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
 import {
     configManager,
     constants,
@@ -8,7 +8,7 @@ import {
     ITransactionData,
     Transaction,
     TransactionConstructor,
-} from "@arkecosystem/crypto";
+} from "@toucansam-bpl/crypto";
 
 import {
     InsufficientBalanceError,

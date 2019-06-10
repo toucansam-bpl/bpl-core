@@ -1,5 +1,5 @@
-import { Database, EventEmitter } from "@arkecosystem/core-interfaces";
-import { DelegateResignationTransaction, Transaction, TransactionConstructor } from "@arkecosystem/crypto";
+import { Database, EventEmitter } from "@toucansam-bpl/core-interfaces";
+import { DelegateResignationTransaction, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
 import { TransactionHandler } from "./transaction";
 
 export class DelegateResignationTransactionHandler extends TransactionHandler {

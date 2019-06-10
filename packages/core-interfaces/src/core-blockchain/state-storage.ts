@@ -1,4 +1,4 @@
-import { ITransactionData, models } from "@arkecosystem/crypto";
+import { ITransactionData, models } from "@toucansam-bpl/crypto";
 
 export interface IStateStorage {
     reset(): void;

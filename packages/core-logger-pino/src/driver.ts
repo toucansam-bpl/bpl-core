@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { AbstractLogger } from "@arkecosystem/core-logger";
+import { app } from "@toucansam-bpl/core-container";
+import { Logger } from "@toucansam-bpl/core-interfaces";
+import { AbstractLogger } from "@toucansam-bpl/core-logger";
 import { WriteStream } from "fs";
 import pino, { PrettyOptions } from "pino";
 import PinoPretty from "pino-pretty";

@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Peer } from "@arkecosystem/core-p2p/dist/peer";
-import { crypto } from "@arkecosystem/crypto";
+import { app } from "@toucansam-bpl/core-container";
+import { Peer } from "@toucansam-bpl/core-p2p/dist/peer";
+import { crypto } from "@toucansam-bpl/crypto";
 import "jest-extended";
 import nock from "nock";
 import { sendRequest } from "./__support__/request";

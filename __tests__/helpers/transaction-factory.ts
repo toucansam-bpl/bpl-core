@@ -1,5 +1,5 @@
-import { configManager, ITransactionData, NetworkName, Transaction, transactionBuilder } from "@arkecosystem/crypto";
-import { Address, PublicKey } from "@arkecosystem/crypto";
+import { configManager, ITransactionData, NetworkName, Transaction, transactionBuilder } from "@toucansam-bpl/crypto";
+import { Address, PublicKey } from "@toucansam-bpl/crypto";
 import pokemon from "pokemon";
 import { secrets } from "../utils/config/testnet/delegates.json";
 

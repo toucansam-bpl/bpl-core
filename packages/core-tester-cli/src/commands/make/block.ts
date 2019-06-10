@@ -1,5 +1,5 @@
-import { configManager, models, slots } from "@arkecosystem/crypto";
 import { flags } from "@oclif/command";
+import { configManager, models, slots } from "@toucansam-bpl/crypto";
 import { writeFileSync } from "fs";
 import { satoshiFlag } from "../../flags";
 import { copyToClipboard } from "../../utils";

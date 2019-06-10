@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { bignumify } from "@arkecosystem/core-utils";
-import { configManager, PublicKey } from "@arkecosystem/crypto";
+import { bignumify } from "@toucansam-bpl/core-utils";
+import { configManager, PublicKey } from "@toucansam-bpl/crypto";
 import delay from "delay";
 import { RestClient } from "../../../helpers";
 import { secrets } from "../../../utils/config/testnet/delegates.json";
@@ -13,14 +13,14 @@ let app;
 export async function setUp() {
     app = await setUpContainer({
         include: [
-            "@arkecosystem/core-event-emitter",
-            "@arkecosystem/core-logger-pino",
-            "@arkecosystem/core-database-postgres",
-            "@arkecosystem/core-transaction-pool",
-            "@arkecosystem/core-p2p",
-            "@arkecosystem/core-blockchain",
-            "@arkecosystem/core-api",
-            "@arkecosystem/core-forger",
+            "@toucansam-bpl/core-event-emitter",
+            "@toucansam-bpl/core-logger-pino",
+            "@toucansam-bpl/core-database-postgres",
+            "@toucansam-bpl/core-transaction-pool",
+            "@toucansam-bpl/core-p2p",
+            "@toucansam-bpl/core-blockchain",
+            "@toucansam-bpl/core-api",
+            "@toucansam-bpl/core-forger",
         ],
     });
 

@@ -1,4 +1,4 @@
-import { crypto } from "@arkecosystem/crypto";
+import { crypto } from "@toucansam-bpl/crypto";
 
 export {};
 

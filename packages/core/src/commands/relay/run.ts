@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
 import { flags } from "@oclif/command";
+import { app } from "@toucansam-bpl/core-container";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
 
@@ -40,10 +40,10 @@ $ ark relay:run --launchMode=seed
         const { flags } = await this.parseWithNetwork(RunCommand);
 
         await super.buildApplication(app, flags, {
-            exclude: ["@arkecosystem/core-forger"],
+            exclude: ["@toucansam-bpl/core-forger"],
             options: {
-                "@arkecosystem/core-p2p": this.buildPeerOptions(flags),
-                "@arkecosystem/core-blockchain": {
+                "@toucansam-bpl/core-p2p": this.buildPeerOptions(flags),
+                "@toucansam-bpl/core-blockchain": {
                     networkStart: flags.networkStart,
                 },
             },

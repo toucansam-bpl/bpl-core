@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { bignumify } from "@arkecosystem/core-utils";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { bignumify } from "@toucansam-bpl/core-utils";
 import { Model } from "./model";
 
 export class Round extends Model {

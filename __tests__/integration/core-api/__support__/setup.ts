@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@toucansam-bpl/core-container";
+import { Database } from "@toucansam-bpl/core-interfaces";
 import delay from "delay";
 import { plugin } from "../../../../packages/core-api/src/plugin";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
@@ -7,7 +7,7 @@ import { registerWithContainer, setUpContainer } from "../../../utils/helpers/co
 import { delegates } from "../../../utils/fixtures";
 import { generateRound } from "./utils/generate-round";
 
-import { sortBy } from "@arkecosystem/utils";
+import { sortBy } from "@toucansam-bpl/utils";
 
 const round = generateRound(delegates.map(delegate => delegate.publicKey), 1);
 
@@ -23,10 +23,10 @@ async function setUp() {
 
     await setUpContainer({
         exclude: [
-            "@arkecosystem/core-webhooks",
-            "@arkecosystem/core-forger",
-            "@arkecosystem/core-json-rpc",
-            "@arkecosystem/core-api",
+            "@toucansam-bpl/core-webhooks",
+            "@toucansam-bpl/core-forger",
+            "@toucansam-bpl/core-json-rpc",
+            "@toucansam-bpl/core-api",
         ],
     });
 

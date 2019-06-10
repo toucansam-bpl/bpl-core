@@ -1,7 +1,7 @@
 import "jest-extended";
 import "../../../utils";
 
-import { crypto } from "@arkecosystem/crypto";
+import { crypto } from "@toucansam-bpl/crypto";
 // noinspection TypeScriptPreferShortImport
 import { TransactionsRepository } from "../../../../packages/core-api/src/repositories/transactions";
 import genesisBlock from "../../../utils/config/testnet/genesisBlock.json";

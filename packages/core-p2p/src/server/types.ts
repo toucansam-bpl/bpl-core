@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { models } from "@arkecosystem/crypto";
+import { Database } from "@toucansam-bpl/core-interfaces";
+import { models } from "@toucansam-bpl/crypto";
 
 export interface IResponse<T> {
     data: T;

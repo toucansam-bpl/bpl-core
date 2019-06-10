@@ -1,4 +1,4 @@
-import { configManager, ITransactionData } from "@arkecosystem/crypto";
+import { configManager, ITransactionData } from "@toucansam-bpl/crypto";
 import bs58check from "bs58check";
 
 export function isRecipientOnActiveNetwork(transaction: ITransactionData): boolean {

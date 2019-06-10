@@ -1,4 +1,4 @@
-import { configManager, crypto } from "@arkecosystem/crypto";
+import { configManager, crypto } from "@toucansam-bpl/crypto";
 
 /**
  * Get the unitnet genesis delegates information

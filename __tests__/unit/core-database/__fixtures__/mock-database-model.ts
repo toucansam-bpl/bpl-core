@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@toucansam-bpl/core-interfaces";
 
 export class MockDatabaseModel implements Database.IModel {
     public getName(): string {

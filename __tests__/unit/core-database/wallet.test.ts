@@ -1,6 +1,6 @@
 import "jest-extended";
 
-import { Bignum, configManager, constants } from "@arkecosystem/crypto";
+import { Bignum, configManager, constants } from "@toucansam-bpl/crypto";
 import { Wallet } from "../../../packages/core-database/src";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 

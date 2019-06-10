@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Container } from "@arkecosystem/core-interfaces";
-import "@arkecosystem/core-jest-matchers";
+import { app } from "@toucansam-bpl/core-container";
+import { Container } from "@toucansam-bpl/core-interfaces";
+import "@toucansam-bpl/core-jest-matchers";
 import { asValue } from "awilix";
 import isString from "lodash.isstring";
 import * as path from "path";

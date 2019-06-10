@@ -1,6 +1,6 @@
 const {
     models
-} = require('@arkecosystem/crypto')
+} = require('@toucansam-bpl/crypto')
 
 const dataEmpty = require('../helpers').getJSONFixture('block/deserialized/no-transactions');
 const dataFull = require('../helpers').getJSONFixture('block/deserialized/transactions');

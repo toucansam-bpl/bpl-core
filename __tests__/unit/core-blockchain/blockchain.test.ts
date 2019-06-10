@@ -1,7 +1,7 @@
 /* tslint:disable:max-line-length */
 import "./mocks/";
 
-import { models, slots } from "@arkecosystem/crypto";
+import { models, slots } from "@toucansam-bpl/crypto";
 import delay from "delay";
 import { Blockchain } from "../../../packages/core-blockchain/src/blockchain";
 import { config as localConfig } from "../../../packages/core-blockchain/src/config";
