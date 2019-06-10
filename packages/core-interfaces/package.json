@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-interfaces",
     "description": "Interface types for essential ARK Core modules",
-    "version": "2.0.0-alpha",
+    "version": "2.0.0-alpha.1",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -23,8 +23,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/crypto": "^2.0.0-alpha",
         "@faustbrian/dato": "^0.2.0",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
         "awilix": "^4.2.1"
     },
     "publishConfig": {

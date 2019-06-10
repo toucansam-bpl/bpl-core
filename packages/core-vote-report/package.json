@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-vote-report",
     "description": "Vote Report for ARK Core",
-    "version": "2.0.0-alpha",
+    "version": "2.0.0-alpha.1",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,10 +18,10 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha",
-        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
         "handlebars": "^4.1.0",
         "lodash.sumby": "^4.6.0",
         "vision": "^5.4.4"

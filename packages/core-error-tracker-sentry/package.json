@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-error-tracker-sentry",
     "description": "Sentry error tracker integration for ARK Core.",
-    "version": "2.0.0-alpha",
+    "version": "2.0.0-alpha.1",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,8 +18,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha",
-        "@sentry/node": "^4.6.4"
+        "@sentry/node": "^4.6.4",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.1"
     },
     "publishConfig": {
         "access": "public"

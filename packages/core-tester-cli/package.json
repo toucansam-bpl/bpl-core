@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-tester-cli",
     "description": "Tester CLI for ARK Core",
-    "version": "2.0.0-alpha",
+    "version": "2.0.0-alpha.1",
     "contributors": [
         "Brian Faust <brian@ark.io>",
         "Alex Barnsley <alex@ark.io>"
@@ -28,12 +28,12 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha",
         "@oclif/command": "^1.5.11",
         "@oclif/config": "^1.12.9",
         "@oclif/plugin-help": "^2.1.6",
         "@oclif/plugin-not-found": "^1.2.2",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
         "bip39": "^2.5.0",
         "clipboardy": "^1.2.3",
         "delay": "^4.1.0",

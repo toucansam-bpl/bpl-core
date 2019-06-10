@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-p2p",
     "description": "P2P API for BPL Core",
-    "version": "2.0.0-alpha",
+    "version": "2.0.0-alpha.1",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -23,13 +23,13 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha",
-        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha",
-        "@toucansam-bpl/core-transaction-pool": "^2.0.0-alpha",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha",
         "@faustbrian/dato": "^0.2.0",
+        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-transaction-pool": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
         "ajv": "^6.10.0",
         "boom": "^7.3.0",
         "delay": "^4.1.0",
