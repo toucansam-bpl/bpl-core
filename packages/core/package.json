@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core",
     "description": "Core of the Blockpool Blockchain",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-alpha.7",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
