@@ -23,9 +23,9 @@
     },
     "dependencies": {
         "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-interfaces": "core-interfaces",
+        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
         "@toucansam-bpl/core-utils": "file:../core-utils",
-        "@toucansam-bpl/crypto": "crypto",
+        "@toucansam-bpl/crypto": "file:../crypto",
         "async": "^2.6.2",
         "awilix": "^4.2.1",
         "delay": "^4.1.0",
