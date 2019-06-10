@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core-json-rpc",
     "description": "A JSON-RPC 2.0 Specification compliant server to interact with the ARK Blockchain.",
-    "version": "2.0.0-alpha.3",
+    "version": "2.0.0-alpha.5",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Brian Faust <brian@ark.io>"
