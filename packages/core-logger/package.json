@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-container": "file:../core-container",
+        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {

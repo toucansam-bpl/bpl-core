@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-container": "file:../core-container",
         "newrelic": "^5.6.1"
     },
     "publishConfig": {

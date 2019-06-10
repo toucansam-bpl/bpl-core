@@ -1,5 +1,5 @@
+import { sortBy } from "@arkecosystem/utils";
 import { Bignum } from "@toucansam-bpl/crypto";
-import { sortBy } from "@toucansam-bpl/utils";
 
 import { app } from "@toucansam-bpl/core-container";
 import { Database, Logger } from "@toucansam-bpl/core-interfaces";

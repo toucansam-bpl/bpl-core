@@ -19,9 +19,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-logger": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-container": "file:../core-container",
+        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
+        "@toucansam-bpl/core-logger": "file:../core-logger",
         "pino": "^5.11.1",
         "pino-pretty": "^2.5.0",
         "pump": "^3.0.0",

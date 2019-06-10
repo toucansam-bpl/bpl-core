@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.1",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
+        "@toucansam-bpl/crypto": "file:../crypto",
         "awilix": "^4.2.1",
         "delay": "^4.1.0",
         "env-paths": "^2.1.0",

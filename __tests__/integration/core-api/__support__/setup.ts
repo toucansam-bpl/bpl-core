@@ -7,7 +7,7 @@ import { registerWithContainer, setUpContainer } from "../../../utils/helpers/co
 import { delegates } from "../../../utils/fixtures";
 import { generateRound } from "./utils/generate-round";
 
-import { sortBy } from "@toucansam-bpl/utils";
+import { sortBy } from "@arkecosystem/utils";
 
 const round = generateRound(delegates.map(delegate => delegate.publicKey), 1);
 

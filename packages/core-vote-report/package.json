@@ -18,10 +18,10 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.1",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-container": "file:../core-container",
+        "@toucansam-bpl/core-http-utils": "file:../core-http-utils",
+        "@toucansam-bpl/core-utils": "file:../core-utils",
+        "@toucansam-bpl/crypto": "file:../crypto",
         "handlebars": "^4.1.0",
         "lodash.sumby": "^4.6.0",
         "vision": "^5.4.4"

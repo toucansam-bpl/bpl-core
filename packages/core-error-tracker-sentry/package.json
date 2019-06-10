@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "@sentry/node": "^4.6.4",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1"
+        "@toucansam-bpl/core-container": "file:../core-container"
     },
     "publishConfig": {
         "access": "public"

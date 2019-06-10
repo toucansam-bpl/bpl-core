@@ -25,11 +25,11 @@
     },
     "dependencies": {
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-database": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.1",
-        "@toucansam-bpl/core-transactions": "^2.0.0-alpha.1",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-container": "file:../core-container",
+        "@toucansam-bpl/core-database": "file:../core-database",
+        "@toucansam-bpl/core-interfaces": "file:../core-interfaces",
+        "@toucansam-bpl/core-transactions": "file:../core-transactions",
+        "@toucansam-bpl/crypto": "file:../crypto",
         "@types/better-sqlite3": "^5.2.2",
         "@types/fs-extra": "^5.0.5",
         "@types/pluralize": "^0.0.29",
@@ -40,7 +40,7 @@
         "pluralize": "^7.0.0"
     },
     "devDependencies": {
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.1",
+        "@toucansam-bpl/core-utils": "file:../core-utils",
         "@types/better-sqlite3": "^5.2.2",
         "@types/bip39": "^2.4.2",
         "@types/fs-extra": "^5.0.5",
