@@ -1,7 +1,7 @@
 {
     "name": "@toucansam-bpl/core",
     "description": "Core of the Blockpool Blockchain",
-    "version": "2.0.0-alpha.10",
+    "version": "2.0.0-alpha.11",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -61,7 +61,7 @@
         "@toucansam-bpl/core-json-rpc": "^2.0.0-alpha.10",
         "@toucansam-bpl/core-logger-pino": "^2.0.0-alpha.10",
         "@toucansam-bpl/core-p2p": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-snapshots": "^2.0.0-alpha.10",
+        "@toucansam-bpl/core-snapshots": "^2.0.0-alpha.11",
         "@toucansam-bpl/core-transaction-pool": "^2.0.0-alpha.10",
         "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
         "@toucansam-bpl/core-webhooks": "^2.0.0-alpha.10",
