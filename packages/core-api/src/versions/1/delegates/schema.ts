@@ -38,7 +38,7 @@ export const search: object = {
         limit: {
             type: "integer",
             minimum: 1,
-            maximum: 100,
+            maximum: 201,
         },
     },
     required: ["q"],
@@ -64,7 +64,7 @@ export const getDelegates: object = {
         limit: {
             type: "integer",
             minimum: 1,
-            maximum: lastBlock ? roundCalculator.calculateRound(lastBlock.data.height).maxDelegates : 51,
+            maximum: lastBlock ? roundCalculator.calculateRound(lastBlock.data.height).maxDelegates : 201,
         },
         offset: {
             type: "integer",
