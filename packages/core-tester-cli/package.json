@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-tester-cli",
+    "name": "@blockpool-io/core-tester-cli",
     "description": "Tester CLI for ARK Core",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -32,8 +32,8 @@
         "@oclif/config": "^1.12.9",
         "@oclif/plugin-help": "^2.1.6",
         "@oclif/plugin-not-found": "^1.2.2",
-        "@toucansam-bpl/core-utils": "file:../core-utils",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@blockpool-io/core-utils": "file:../core-utils",
+        "@blockpool-io/crypto": "file:../crypto",
         "bip39": "^2.5.0",
         "clipboardy": "^1.2.3",
         "delay": "^4.1.0",

@@ -1,10 +1,10 @@
 export function transformPortsLegacy(config: any) {
     const result = {};
     const keys = [
-        "@toucansam-bpl/core-p2p",
-        "@toucansam-bpl/core-api",
-        "@toucansam-bpl/core-json-rpc",
-        "@toucansam-bpl/core-webhooks",
+        "@blockpool-io/core-p2p",
+        "@blockpool-io/core-api",
+        "@blockpool-io/core-json-rpc",
+        "@blockpool-io/core-webhooks",
     ];
 
     const plugins = config.get("plugins");

@@ -1,4 +1,4 @@
-import { Container } from "@toucansam-bpl/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import AirBrake from "airbrake-js";
 import { defaults } from "./defaults";
 

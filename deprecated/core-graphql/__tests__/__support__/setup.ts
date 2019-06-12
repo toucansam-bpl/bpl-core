@@ -1,4 +1,4 @@
-import { app } from "@toucansam-bpl/core-container";
+import { app } from "@blockpool-io/core-container";
 import { registerWithContainer, setUpContainer } from "../../../core-test-utils/src/helpers/container";
 
 jest.setTimeout(60000);
@@ -13,7 +13,7 @@ export const setUp = async () => {
     process.env.CORE_GRAPHQL_ENABLED = "true";
 
     await setUpContainer({
-        exclude: ["@toucansam-bpl/core-api", "@toucansam-bpl/core-forger"],
+        exclude: ["@blockpool-io/core-api", "@blockpool-io/core-forger"],
     });
 
     const { plugin } = require("../../src");

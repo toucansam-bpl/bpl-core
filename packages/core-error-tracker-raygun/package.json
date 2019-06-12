@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-error-tracker-raygun",
+    "name": "@blockpool-io/core-error-tracker-raygun",
     "description": "Raygun error tracker integration for ARK Core.",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "file:../core-container",
+        "@blockpool-io/core-container": "file:../core-container",
         "raygun": "^0.10.1"
     },
     "publishConfig": {

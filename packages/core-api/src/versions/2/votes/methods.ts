@@ -1,4 +1,4 @@
-import { constants } from "@toucansam-bpl/crypto";
+import { constants } from "@blockpool-io/crypto";
 import Boom from "boom";
 import { transactionsRepository } from "../../../repositories";
 import { ServerCache } from "../../../services";

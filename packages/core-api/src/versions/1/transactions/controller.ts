@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { TransactionPool } from "@blockpool-io/core-interfaces";
 import Boom from "boom";
 import Hapi from "hapi";
 import { Controller } from "../shared/controller";

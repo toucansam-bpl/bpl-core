@@ -1,7 +1,7 @@
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
 import { setUpLite } from "../../helpers/snapshot";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
@@ -25,7 +25,7 @@ export class RollbackCommand extends BaseCommand {
         await setUpLite(flags);
 
         if (!app.has("snapshots")) {
-            this.error("The @toucansam-bpl/core-snapshots plugin is not installed.");
+            this.error("The @blockpool-io/core-snapshots plugin is not installed.");
         }
 
         if (flags.height) {

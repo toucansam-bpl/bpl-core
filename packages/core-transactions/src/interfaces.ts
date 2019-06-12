@@ -1,5 +1,5 @@
-import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
-import { ITransactionData, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
+import { Database, EventEmitter, TransactionPool } from "@blockpool-io/core-interfaces";
+import { ITransactionData, Transaction, TransactionConstructor } from "@blockpool-io/crypto";
 
 export interface ITransactionHandler {
     getConstructor(): TransactionConstructor;

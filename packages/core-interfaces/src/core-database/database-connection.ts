@@ -3,7 +3,7 @@ import { IRoundsRepository } from "./database-repository";
 import { ITransactionsRepository } from "./database-repository";
 import { IWalletsRepository } from "./database-repository";
 
-import { models } from "@toucansam-bpl/crypto";
+import { models } from "@blockpool-io/crypto";
 
 export interface IConnection {
     options: any;

@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database, Logger, P2P, TransactionPool } from "@toucansam-bpl/core-interfaces";
-import { TransactionGuard } from "@toucansam-bpl/core-transaction-pool";
-import { AjvWrapper, models, slots } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, Logger, P2P, TransactionPool } from "@blockpool-io/core-interfaces";
+import { TransactionGuard } from "@blockpool-io/core-transaction-pool";
+import { AjvWrapper, models, slots } from "@blockpool-io/crypto";
 import pluralize from "pluralize";
 import { monitor } from "../../../monitor";
 import { schema } from "./schema";

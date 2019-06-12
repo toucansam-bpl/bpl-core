@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-database-postgres",
+    "name": "@blockpool-io/core-database-postgres",
     "description": "PostgreSQL integration for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -23,11 +23,11 @@
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-database": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-database": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "@types/bluebird": "^3.5.26",
         "@types/lodash.chunk": "^4.2.6",
         "@types/pluralize": "^0.0.29",

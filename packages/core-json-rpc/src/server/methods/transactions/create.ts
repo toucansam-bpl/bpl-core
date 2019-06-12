@@ -1,4 +1,4 @@
-import { transactionBuilder } from "@toucansam-bpl/crypto";
+import { transactionBuilder } from "@blockpool-io/crypto";
 import Joi from "joi";
 import { database } from "../../services/database";
 

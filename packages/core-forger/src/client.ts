@@ -1,8 +1,8 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@toucansam-bpl/core-p2p";
-import { httpie, IHttpieResponse } from "@toucansam-bpl/core-utils";
-import { ITransactionData, models } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@blockpool-io/core-p2p";
+import { httpie, IHttpieResponse } from "@blockpool-io/core-utils";
+import { ITransactionData, models } from "@blockpool-io/crypto";
 import { URL } from "url";
 import { HostNoResponseError, RelayCommunicationError } from "./errors";
 

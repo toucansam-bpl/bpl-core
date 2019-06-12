@@ -1,4 +1,4 @@
-import "@toucansam-bpl/core-test-utils";
+import "@blockpool-io/core-test-utils";
 
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../__support__/utils";

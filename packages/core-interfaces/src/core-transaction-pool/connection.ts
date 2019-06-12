@@ -1,6 +1,6 @@
 import { Dato } from "@faustbrian/dato";
 
-import { constants, ITransactionData, models, Transaction } from "@toucansam-bpl/crypto";
+import { constants, ITransactionData, models, Transaction } from "@blockpool-io/crypto";
 
 export interface IAddTransactionResponse {
     success: boolean;

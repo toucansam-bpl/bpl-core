@@ -1,5 +1,5 @@
+import { Container } from "@blockpool-io/core-interfaces";
 import bugsnag, { Bugsnag } from "@bugsnag/js";
-import { Container } from "@toucansam-bpl/core-interfaces";
 import { defaults } from "./defaults";
 
 export const plugin: Container.PluginDescriptor = {

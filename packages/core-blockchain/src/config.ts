@@ -1,2 +1,2 @@
-import { Shared } from "@toucansam-bpl/core-interfaces";
+import { Shared } from "@blockpool-io/core-interfaces";
 export const config = new Shared.Config();

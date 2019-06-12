@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database, Logger, TransactionPool } from "@toucansam-bpl/core-interfaces";
-import { errors, TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, Logger, TransactionPool } from "@blockpool-io/core-interfaces";
+import { errors, TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
 import {
     configManager,
     constants,
@@ -8,7 +8,7 @@ import {
     ITransactionData,
     slots,
     Transaction,
-} from "@toucansam-bpl/crypto";
+} from "@blockpool-io/crypto";
 import pluralize from "pluralize";
 import { dynamicFeeMatcher } from "./dynamic-fee";
 

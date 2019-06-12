@@ -1,5 +1,5 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { IpfsTransaction, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { IpfsTransaction, Transaction, TransactionConstructor } from "@blockpool-io/crypto";
 import { TransactionHandler } from "./transaction";
 
 export class IpfsTransactionHandler extends TransactionHandler {

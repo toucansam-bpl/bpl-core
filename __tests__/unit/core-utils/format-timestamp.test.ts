@@ -1,6 +1,6 @@
 import "./mocks/core-container";
 
-import { app } from "@toucansam-bpl/core-container";
+import { app } from "@blockpool-io/core-container";
 import "jest-extended";
 import { formatTimestamp } from "../../../packages/core-utils/src/format-timestamp";
 

@@ -1,5 +1,5 @@
-import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
-import { ITransactionData, Transaction, TransactionConstructor, VoteTransaction } from "@toucansam-bpl/crypto";
+import { Database, EventEmitter, TransactionPool } from "@blockpool-io/core-interfaces";
+import { ITransactionData, Transaction, TransactionConstructor, VoteTransaction } from "@blockpool-io/crypto";
 import { AlreadyVotedError, NoVoteError, UnvoteMismatchError, VotedForNonDelegateError } from "../errors";
 import { TransactionHandler } from "./transaction";
 

@@ -1,4 +1,4 @@
-import { models } from "@toucansam-bpl/crypto";
+import { models } from "@blockpool-io/crypto";
 import { TransactionFactory } from "../../../helpers/transaction-factory";
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../__support__/utils";

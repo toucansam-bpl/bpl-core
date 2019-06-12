@@ -1,6 +1,6 @@
+import { app } from "@blockpool-io/core-container";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
-import { app } from "@toucansam-bpl/core-container";
-import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
 import { setUpLite } from "../../helpers/snapshot";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
@@ -24,7 +24,7 @@ export class VerifyCommand extends BaseCommand {
         await setUpLite(flags);
 
         if (!app.has("snapshots")) {
-            this.error("The @toucansam-bpl/core-snapshots plugin is not installed.");
+            this.error("The @blockpool-io/core-snapshots plugin is not installed.");
         }
 
         await app.resolvePlugin<SnapshotManager>("snapshots").verify(flags);

@@ -1,7 +1,7 @@
 module.exports = {
-    "@toucansam-bpl/core-event-emitter": {},
-    "@toucansam-bpl/core-logger-pino": {},
-    "@toucansam-bpl/core-database-postgres": {
+    "@blockpool-io/core-event-emitter": {},
+    "@blockpool-io/core-logger-pino": {},
+    "@blockpool-io/core-database-postgres": {
         connection: {
             host: process.env.CORE_DB_HOST || "localhost",
             port: process.env.CORE_DB_PORT || 5432,
@@ -10,7 +10,7 @@ module.exports = {
             password: process.env.CORE_DB_PASSWORD || "password",
         },
     },
-    "@toucansam-bpl/core-transaction-pool": {
+    "@blockpool-io/core-transaction-pool": {
         enabled: !process.env.CORE_TRANSACTION_POOL_DISABLED,
         maxTransactionsPerSender: process.env.CORE_TRANSACTION_POOL_MAX_PER_SENDER || 300,
         allowedSenders: [],
@@ -31,20 +31,20 @@ module.exports = {
             },
         },
     },
-    "@toucansam-bpl/core-p2p": {
+    "@blockpool-io/core-p2p": {
         host: process.env.CORE_P2P_HOST || "0.0.0.0",
         port: process.env.CORE_P2P_PORT || 9030,
         minimumNetworkReach: 5,
         coldStart: 5,
     },
-    "@toucansam-bpl/core-blockchain": {},
-    "@toucansam-bpl/core-api": {
+    "@blockpool-io/core-blockchain": {},
+    "@blockpool-io/core-api": {
         enabled: !process.env.CORE_API_DISABLED,
         host: process.env.CORE_API_HOST || "0.0.0.0",
         port: process.env.CORE_API_PORT || 9031,
         whitelist: ["*"],
     },
-    "@toucansam-bpl/core-webhooks": {
+    "@blockpool-io/core-webhooks": {
         enabled: process.env.CORE_WEBHOOKS_ENABLED,
         server: {
             host: process.env.CORE_WEBHOOKS_HOST || "0.0.0.0",
@@ -52,15 +52,15 @@ module.exports = {
             whitelist: ["127.0.0.1", "::ffff:127.0.0.1"],
         },
     },
-    "@toucansam-bpl/core-forger": {
+    "@blockpool-io/core-forger": {
         hosts: [`http://127.0.0.1:${process.env.CORE_P2P_PORT || 9030}`],
     },
-    "@toucansam-bpl/core-json-rpc": {
+    "@blockpool-io/core-json-rpc": {
         enabled: process.env.CORE_JSON_RPC_ENABLED,
         host: process.env.CORE_JSON_RPC_HOST || "0.0.0.0",
         port: process.env.CORE_JSON_RPC_PORT || 8080,
         allowRemote: false,
         whitelist: ["127.0.0.1", "::ffff:127.0.0.1"],
     },
-    "@toucansam-bpl/core-snapshots": {},
+    "@blockpool-io/core-snapshots": {},
 };

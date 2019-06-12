@@ -1,9 +1,9 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@toucansam-bpl/core-container";
-import { PostgresConnection } from "@toucansam-bpl/core-database-postgres";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { PostgresConnection } from "@blockpool-io/core-database-postgres";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
 
 import pick from "lodash.pick";
 

@@ -1,4 +1,4 @@
-import { ITransactionData, models } from "@toucansam-bpl/crypto";
+import { ITransactionData, models } from "@blockpool-io/crypto";
 
 export interface IStateStorage {
     reset(): void;

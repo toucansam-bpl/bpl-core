@@ -1,4 +1,4 @@
-import { models, slots } from "@toucansam-bpl/crypto";
+import { models, slots } from "@blockpool-io/crypto";
 
 export const isBlockChained = (previousBlock: models.IBlock, nextBlock: models.IBlock): boolean => {
     const followsPrevious = nextBlock.data.previousBlock === previousBlock.data.id;

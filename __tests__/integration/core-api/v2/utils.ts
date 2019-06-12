@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { httpie } from "@toucansam-bpl/core-utils";
-import { client, NetworkManager, transactionBuilder } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { httpie } from "@blockpool-io/core-utils";
+import { client, NetworkManager, transactionBuilder } from "@blockpool-io/crypto";
 import "jest-extended";
 import { ApiHelpers } from "../../../utils/helpers/api";
 

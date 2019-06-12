@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-json-rpc",
+    "name": "@blockpool-io/core-json-rpc",
     "description": "A JSON-RPC 2.0 Specification compliant server to interact with the ARK Blockchain.",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -21,11 +21,11 @@
     },
     "dependencies": {
         "@keyv/sqlite": "^2.0.0",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-http-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "bip39": "^2.5.0",
         "boom": "^7.3.0",
         "is-reachable": "^3.0.0",
@@ -36,7 +36,7 @@
         "wif": "^2.0.6"
     },
     "devDependencies": {
-        "@toucansam-bpl/core-p2p": "^2.0.0-alpha.10",
+        "@blockpool-io/core-p2p": "^2.0.0-alpha.10",
         "@types/bip39": "^2.4.2",
         "@types/boom": "^7.2.1",
         "@types/is-reachable": "^3.0.0",

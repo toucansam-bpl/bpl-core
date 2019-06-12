@@ -1,7 +1,7 @@
 # ARK Core - Elasticsearch
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/ARKEcosystem/core/master/banner.png" />
+    <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />
 </p>
 
 ## Documentation
@@ -10,7 +10,7 @@ You can find installation instructions and detailed instructions on how to use t
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to support@blockpool.io. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -18,4 +18,4 @@ This project exists thanks to all the people who [contribute](../../../../contri
 
 ## License
 
-[MIT](LICENSE) © [ARK Ecosystem](https://ark.io)
+[MIT](LICENSE) © [Blockpool](https://blockpool.io)

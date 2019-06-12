@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-jest-matchers",
+    "name": "@blockpool-io/core-jest-matchers",
     "description": "Jest matchers for ARK Core",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@blockpool-io/core-container": "file:../core-container",
+        "@blockpool-io/crypto": "file:../crypto",
         "bip39": "^2.5.0",
         "jest-extended": "^0.11.1",
         "lodash.get": "^4.4.2",

@@ -1,4 +1,4 @@
-jest.mock("@toucansam-bpl/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {

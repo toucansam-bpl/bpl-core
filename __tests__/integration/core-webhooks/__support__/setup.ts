@@ -1,4 +1,4 @@
-import { app } from "@toucansam-bpl/core-container";
+import { app } from "@blockpool-io/core-container";
 import { tmpdir } from "os";
 import { database } from "../../../../packages/core-webhooks/src/database";
 import { startServer } from "../../../../packages/core-webhooks/src/server";
@@ -9,7 +9,7 @@ export async function setUp() {
     process.env.CORE_WEBHOOKS_ENABLED = "true";
 
     await setUpContainer({
-        exit: "@toucansam-bpl/core-logger-pino",
+        exit: "@blockpool-io/core-logger-pino",
     });
 
     database.make();

@@ -1,8 +1,8 @@
 // tslint:disable:variable-name
 
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Logger } from "@toucansam-bpl/core-interfaces";
-import { configManager, ITransactionData, models, TransactionRegistry } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Logger } from "@blockpool-io/core-interfaces";
+import { configManager, ITransactionData, models, TransactionRegistry } from "@blockpool-io/crypto";
 import assert from "assert";
 import immutable from "immutable";
 import { config } from "./config";

@@ -1,4 +1,4 @@
-import { constants } from "@toucansam-bpl/crypto";
+import { constants } from "@blockpool-io/crypto";
 
 const { Vote } = constants.TransactionTypes;
 

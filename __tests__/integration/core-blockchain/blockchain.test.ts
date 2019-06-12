@@ -1,6 +1,6 @@
 /* tslint:disable:max-line-length */
-import { Wallet } from "@toucansam-bpl/core-database";
-import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { Wallet } from "@blockpool-io/core-database";
+import { roundCalculator } from "@blockpool-io/core-utils";
 import {
     Bignum,
     crypto,
@@ -10,7 +10,7 @@ import {
     slots,
     sortTransactions,
     transactionBuilder,
-} from "@toucansam-bpl/crypto";
+} from "@blockpool-io/crypto";
 import { asValue } from "awilix";
 import delay from "delay";
 import { Blockchain } from "../../../packages/core-blockchain/src/blockchain";

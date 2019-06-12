@@ -4,11 +4,11 @@ import { utils } from "../utils";
 
 import { blocks2to100 } from "../../../../utils/fixtures/testnet/blocks2to100";
 
-import { Bignum, models } from "@toucansam-bpl/crypto";
+import { Bignum, models } from "@blockpool-io/crypto";
 const { Block } = models;
 
-import { app } from "@toucansam-bpl/core-container";
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 
 const delegate = {
     username: "genesis_10",

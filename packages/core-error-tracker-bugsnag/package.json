@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-error-tracker-bugsnag",
+    "name": "@blockpool-io/core-error-tracker-bugsnag",
     "description": "Bugsnag error tracker integration for ARK Core.",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "@bugsnag/js": "^6.0.0",
-        "@toucansam-bpl/core-container": "file:../core-container"
+        "@blockpool-io/core-container": "file:../core-container"
     },
     "publishConfig": {
         "access": "public"

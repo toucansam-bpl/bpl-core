@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database } from "@toucansam-bpl/core-interfaces";
-import { roundCalculator } from "@toucansam-bpl/core-utils";
-import { slots } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { slots } from "@blockpool-io/crypto";
 
 const config = app.getConfig();
 

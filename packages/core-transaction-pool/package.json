@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-transaction-pool",
+    "name": "@blockpool-io/core-transaction-pool",
     "description": "Transaction Pool Manager for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -25,11 +25,11 @@
     },
     "dependencies": {
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-database": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-transactions": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-database": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/core-transactions": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "@types/better-sqlite3": "^5.2.2",
         "@types/fs-extra": "^5.0.5",
         "@types/pluralize": "^0.0.29",
@@ -40,7 +40,7 @@
         "pluralize": "^7.0.0"
     },
     "devDependencies": {
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
         "@types/better-sqlite3": "^5.2.2",
         "@types/bip39": "^2.4.2",
         "@types/fs-extra": "^5.0.5",

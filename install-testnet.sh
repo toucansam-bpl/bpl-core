@@ -201,7 +201,7 @@ success "Installed system updates!"
 
 heading "Installing BPL Core..."
 
-yarn global add @toucansam-bpl/core@alpha
+yarn global add @blockpool-io/core@alpha
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
 bpl config:publish

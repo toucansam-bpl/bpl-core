@@ -1,4 +1,4 @@
-import { bignumify, httpie } from "@toucansam-bpl/core-utils";
+import { bignumify, httpie } from "@blockpool-io/core-utils";
 
 const defaultOpts = ["--skipProbing"];
 

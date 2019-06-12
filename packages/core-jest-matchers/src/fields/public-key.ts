@@ -1,4 +1,4 @@
-import { crypto } from "@toucansam-bpl/crypto";
+import { crypto } from "@blockpool-io/crypto";
 
 export {};
 

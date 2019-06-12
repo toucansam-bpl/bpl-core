@@ -1,10 +1,10 @@
 /* tslint:disable:jsdoc-format max-line-length */
 
-import { app } from "@toucansam-bpl/core-container";
-import { EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
 
-import { roundCalculator } from "@toucansam-bpl/core-utils";
-import { isException, models } from "@toucansam-bpl/crypto";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { isException, models } from "@blockpool-io/crypto";
 
 import pluralize from "pluralize";
 import { config as localConfig } from "./config";

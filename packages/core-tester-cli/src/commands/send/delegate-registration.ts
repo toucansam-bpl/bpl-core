@@ -1,4 +1,4 @@
-import { Address } from "@toucansam-bpl/crypto";
+import { Address } from "@blockpool-io/crypto";
 import pokemon from "pokemon";
 import { satoshiFlag } from "../../flags";
 import { logger } from "../../logger";

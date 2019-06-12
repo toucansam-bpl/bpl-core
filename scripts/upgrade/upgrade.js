@@ -190,9 +190,9 @@ const main = async () => {
     // Update plugins file
     console.log('Update plugins configuration');
     let pluginContents = fs.readFileSync(`${paths.config.new}/plugins.js`).toString();
-    pluginContents = pluginContents.replace('@toucansam-bpl/core-transaction-pool-mem', '@toucansam-bpl/core-transaction-pool');
-    pluginContents = pluginContents.replace('"@toucansam-bpl/core-config": {},', '');
-    pluginContents = pluginContents.replace("'@toucansam-bpl/core-config': {},", '');
+    pluginContents = pluginContents.replace('@blockpool-io/core-transaction-pool-mem', '@blockpool-io/core-transaction-pool');
+    pluginContents = pluginContents.replace('"@blockpool-io/core-config": {},', '');
+    pluginContents = pluginContents.replace("'@blockpool-io/core-config': {},", '');
     pluginContents = pluginContents.replace(new RegExp('ARK_', 'g'), 'CORE_');
     fs.writeFileSync(`${paths.config.new}/plugins.js`, pluginContents);
 

@@ -1,5 +1,5 @@
-import { bignumify } from "@toucansam-bpl/core-utils";
-import { client } from "@toucansam-bpl/crypto";
+import { bignumify } from "@blockpool-io/core-utils";
+import { client } from "@blockpool-io/crypto";
 
 export class Signer {
     protected network: Record<string, any>;

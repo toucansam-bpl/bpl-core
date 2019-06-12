@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger, P2P } from "@toucansam-bpl/core-interfaces";
-import { httpie } from "@toucansam-bpl/core-utils";
-import { configManager } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger, P2P } from "@blockpool-io/core-interfaces";
+import { httpie } from "@blockpool-io/core-utils";
+import { configManager } from "@blockpool-io/crypto";
 import isReachable from "is-reachable";
 import sample from "lodash.sample";
 

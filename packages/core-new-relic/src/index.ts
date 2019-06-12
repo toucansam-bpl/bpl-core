@@ -1,4 +1,4 @@
-import { Container } from "@toucansam-bpl/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import newrelic from "newrelic";
 
 export const plugin: Container.PluginDescriptor = {

@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
+import { app } from "@blockpool-io/core-container";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { setUpLite } from "../utils";
 import { BaseCommand } from "./command";
 

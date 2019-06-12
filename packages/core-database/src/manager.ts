@@ -1,4 +1,4 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import { ConnectionFactory } from "./factory";
 
 export class ConnectionManager {

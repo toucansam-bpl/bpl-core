@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { bignumify, formatTimestamp } from "@toucansam-bpl/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
+import { bignumify, formatTimestamp } from "@blockpool-io/core-utils";
 
 export function transformBlock(model) {
     const databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

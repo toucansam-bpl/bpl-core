@@ -1,6 +1,6 @@
 import "jest-extended";
 
-import { Database, TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { Database, TransactionPool } from "@blockpool-io/core-interfaces";
 import {
     Bignum,
     configManager,
@@ -12,7 +12,7 @@ import {
     Transaction,
     TransactionConstructor,
     TransactionRegistry,
-} from "@toucansam-bpl/crypto";
+} from "@blockpool-io/crypto";
 import bs58check from "bs58check";
 import ByteBuffer from "bytebuffer";
 import { errors, TransactionHandler, TransactionHandlerRegistry } from "../../../packages/core-transactions/src";

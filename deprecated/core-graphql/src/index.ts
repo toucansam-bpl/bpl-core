@@ -1,4 +1,4 @@
-import { Container, Logger } from "@toucansam-bpl/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import { defaults } from "./defaults";
 import { startServer } from "./server";
 

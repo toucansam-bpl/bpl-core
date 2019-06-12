@@ -1,4 +1,4 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import {
     Bignum,
     constants,
@@ -7,7 +7,7 @@ import {
     IMultiSignatureAsset,
     ITransactionData,
     models,
-} from "@toucansam-bpl/crypto";
+} from "@blockpool-io/crypto";
 
 const { TransactionTypes } = constants;
 

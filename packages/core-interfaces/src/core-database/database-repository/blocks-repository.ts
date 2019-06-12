@@ -1,4 +1,4 @@
-import { Bignum } from "@toucansam-bpl/crypto";
+import { Bignum } from "@blockpool-io/crypto";
 import { SearchParameters } from "../search";
 import { IRepository } from "./repository";
 

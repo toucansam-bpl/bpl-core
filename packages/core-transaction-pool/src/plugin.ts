@@ -1,4 +1,4 @@
-import { Container, Logger, TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { Container, Logger, TransactionPool } from "@blockpool-io/core-interfaces";
 import { config } from "./config";
 import { Connection } from "./connection";
 import { defaults } from "./defaults";

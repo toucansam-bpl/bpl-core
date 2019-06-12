@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-webhooks",
+    "name": "@blockpool-io/core-webhooks",
     "description": "Webhooks for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -19,11 +19,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-http-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-event-emitter": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-http-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/core-event-emitter": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
         "boom": "^7.3.0",
         "fs-extra": "^7.0.1",
         "hapi-pagination": "^2.1.0",

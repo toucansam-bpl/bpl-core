@@ -1,4 +1,4 @@
-import { models } from "@toucansam-bpl/crypto";
+import { models } from "@blockpool-io/crypto";
 
 export const sampleBlocks = [
     new models.Block({

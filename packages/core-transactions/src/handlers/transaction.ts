@@ -1,6 +1,6 @@
 // tslint:disable:max-classes-per-file
 
-import { Database, EventEmitter, TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { Database, EventEmitter, TransactionPool } from "@blockpool-io/core-interfaces";
 import {
     configManager,
     constants,
@@ -8,7 +8,7 @@ import {
     ITransactionData,
     Transaction,
     TransactionConstructor,
-} from "@toucansam-bpl/crypto";
+} from "@blockpool-io/crypto";
 
 import {
     InsufficientBalanceError,

@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain } from "@toucansam-bpl/core-interfaces";
-import { Bignum } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain } from "@blockpool-io/core-interfaces";
+import { Bignum } from "@blockpool-io/crypto";
 
 const BignumMod = Bignum.clone({ DECIMAL_PLACES: 2 });
 

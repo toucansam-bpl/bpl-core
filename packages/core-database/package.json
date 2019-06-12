@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-database",
+    "name": "@blockpool-io/core-database",
     "description": "Database Interface for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -23,12 +23,12 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-event-emitter": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-transactions": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-event-emitter": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/core-transactions": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "lodash.clonedeep": "^4.5.0",
         "lodash.compact": "^3.0.1",
         "lodash.uniq": "^4.5.0",

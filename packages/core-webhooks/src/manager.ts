@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { ApplicationEvents } from "@toucansam-bpl/core-event-emitter";
-import { EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
-import { httpie } from "@toucansam-bpl/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
+import { httpie } from "@blockpool-io/core-utils";
 import * as conditions from "./conditions";
 import { database } from "./database";
 

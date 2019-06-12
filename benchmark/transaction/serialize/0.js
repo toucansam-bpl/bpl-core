@@ -1,6 +1,6 @@
 const {
     Transaction
-} = require('@toucansam-bpl/crypto')
+} = require('@blockpool-io/crypto')
 
 const data = require('../../helpers').getJSONFixture('transaction/deserialized/0');
 

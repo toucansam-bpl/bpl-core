@@ -1,5 +1,5 @@
+import { hasSomeProperty } from "@blockpool-io/core-utils";
 import { flags } from "@oclif/command";
-import { hasSomeProperty } from "@toucansam-bpl/core-utils";
 import Chalk from "chalk";
 import cli from "cli-ux";
 import { removeSync } from "fs-extra";

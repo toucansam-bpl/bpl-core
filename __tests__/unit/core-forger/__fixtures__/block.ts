@@ -1,4 +1,4 @@
-import { client, models } from "@toucansam-bpl/crypto";
+import { client, models } from "@blockpool-io/crypto";
 
 client.getConfigManager().setFromPreset("unitnet");
 

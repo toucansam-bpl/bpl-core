@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { Bignum, constants, feeManager, formatSatoshi, Transaction } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { Bignum, constants, feeManager, formatSatoshi, Transaction } from "@blockpool-io/crypto";
 import camelCase from "lodash.camelcase";
 import { config as localConfig } from "../config";
 

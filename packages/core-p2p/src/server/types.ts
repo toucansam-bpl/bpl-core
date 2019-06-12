@@ -1,5 +1,5 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { models } from "@toucansam-bpl/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { models } from "@blockpool-io/crypto";
 
 export interface IResponse<T> {
     data: T;

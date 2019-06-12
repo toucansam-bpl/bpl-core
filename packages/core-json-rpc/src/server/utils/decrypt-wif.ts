@@ -1,4 +1,4 @@
-import { bip38, configManager, crypto } from "@toucansam-bpl/crypto";
+import { bip38, configManager, crypto } from "@blockpool-io/crypto";
 import wif from "wif";
 
 export const decryptWIF = (encryptedWif, userId, bip38password) => {

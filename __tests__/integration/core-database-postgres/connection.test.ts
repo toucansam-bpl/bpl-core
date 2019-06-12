@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { models } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
+import { models } from "@blockpool-io/crypto";
 import genesisBlock from "../../utils/config/testnet/genesisBlock.json";
 import { setUp, tearDown } from "./__support__/setup";
 

@@ -1,4 +1,4 @@
-import { models, Transaction } from "@toucansam-bpl/crypto";
+import { models, Transaction } from "@blockpool-io/crypto";
 import { IDatabaseService } from "../core-database";
 import { IMonitor } from "../core-p2p";
 import { IConnection } from "../core-transaction-pool";

@@ -1,6 +1,6 @@
-import { Blockchain, Container, Database } from "@toucansam-bpl/core-interfaces";
-import { TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
-import { crypto, models } from "@toucansam-bpl/crypto";
+import { Blockchain, Container, Database } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { crypto, models } from "@blockpool-io/crypto";
 import bip39 from "bip39";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { delegates, genesisBlock, wallets } from "../../utils/fixtures/unitnet";

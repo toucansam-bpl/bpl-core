@@ -1,4 +1,4 @@
-import { createServer, mountServer } from "@toucansam-bpl/core-http-utils";
+import { createServer, mountServer } from "@blockpool-io/core-http-utils";
 import * as Handlebars from "handlebars";
 import { handler } from "./handler";
 

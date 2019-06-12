@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 
 const databaseService = app.resolvePlugin<Database.IDatabaseService>("database");
 

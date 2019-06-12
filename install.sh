@@ -201,7 +201,7 @@ success "Installed system updates!"
 
 heading "Installing ARK Core..."
 
-yarn global add @toucansam-bpl/core
+yarn global add @blockpool-io/core
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
 ark config:publish

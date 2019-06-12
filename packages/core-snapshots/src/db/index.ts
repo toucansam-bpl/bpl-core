@@ -1,8 +1,8 @@
-import { app } from "@toucansam-bpl/core-container";
-import { PostgresConnection } from "@toucansam-bpl/core-database-postgres";
-import { Logger, Shared } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { PostgresConnection } from "@blockpool-io/core-database-postgres";
+import { Logger, Shared } from "@blockpool-io/core-interfaces";
 
-import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { roundCalculator } from "@blockpool-io/core-utils";
 import { queries } from "./queries";
 import { rawQuery } from "./utils";
 

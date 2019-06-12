@@ -1,5 +1,5 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { delegateCalculator, hasSomeProperty } from "@toucansam-bpl/core-utils";
+import { Database } from "@blockpool-io/core-interfaces";
+import { delegateCalculator, hasSomeProperty } from "@blockpool-io/core-utils";
 import filterRows from "./utils/filter-rows";
 import limitRows from "./utils/limit-rows";
 import { sortEntries } from "./utils/sort-entries";

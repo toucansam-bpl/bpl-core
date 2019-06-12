@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { bignumify } from "@toucansam-bpl/core-utils";
-import { configManager, PublicKey } from "@toucansam-bpl/crypto";
+import { bignumify } from "@blockpool-io/core-utils";
+import { configManager, PublicKey } from "@blockpool-io/crypto";
 import delay from "delay";
 import { RestClient } from "../../../helpers";
 import { secrets } from "../../../utils/config/testnet/delegates.json";
@@ -13,14 +13,14 @@ let app;
 export async function setUp() {
     app = await setUpContainer({
         include: [
-            "@toucansam-bpl/core-event-emitter",
-            "@toucansam-bpl/core-logger-pino",
-            "@toucansam-bpl/core-database-postgres",
-            "@toucansam-bpl/core-transaction-pool",
-            "@toucansam-bpl/core-p2p",
-            "@toucansam-bpl/core-blockchain",
-            "@toucansam-bpl/core-api",
-            "@toucansam-bpl/core-forger",
+            "@blockpool-io/core-event-emitter",
+            "@blockpool-io/core-logger-pino",
+            "@blockpool-io/core-database-postgres",
+            "@blockpool-io/core-transaction-pool",
+            "@blockpool-io/core-p2p",
+            "@blockpool-io/core-blockchain",
+            "@blockpool-io/core-api",
+            "@blockpool-io/core-forger",
         ],
     });
 

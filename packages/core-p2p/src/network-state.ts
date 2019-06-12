@@ -1,6 +1,6 @@
 /* tslint:disable:no-shadowed-variable member-ordering max-classes-per-file */
-import { app } from "@toucansam-bpl/core-container";
-import { slots } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { slots } from "@blockpool-io/crypto";
 import { config as localConfig } from "./config";
 import { Monitor } from "./monitor";
 import { Peer } from "./peer";

@@ -1,7 +1,7 @@
 import "../mocks/core-container";
 
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { Bignum, crypto } from "@toucansam-bpl/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { Bignum, crypto } from "@blockpool-io/crypto";
 import compact from "lodash.compact";
 import uniq from "lodash.uniq";
 import { genesisBlock } from "../../../utils/fixtures/testnet/block-model";

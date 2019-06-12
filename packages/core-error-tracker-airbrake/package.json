@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-error-tracker-airbrake",
+    "name": "@blockpool-io/core-error-tracker-airbrake",
     "description": "Airbrake error tracker integration for ARK Core.",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "file:../core-container",
+        "@blockpool-io/core-container": "file:../core-container",
         "airbrake-js": "^1.6.6"
     },
     "publishConfig": {

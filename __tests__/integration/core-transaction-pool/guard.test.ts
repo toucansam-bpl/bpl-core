@@ -1,6 +1,6 @@
-import { Container } from "@toucansam-bpl/core-interfaces";
-import { TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
-import { crypto, ITransactionData, models } from "@toucansam-bpl/crypto";
+import { Container } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { crypto, ITransactionData, models } from "@blockpool-io/crypto";
 import bip39 from "bip39";
 import "jest-extended";
 import { config as localConfig } from "../../../packages/core-transaction-pool/src/config";

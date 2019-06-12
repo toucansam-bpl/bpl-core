@@ -1,4 +1,4 @@
-import { HashAlgorithms } from "@toucansam-bpl/crypto";
+import { HashAlgorithms } from "@blockpool-io/crypto";
 import { database } from "../services/database";
 import { decryptWIF } from "./decrypt-wif";
 

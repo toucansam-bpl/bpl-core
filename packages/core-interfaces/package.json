@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-interfaces",
+    "name": "@blockpool-io/core-interfaces",
     "description": "Interface types for essential ARK Core modules",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -24,7 +24,7 @@
     },
     "dependencies": {
         "@faustbrian/dato": "^0.2.0",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "awilix": "^4.2.1"
     },
     "publishConfig": {

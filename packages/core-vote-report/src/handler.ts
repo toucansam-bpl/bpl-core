@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database } from "@toucansam-bpl/core-interfaces";
-import { delegateCalculator, roundCalculator, supplyCalculator } from "@toucansam-bpl/core-utils";
-import { Bignum, configManager } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database } from "@blockpool-io/core-interfaces";
+import { delegateCalculator, roundCalculator, supplyCalculator } from "@blockpool-io/core-utils";
+import { Bignum, configManager } from "@blockpool-io/crypto";
 import sumBy from "lodash.sumby";
 
 export function handler(request, h) {

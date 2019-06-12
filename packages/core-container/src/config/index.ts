@@ -1,4 +1,4 @@
-import { configManager as crypto } from "@toucansam-bpl/crypto";
+import { configManager as crypto } from "@blockpool-io/crypto";
 import get from "lodash.get";
 import set from "lodash.set";
 import { fileLoader } from "./loaders";
@@ -39,7 +39,7 @@ export class Config {
     }
 
     /**
-     * Configure the @toucansam-bpl/crypto package.
+     * Configure the @blockpool-io/crypto package.
      * @return {void}
      */
     private configureCrypto(value: any): void {

@@ -1,4 +1,4 @@
-import { app } from "@toucansam-bpl/core-container";
+import { app } from "@blockpool-io/core-container";
 
 /**
  * @type {Object}

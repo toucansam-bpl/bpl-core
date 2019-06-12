@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { EventEmitter } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter } from "@blockpool-io/core-interfaces";
 
 const emitter = app.resolvePlugin<EventEmitter.EventEmitter>("event-emitter");
 

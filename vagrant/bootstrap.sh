@@ -202,7 +202,7 @@ success "Installed system updates!"
 heading "Installing ARK Core..."
 
 cd /home/vagrant
-git clone https://github.com/ARKEcosystem/core.git ark-core -b develop
+git clone https://github.com/blockpool-io/core.git ark-core -b develop
 cd ark-core
 yarn setup
 

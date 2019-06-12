@@ -1,6 +1,6 @@
 const {
     TransactionDeserializer
-} = require('@toucansam-bpl/crypto')
+} = require('@blockpool-io/crypto')
 
 exports.deserialize = data => {
     return TransactionDeserializer.deserialize(data)

@@ -1,6 +1,6 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/multi-signature";
 
-import { constants } from "@toucansam-bpl/crypto";
+import { constants } from "@blockpool-io/crypto";
 const { TransactionTypes } = constants;
 
 describe(".toBeMultiSignatureType", () => {

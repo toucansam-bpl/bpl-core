@@ -2,13 +2,13 @@ import "../../../../utils";
 import { setUp, tearDown } from "../../__support__/setup";
 import { utils } from "../utils";
 
-import { models } from "@toucansam-bpl/crypto";
+import { models } from "@blockpool-io/crypto";
 import genesisBlock from "../../../../utils/config/testnet/genesisBlock.json";
 import { blocks2to100 } from "../../../../utils/fixtures";
 import { resetBlockchain } from "../../../../utils/helpers";
 
-import { app } from "@toucansam-bpl/core-container";
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 
 const container = app;
 const { Block } = models;

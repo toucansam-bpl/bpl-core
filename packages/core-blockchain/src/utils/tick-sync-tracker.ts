@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger, P2P } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Logger, P2P } from "@blockpool-io/core-interfaces";
 import prettyMs from "pretty-ms";
 
 const logger = app.resolvePlugin<Logger.ILogger>("logger");

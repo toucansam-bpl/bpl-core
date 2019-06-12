@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database } from "@toucansam-bpl/core-interfaces";
-import { Transaction } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database } from "@blockpool-io/core-interfaces";
+import { Transaction } from "@blockpool-io/crypto";
 import * as schema from "../schemas/transactions";
 
 const config = app.getConfig();

@@ -1,4 +1,4 @@
-import { httpie } from "@toucansam-bpl/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import uuid from "uuid/v4";
 
 export async function sendRequest(method, params: any = {}) {

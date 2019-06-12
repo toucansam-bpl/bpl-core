@@ -1,7 +1,7 @@
 // tslint:disable:no-empty
 
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { models } from "@toucansam-bpl/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { models } from "@blockpool-io/crypto";
 
 export class DatabaseConnectionStub implements Database.IConnection {
     public blocksRepository: Database.IBlocksRepository;

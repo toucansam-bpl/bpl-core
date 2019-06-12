@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
-import { app } from "@toucansam-bpl/core-container";
-import { Database, Logger, Shared } from "@toucansam-bpl/core-interfaces";
-import { CappedSet, NSect, roundCalculator } from "@toucansam-bpl/core-utils";
-import { models } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger, Shared } from "@blockpool-io/core-interfaces";
+import { CappedSet, NSect, roundCalculator } from "@blockpool-io/core-utils";
+import { models } from "@blockpool-io/crypto";
 import assert from "assert";
 import { inspect } from "util";
 import { Peer } from "./peer";

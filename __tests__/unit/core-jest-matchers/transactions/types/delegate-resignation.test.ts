@@ -1,6 +1,6 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/delegate-resignation";
 
-import { constants } from "@toucansam-bpl/crypto";
+import { constants } from "@blockpool-io/crypto";
 const { TransactionTypes } = constants;
 
 describe(".toBeDelegateResignationType", () => {

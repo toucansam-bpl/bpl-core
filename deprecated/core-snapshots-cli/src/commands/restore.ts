@@ -1,7 +1,7 @@
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter } from "@blockpool-io/core-interfaces";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
-import { app } from "@toucansam-bpl/core-container";
-import { EventEmitter } from "@toucansam-bpl/core-interfaces";
-import { SnapshotManager } from "@toucansam-bpl/core-snapshots";
 import _cliProgress from "cli-progress";
 import { setUpLite } from "../utils";
 import { BaseCommand } from "./command";

@@ -1,9 +1,9 @@
 /* tslint:disable:max-line-length */
 
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, EventEmitter, Logger, P2P } from "@blockpool-io/core-interfaces";
+import { slots } from "@blockpool-io/crypto";
 import { dato, Dato } from "@faustbrian/dato";
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Database, EventEmitter, Logger, P2P } from "@toucansam-bpl/core-interfaces";
-import { slots } from "@toucansam-bpl/crypto";
 import delay from "delay";
 import fs from "fs";
 import groupBy from "lodash.groupby";

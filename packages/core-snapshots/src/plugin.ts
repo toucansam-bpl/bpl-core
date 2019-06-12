@@ -1,5 +1,5 @@
-import { PostgresConnection } from "@toucansam-bpl/core-database-postgres";
-import { Container, Database } from "@toucansam-bpl/core-interfaces";
+import { PostgresConnection } from "@blockpool-io/core-database-postgres";
+import { Container, Database } from "@blockpool-io/core-interfaces";
 import { defaults } from "./defaults";
 import { SnapshotManager } from "./manager";
 

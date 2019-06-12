@@ -1,5 +1,5 @@
-import { roundCalculator } from "@toucansam-bpl/core-utils";
-import { slots } from "@toucansam-bpl/crypto";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { slots } from "@blockpool-io/crypto";
 import Boom from "boom";
 import Hapi from "hapi";
 import { Controller } from "../shared/controller";

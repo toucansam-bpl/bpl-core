@@ -4,7 +4,7 @@
  * @return {Object}
  */
 export function transformPlugins(config) {
-    const allowed = ["@toucansam-bpl/core-api", "@toucansam-bpl/core-json-rpc", "@toucansam-bpl/core-webhooks"];
+    const allowed = ["@blockpool-io/core-api", "@blockpool-io/core-json-rpc", "@blockpool-io/core-webhooks"];
 
     const result = {};
 

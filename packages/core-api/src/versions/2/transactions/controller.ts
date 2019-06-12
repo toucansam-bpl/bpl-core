@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { P2P, TransactionPool } from "@toucansam-bpl/core-interfaces";
-import { TransactionGuard } from "@toucansam-bpl/core-transaction-pool";
-import { constants } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { P2P, TransactionPool } from "@blockpool-io/core-interfaces";
+import { TransactionGuard } from "@blockpool-io/core-transaction-pool";
+import { constants } from "@blockpool-io/crypto";
 import Boom from "boom";
 import Hapi from "hapi";
 import { Controller } from "../shared/controller";

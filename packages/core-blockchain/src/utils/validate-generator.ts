@@ -1,7 +1,7 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { roundCalculator } from "@toucansam-bpl/core-utils";
-import { models, slots } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { models, slots } from "@blockpool-io/crypto";
 
 export const validateGenerator = async (block: models.Block): Promise<boolean> => {
     const database = app.resolvePlugin("database");

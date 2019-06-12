@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
 import { existsSync, readFileSync } from "fs";
 import Joi from "joi";
 

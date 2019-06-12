@@ -1,4 +1,4 @@
-import { app } from "@toucansam-bpl/core-container";
+import { app } from "@blockpool-io/core-container";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
 
 jest.setTimeout(60000);
@@ -12,17 +12,17 @@ const options = {
 
 export const setUp = async () => {
     await setUpContainer({
-        exit: "@toucansam-bpl/core-p2p",
-        exclude: ["@toucansam-bpl/core-p2p"],
+        exit: "@blockpool-io/core-p2p",
+        exclude: ["@blockpool-io/core-p2p"],
     });
 
     // register p2p plugin
     await registerWithContainer(require("../../../../packages/core-p2p/src/plugin").plugin, options);
-    await registerWithContainer(require("@toucansam-bpl/core-blockchain").plugin, {});
+    await registerWithContainer(require("@blockpool-io/core-blockchain").plugin, {});
 };
 
 export const tearDown = async () => {
-    await require("@toucansam-bpl/core-blockchain").plugin.deregister(app, {});
+    await require("@blockpool-io/core-blockchain").plugin.deregister(app, {});
     await require("../../../../packages/core-p2p/src/plugin").plugin.deregister(app, options);
 
     await app.tearDown();

@@ -1,5 +1,5 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain, Logger } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Logger } from "@blockpool-io/core-interfaces";
 
 const logger = app.resolvePlugin<Logger.ILogger>("logger");
 

@@ -1,6 +1,6 @@
+import { app } from "@blockpool-io/core-container";
+import { Logger, P2P } from "@blockpool-io/core-interfaces";
 import { dato } from "@faustbrian/dato";
-import { app } from "@toucansam-bpl/core-container";
-import { Logger, P2P } from "@toucansam-bpl/core-interfaces";
 import head from "lodash.head";
 import sumBy from "lodash.sumby";
 import prettyMs from "pretty-ms";

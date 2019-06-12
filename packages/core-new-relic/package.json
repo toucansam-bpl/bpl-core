@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-new-relic",
+    "name": "@blockpool-io/core-new-relic",
     "description": "New Relic integration for ARK Core.",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
         "newrelic": "^5.6.1"
     },
     "publishConfig": {

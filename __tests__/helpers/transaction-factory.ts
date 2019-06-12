@@ -1,5 +1,5 @@
-import { configManager, ITransactionData, NetworkName, Transaction, transactionBuilder } from "@toucansam-bpl/crypto";
-import { Address, PublicKey } from "@toucansam-bpl/crypto";
+import { configManager, ITransactionData, NetworkName, Transaction, transactionBuilder } from "@blockpool-io/crypto";
+import { Address, PublicKey } from "@blockpool-io/crypto";
 import pokemon from "pokemon";
 import { secrets } from "../utils/config/testnet/delegates.json";
 

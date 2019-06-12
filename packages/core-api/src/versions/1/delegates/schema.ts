@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Blockchain } from "@toucansam-bpl/core-interfaces";
-import { roundCalculator } from "@toucansam-bpl/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
 
 const lastBlock = app.resolvePlugin<Blockchain.IBlockchain>("blockchain").getLastBlock();
 

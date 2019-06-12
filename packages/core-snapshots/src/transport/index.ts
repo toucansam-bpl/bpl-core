@@ -5,8 +5,8 @@ import QueryStream from "pg-query-stream";
 import pluralize from "pluralize";
 import zlib from "zlib";
 
-import { app } from "@toucansam-bpl/core-container";
-import { EventEmitter, Logger } from "@toucansam-bpl/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
 
 import * as utils from "../utils";
 import { Codec } from "./codec";

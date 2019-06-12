@@ -1,4 +1,4 @@
-import { TransactionPool } from "@toucansam-bpl/core-interfaces";
+import { TransactionPool } from "@blockpool-io/core-interfaces";
 import { ConnectionFactory } from "./factory";
 
 export class ConnectionManager {

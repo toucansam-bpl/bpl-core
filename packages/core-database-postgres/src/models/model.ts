@@ -1,4 +1,4 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import { IMain } from "pg-promise";
 import sql from "sql";
 

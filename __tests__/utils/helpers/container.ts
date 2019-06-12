@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Container } from "@toucansam-bpl/core-interfaces";
-import "@toucansam-bpl/core-jest-matchers";
+import { app } from "@blockpool-io/core-container";
+import { Container } from "@blockpool-io/core-interfaces";
+import "@blockpool-io/core-jest-matchers";
 import { asValue } from "awilix";
 import isString from "lodash.isstring";
 import * as path from "path";

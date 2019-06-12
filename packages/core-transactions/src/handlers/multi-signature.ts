@@ -1,5 +1,5 @@
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { MultiSignatureRegistrationTransaction, Transaction, TransactionConstructor } from "@toucansam-bpl/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { MultiSignatureRegistrationTransaction, Transaction, TransactionConstructor } from "@blockpool-io/crypto";
 import {
     InvalidMultiSignatureError,
     MultiSignatureAlreadyRegisteredError,

@@ -1,5 +1,5 @@
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { AbstractLogger } from "@toucansam-bpl/core-logger";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { AbstractLogger } from "@blockpool-io/core-logger";
 import "colors";
 import * as winston from "winston";
 import { ITransport, ITransportStream } from "./interfaces";

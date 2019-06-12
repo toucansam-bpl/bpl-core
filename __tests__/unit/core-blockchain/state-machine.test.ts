@@ -1,9 +1,9 @@
 import "../../utils";
 import "./mocks/";
 
-import { roundCalculator } from "@toucansam-bpl/core-utils";
-import { slots } from "@toucansam-bpl/crypto";
-import { Block } from "@toucansam-bpl/crypto/dist/models";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { slots } from "@blockpool-io/crypto";
+import { Block } from "@blockpool-io/crypto/dist/models";
 import { config as localConfig } from "../../../packages/core-blockchain/src/config";
 import { stateStorage } from "../../../packages/core-blockchain/src/state-storage";
 import genesisBlockJSON from "../../utils/config/testnet/genesisBlock.json";

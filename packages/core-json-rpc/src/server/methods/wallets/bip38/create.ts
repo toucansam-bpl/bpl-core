@@ -1,4 +1,4 @@
-import { bip38, crypto, HashAlgorithms } from "@toucansam-bpl/crypto";
+import { bip38, crypto, HashAlgorithms } from "@blockpool-io/crypto";
 import bip39 from "bip39";
 import Joi from "joi";
 import { database } from "../../../services/database";

@@ -1,4 +1,4 @@
-import { httpie } from "@toucansam-bpl/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import { logger } from "./logger";
 
 export class HttpClient {

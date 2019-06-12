@@ -1,4 +1,4 @@
-import { AjvWrapper } from "@toucansam-bpl/crypto";
+import { AjvWrapper } from "@blockpool-io/crypto";
 import Boom from "boom";
 import Hapi from "hapi";
 

@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-http-utils",
+    "name": "@blockpool-io/core-http-utils",
     "description": "Http Utilities for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -18,9 +18,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "^2.0.0-alpha.10",
-        "@toucansam-bpl/core-utils": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-alpha.10",
+        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "boom": "^7.3.0",
         "expand-home-dir": "^0.0.3",
         "good": "^8.1.2",

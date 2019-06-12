@@ -1,8 +1,8 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Wallet, WalletManager } from "@toucansam-bpl/core-database";
-import { Database } from "@toucansam-bpl/core-interfaces";
-import { TransactionHandlerRegistry } from "@toucansam-bpl/core-transactions";
-import { crypto, isException, Transaction } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Wallet, WalletManager } from "@blockpool-io/core-database";
+import { Database } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { crypto, isException, Transaction } from "@blockpool-io/crypto";
 
 export class PoolWalletManager extends WalletManager {
     public readonly databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

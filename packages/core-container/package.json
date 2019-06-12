@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-container",
+    "name": "@blockpool-io/core-container",
     "description": "Container for ARK Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-interfaces": "^2.0.0-alpha.10",
-        "@toucansam-bpl/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
+        "@blockpool-io/crypto": "^2.0.0-alpha.10",
         "awilix": "^4.2.1",
         "delay": "^4.1.0",
         "env-paths": "^2.1.0",

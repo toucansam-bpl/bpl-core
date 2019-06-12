@@ -1,6 +1,6 @@
-import { app } from "@toucansam-bpl/core-container";
-import { Logger } from "@toucansam-bpl/core-interfaces";
-import { configManager, ITransactionData } from "@toucansam-bpl/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { configManager, ITransactionData } from "@blockpool-io/crypto";
 import bs58check from "bs58check";
 
 const logger = app.resolvePlugin<Logger.ILogger>("logger");

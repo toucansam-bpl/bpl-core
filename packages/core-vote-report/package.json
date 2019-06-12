@@ -1,5 +1,5 @@
 {
-    "name": "@toucansam-bpl/core-vote-report",
+    "name": "@blockpool-io/core-vote-report",
     "description": "Vote Report for ARK Core",
     "version": "2.0.0-alpha.5",
     "contributors": [
@@ -18,10 +18,10 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@toucansam-bpl/core-container": "file:../core-container",
-        "@toucansam-bpl/core-http-utils": "file:../core-http-utils",
-        "@toucansam-bpl/core-utils": "file:../core-utils",
-        "@toucansam-bpl/crypto": "file:../crypto",
+        "@blockpool-io/core-container": "file:../core-container",
+        "@blockpool-io/core-http-utils": "file:../core-http-utils",
+        "@blockpool-io/core-utils": "file:../core-utils",
+        "@blockpool-io/crypto": "file:../crypto",
         "handlebars": "^4.1.0",
         "lodash.sumby": "^4.6.0",
         "vision": "^5.4.4"
