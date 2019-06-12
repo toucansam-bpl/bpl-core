@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-graphql",
-    "description": "GraphQL Integration for ARK Core",
+    "description": "GraphQL Integration for BPL Core",
     "version": "2.2.2",
     "contributors": [
         "Lúcio Rubens <lucio@ark.io>"

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-logger",
-    "description": "Logger Manager for ARK Core",
+    "description": "Logger Manager for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"

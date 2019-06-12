@@ -1,4 +1,4 @@
-# ARK Core - HTTP Utilities
+# BPL Core - HTTP Utilities
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

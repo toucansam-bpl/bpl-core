@@ -10,10 +10,10 @@ export class CommandLineInterfaceCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Set the token that should be used for configuration
-$ ark config:cli --token=mine
+$ bpl config:cli --token=mine
 `,
         `Switch the npm registry channel
-$ ark config:cli --channel=next
+$ bpl config:cli --channel=next
 `,
     ];
 

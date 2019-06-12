@@ -1,7 +1,7 @@
 {
     "private": true,
     "name": "core",
-    "description": "The packages that make up the ARK Core",
+    "description": "The packages that make up the BPL Core",
     "scripts": {
         "lerna": "./node_modules/lerna/cli.js",
         "setup": "yarn && yarn bootstrap && yarn build",
@@ -100,7 +100,7 @@
     ],
     "husky": {
         "hooks": {
-            "pre-commit": "lint-staged && cross-env-shell ./scripts/pre-commit.sh"
+            "pre-commit": "staged && cross-env-shell ./scripts/pre-commit.sh"
         }
     },
     "jest": {

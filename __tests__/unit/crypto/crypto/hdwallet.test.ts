@@ -32,7 +32,7 @@ describe("HDWallet", () => {
     });
 
     describe("bip44", () => {
-        it("can create a BIP44, ark, account 0, external address", () => {
+        it("can create a BIP44, bpl, account 0, external address", () => {
             const path = "m/44'/111'/0'/0/0";
             const root = bip32.fromSeed(
                 Buffer.from("dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd", "hex"),

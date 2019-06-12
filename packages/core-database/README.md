@@ -1,4 +1,4 @@
-# ARK Core - Database - Interface
+# BPL Core - Database - Interface
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

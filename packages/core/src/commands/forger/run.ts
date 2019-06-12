@@ -7,10 +7,10 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run a forger with a bip39 passphrase
-$ ark forger:run --bip39="..."
+$ bpl forger:run --bip39="..."
 `,
         `Run a forger with an encrypted bip38
-$ ark forger:run --bip38="..." --password="..."
+$ bpl forger:run --bip38="..." --password="..."
 `,
     ];
 

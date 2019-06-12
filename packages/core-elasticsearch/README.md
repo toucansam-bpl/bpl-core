@@ -1,4 +1,4 @@
-# ARK Core - Elasticsearch
+# BPL Core - Elasticsearch
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-snapshots-cli",
-    "description": "Provides live cli interface to the core-snapshots module for ARK Core",
+    "description": "Provides live cli interface to the core-snapshots module for BPL Core",
     "version": "2.2.0",
     "contributors": [
         "Kristjan Košič <chris@ark.io>"

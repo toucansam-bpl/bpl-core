@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-transaction-pool",
-    "description": "Transaction Pool Manager for ARK Core",
+    "description": "Transaction Pool Manager for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Kristjan Košič <kristjan@ark.io>",

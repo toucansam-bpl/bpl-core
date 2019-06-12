@@ -1,4 +1,4 @@
-# ARK Core - Logger - Interface
+# BPL Core - Logger - Interface
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

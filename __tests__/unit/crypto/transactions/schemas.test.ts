@@ -11,8 +11,8 @@ let transactionSchema: TransactionSchema;
 
 describe("Transfer Transaction", () => {
     const address = "DTRdbaUW3RQQSL5By4G43JVaeHiqfVp9oh";
-    const fee = 1 * constants.ARKTOSHI;
-    const amount = 10 * constants.ARKTOSHI;
+    const fee = 1 * constants.BPLTOSHI;
+    const amount = 10 * constants.BPLTOSHI;
 
     beforeAll(() => {
         transactionSchema = TransactionRegistry.get(TransactionTypes.Transfer).getSchema();
@@ -254,7 +254,7 @@ describe("Second Signature Transaction", () => {
     it("should be valid with correct data", () => {
         transaction
             .signatureAsset("second passphrase")
-            .fee(1 * constants.ARKTOSHI)
+            .fee(1 * constants.BPLTOSHI)
             .sign("passphrase");
 
         const { error } = Ajv.validate(transactionSchema.$id, transaction.getStruct());
@@ -269,7 +269,7 @@ describe("Second Signature Transaction", () => {
     it("should be invalid due to non-zero amount", () => {
         transaction
             .signatureAsset("second passphrase")
-            .amount(10 * constants.ARKTOSHI)
+            .amount(10 * constants.BPLTOSHI)
             .sign("passphrase");
 
         const { error } = Ajv.validate(transactionSchema.$id, transaction.getStruct());
@@ -330,7 +330,7 @@ describe("Delegate Registration Transaction", () => {
     it("should be invalid due to non-zero amount", () => {
         transaction
             .usernameAsset("delegate1")
-            .amount(10 * constants.ARKTOSHI)
+            .amount(10 * constants.BPLTOSHI)
             .sign("passphrase");
 
         const { error } = Ajv.validate(transactionSchema.$id, transaction.getStruct());
@@ -382,7 +382,7 @@ describe("Delegate Registration Transaction", () => {
         transaction = transactionBuilder.transfer();
         transaction
             .recipientId(null)
-            .amount(10 * constants.ARKTOSHI)
+            .amount(10 * constants.BPLTOSHI)
             .sign("passphrase");
 
         const { error } = Ajv.validate(transactionSchema.$id, transaction.getStruct());
@@ -430,7 +430,7 @@ describe("Vote Transaction", () => {
     it("should be invalid due to non-zero amount", () => {
         transaction
             .votesAsset([vote])
-            .amount(10 * constants.ARKTOSHI)
+            .amount(10 * constants.BPLTOSHI)
             .sign("passphrase");
 
         const { error } = Ajv.validate(transactionSchema.$id, transaction.getStruct());
@@ -548,7 +548,7 @@ describe.skip("Multi Signature Transaction", () => {
     it("should be invalid due to non-zero amount", () => {
         transaction
             .multiSignatureAsset(multiSignatureAsset)
-            .amount(10 * constants.ARKTOSHI)
+            .amount(10 * constants.BPLTOSHI)
             .sign("passphrase");
         signTransaction(transaction, passphrases);
 

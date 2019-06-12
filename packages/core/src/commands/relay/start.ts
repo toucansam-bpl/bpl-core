@@ -8,25 +8,25 @@ export class StartCommand extends AbstractStartCommand {
 
     public static examples: string[] = [
         `Run a relay with a pm2 daemon
-$ ark relay:start --network=mainnet
+$ bpl relay:start --network=mainnet
 `,
         `Run a genesis relay
-$ ark relay:start --networkStart
+$ bpl relay:start --networkStart
 `,
         `Disable any discovery by other peers
-$ ark relay:start --disableDiscovery
+$ bpl relay:start --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark relay:start --skipDiscovery
+$ bpl relay:start --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark relay:start --ignoreMinimumNetworkReach
+$ bpl relay:start --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark relay:start --launchMode=seed
+$ bpl relay:start --launchMode=seed
 `,
         `Run a relay without a daemon
-$ ark relay:start --no-daemon
+$ bpl relay:start --no-daemon
 `,
     ];
 

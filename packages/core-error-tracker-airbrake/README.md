@@ -1,4 +1,4 @@
-# ARK Core - Error Tracker - Airbrake
+# BPL Core - Error Tracker - Airbrake
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

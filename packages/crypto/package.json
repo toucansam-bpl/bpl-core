@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/crypto",
-    "description": "Crypto utilities for the ARK Blockchain",
+    "description": "Crypto utilities for the BPL Blockchain",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "François-Xavier Thoorens <fx.thoorens@ark.io>",

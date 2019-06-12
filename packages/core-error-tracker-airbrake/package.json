@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-error-tracker-airbrake",
-    "description": "Airbrake error tracker integration for ARK Core.",
+    "description": "Airbrake error tracker integration for BPL Core.",
     "version": "2.0.0-alpha.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-elasticsearch",
-    "description": "A powerful Elasticsearch integration for ARK Core",
+    "description": "A powerful Elasticsearch integration for BPL Core",
     "version": "2.0.0-alpha.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"

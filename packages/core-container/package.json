@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-container",
-    "description": "Container for ARK Core",
+    "description": "Container for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"

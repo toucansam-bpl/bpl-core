@@ -33,9 +33,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/bpl-core:/home/node/.config/bpl-core
+     - ~/.local/share/bpl-core:/home/node/.local/share/bpl-core
+     - ~/.local/state/bpl-core:/home/node/.local/state/bpl-core
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets
     networks:

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-transactions",
-    "description": "Transaction Services for ARK Core",
+    "description": "Transaction Services for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Joshua Noack <joshua@ark.io>"

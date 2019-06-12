@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-tester-cli",
-    "description": "Tester CLI for ARK Core",
+    "description": "Tester CLI for BPL Core",
     "version": "2.0.0-alpha.5",
     "contributors": [
         "Brian Faust <brian@ark.io>",

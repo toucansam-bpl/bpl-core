@@ -1,4 +1,4 @@
-# ARK Core - Database - Postgres
+# BPL Core - Database - Postgres
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

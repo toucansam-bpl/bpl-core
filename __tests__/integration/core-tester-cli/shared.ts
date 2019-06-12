@@ -8,7 +8,7 @@ export const toFlags = (opts: object): string[] => {
         .reduce((a, b) => a.concat(b), defaultOpts);
 };
 
-export const arkToSatoshi = value =>
+export const bplToSatoshi = value =>
     bignumify(value)
         .times(1e8)
         .toFixed();

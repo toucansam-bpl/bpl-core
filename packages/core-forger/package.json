@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-forger",
-    "description": "Forger for ARK Core",
+    "description": "Forger for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",

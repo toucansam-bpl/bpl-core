@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-new-relic",
-    "description": "New Relic integration for ARK Core.",
+    "description": "New Relic integration for BPL Core.",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"

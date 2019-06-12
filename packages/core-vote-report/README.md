@@ -1,4 +1,4 @@
-# ARK Core - Vote Report
+# BPL Core - Vote Report
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

@@ -1,4 +1,4 @@
-# ARK Core - Snapshots CLI
+# BPL Core - Snapshots CLI
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

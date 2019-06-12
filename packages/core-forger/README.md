@@ -1,4 +1,4 @@
-# ARK Core - Forger
+# BPL Core - Forger
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

@@ -8,22 +8,22 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run core
-$ ark core:run
+$ bpl core:run
 `,
         `Run core as genesis
-$ ark core:run --networkStart
+$ bpl core:run --networkStart
 `,
         `Disable any discovery by other peers
-$ ark core:run --disableDiscovery
+$ bpl core:run --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark core:run --skipDiscovery
+$ bpl core:run --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark core:run --ignoreMinimumNetworkReach
+$ bpl core:run --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark core:run --launchMode=seed
+$ bpl core:run --launchMode=seed
 `,
     ];
 

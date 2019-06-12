@@ -1,4 +1,4 @@
-# ARK Core - Signale Logger
+# BPL Core - Signale Logger
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

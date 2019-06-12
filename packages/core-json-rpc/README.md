@@ -1,4 +1,4 @@
-# ARK Core - JSON-RPC
+# BPL Core - JSON-RPC
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

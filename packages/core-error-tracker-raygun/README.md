@@ -1,4 +1,4 @@
-# ARK Core - Error Tracker - Raygun
+# BPL Core - Error Tracker - Raygun
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

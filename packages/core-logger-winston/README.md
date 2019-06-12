@@ -1,4 +1,4 @@
-# ARK Core - Winston Logger
+# BPL Core - Winston Logger
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

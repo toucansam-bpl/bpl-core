@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-blockchain",
-    "description": "Blockchain Manager for ARK Core",
+    "description": "Blockchain Manager for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",

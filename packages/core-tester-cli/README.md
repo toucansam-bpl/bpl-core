@@ -1,4 +1,4 @@
-# ARK Core - Tester CLI
+# BPL Core - Tester CLI
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

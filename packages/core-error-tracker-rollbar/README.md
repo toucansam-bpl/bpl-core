@@ -1,4 +1,4 @@
-# ARK Core - Error Tracker - rollbar
+# BPL Core - Error Tracker - rollbar
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

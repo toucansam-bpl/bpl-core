@@ -1,4 +1,4 @@
-# ARK Core - Container
+# BPL Core - Container
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

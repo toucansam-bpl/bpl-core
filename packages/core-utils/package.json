@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-utils",
-    "description": "Utilities for ARK Core",
+    "description": "Utilities for BPL Core",
     "version": "2.0.0-alpha.10",
     "contributors": [
         "Brian Faust <brian@ark.io>"

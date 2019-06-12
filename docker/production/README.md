@@ -1,24 +1,24 @@
-# ARK Core Docker
+# BPL Core Docker
 
 <p align="center">
-    <img src="./ark-core-docker.png" width="100%" height="100%" />
+    <img src="./bpl-core-docker.png" width="100%" height="100%" />
 </p>
 
 ## Introduction
 
-Official Production ready ARK Core images available now at [Docker Hub](https://hub.docker.com/r/arkecosystem/core).
+Official Production ready BPL Core images available now at [Docker Hub](https://hub.docker.com/r/arkecosystem/core).
 
 ## Documentation
 
--   Development : https://docs.ark.io/guidebook/core/development.html
--   Docker : https://docs.ark.io/guidebook/core/docker.html
+-   Development : https://docs.bpl.io/guidebook/core/development.html
+-   Docker : https://docs.bpl.io/guidebook/core/docker.html
 
 ## API Documentation
 
--   API v1 : https://docs.ark.io/api/public/v1/
--   API v2 : https://docs.ark.io/api/public/v2/
+-   API v1 : https://docs.bpl.io/api/public/v1/
+-   API v2 : https://docs.bpl.io/api/public/v2/
 
-## ARK Core Relay
+## BPL Core Relay
 
 Run Relay only node using [Docker Compose](https://docs.docker.com/compose/)
 
@@ -58,9 +58,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/bpl-core:/home/node/.config/bpl-core
+     - ~/.local/share/bpl-core:/home/node/.local/share/bpl-core
+     - ~/.local/state/bpl-core:/home/node/.local/state/bpl-core
      - /etc/timezone:/etc/timezone:ro
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets
@@ -136,9 +136,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/bpl-core:/home/node/.config/bpl-core
+     - ~/.local/share/bpl-core:/home/node/.local/share/bpl-core
+     - ~/.local/state/bpl-core:/home/node/.local/state/bpl-core
      - /etc/timezone:/etc/timezone:ro
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets
@@ -189,4 +189,4 @@ _If you prefer to use custom DB Name, DB User and DB Password simply adjust vari
 docker-compose up -d
 ```
 
-### _ARK Core docker image allows you to run a `forger`. However it requires some additional steps that can be found by visiting our [Documentation page](https://docs.ark.io/guidebook/core/docker.html)._
+### _BPL Core docker image allows you to run a `forger`. However it requires some additional steps that can be found by visiting our [Documentation page](https://docs.bpl.io/guidebook/core/docker.html)._

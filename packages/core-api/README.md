@@ -1,4 +1,4 @@
-# ARK Core - Public API
+# BPL Core - Public API
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

@@ -1,4 +1,4 @@
-# ARK Core - Webhooks
+# BPL Core - Webhooks
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />

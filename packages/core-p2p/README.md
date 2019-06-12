@@ -1,4 +1,4 @@
-# ARK Core - P2P API
+# BPL Core - P2P API
 
 <p align="center">
     <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />
