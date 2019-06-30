@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-error-tracker-bugsnag",
     "description": "Bugsnag error tracker integration for BPL Core.",
-    "version": "2.0.0-alpha.5",
+    "version": "2.0.0-prerelease.1",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],

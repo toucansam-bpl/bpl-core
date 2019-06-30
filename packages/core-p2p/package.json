@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-p2p",
     "description": "P2P API for BPL Core",
-    "version": "2.0.0-alpha.10",
+    "version": "2.0.0-prerelease.1",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -24,12 +24,12 @@
     },
     "dependencies": {
         "@faustbrian/dato": "^0.2.0",
-        "@blockpool-io/core-container": "^2.0.0-alpha.10",
-        "@blockpool-io/core-http-utils": "^2.0.0-alpha.10",
-        "@blockpool-io/core-interfaces": "^2.0.0-alpha.10",
-        "@blockpool-io/core-transaction-pool": "^2.0.0-alpha.10",
-        "@blockpool-io/core-utils": "^2.0.0-alpha.10",
-        "@blockpool-io/crypto": "^2.0.0-alpha.10",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-http-utils": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-transaction-pool": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.1",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.1",
         "ajv": "^6.10.0",
         "boom": "^7.3.0",
         "delay": "^4.1.0",
