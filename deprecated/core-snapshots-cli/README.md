@@ -25,3 +25,4 @@ If you discover a security vulnerability within this package, please send an e-m
 ## License
 
 [MIT](LICENSE) © [Blockpool](https://blockpool.io)
+[MIT](LICENSE) © [ARK Ecosystem](https://ark.io)

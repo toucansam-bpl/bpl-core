@@ -19,3 +19,4 @@ This project exists thanks to all the people who [contribute](../../../../contri
 ## License
 
 [MIT](LICENSE) © [Blockpool](https://blockpool.io)
+[MIT](LICENSE) © [ARK Ecosystem](https://ark.io)
