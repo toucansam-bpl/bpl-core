@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-snapshots",
     "description": "Provides live local streamed snapshots functionality for BPL Core",
-    "version": "2.0.0-prerelease.2",
+    "version": "2.0.0-prerelease.5",
     "contributors": [
         "Kristjan Košič <chris@ark.io>"
     ],
@@ -20,11 +20,11 @@
         "copy": "cd src/ && cpy './**/*.sql' --parents ../dist/ && cd ../"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.2",
-        "@blockpool-io/core-database-postgres": "^2.0.0-prerelease.2",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.2",
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.2",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.2",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.5",
+        "@blockpool-io/core-database-postgres": "^2.0.0-prerelease.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.5",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.5",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.5",
         "JSONStream": "^1.3.5",
         "cpy-cli": "^2.0.0",
         "create-hash": "^1.2.0",
