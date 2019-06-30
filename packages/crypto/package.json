@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/crypto",
     "description": "Crypto utilities for the BPL Blockchain",
-    "version": "2.0.0-prerelease.3",
+    "version": "2.0.0-prerelease.2",
     "contributors": [
         "François-Xavier Thoorens <fx.thoorens@ark.io>",
         "Brian Faust <brian@ark.io>",
@@ -75,5 +75,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "ca7927dbaabee07d990a4a810502317c29f991ef"
 }

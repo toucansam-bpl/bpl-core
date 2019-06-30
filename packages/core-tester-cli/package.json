@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-tester-cli",
     "description": "Tester CLI for BPL Core",
-    "version": "2.0.0-prerelease.3",
+    "version": "2.0.0-prerelease.2",
     "contributors": [
         "Brian Faust <brian@ark.io>",
         "Alex Barnsley <alex@ark.io>"
@@ -28,8 +28,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-utils": "file:../core-utils",
-        "@blockpool-io/crypto": "file:../crypto",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.2",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.2",
         "@oclif/command": "^1.5.11",
         "@oclif/config": "^1.12.9",
         "@oclif/plugin-help": "^2.1.6",
@@ -72,5 +72,6 @@
             "@oclif/plugin-help",
             "@oclif/plugin-not-found"
         ]
-    }
+    },
+    "gitHead": "ca7927dbaabee07d990a4a810502317c29f991ef"
 }
