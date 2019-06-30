@@ -184,6 +184,7 @@ sudo ntpd -gq
 
 success "Installed NTP!"
 
+
 heading "Installing system updates..."
 
 if [[ ! -z $DEB ]]; then
