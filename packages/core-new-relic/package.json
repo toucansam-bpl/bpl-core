@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-new-relic",
     "description": "New Relic integration for BPL Core.",
-    "version": "2.0.0-prerelease.1",
+    "version": "2.0.0-prerelease.3",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.3",
         "newrelic": "^5.6.1"
     },
     "publishConfig": {

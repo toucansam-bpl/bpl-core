@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-elasticsearch",
     "description": "A powerful Elasticsearch integration for BPL Core",
-    "version": "2.0.0-prerelease.1",
+    "version": "2.0.0-prerelease.3",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],

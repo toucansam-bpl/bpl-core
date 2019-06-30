@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-logger-pino",
     "description": "Pino integration for BPL Core",
-    "version": "2.0.0-prerelease.1",
+    "version": "2.0.0-prerelease.3",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,9 +19,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.1",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.1",
-        "@blockpool-io/core-logger": "^2.0.0-prerelease.1",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.3",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.3",
+        "@blockpool-io/core-logger": "^2.0.0-prerelease.3",
         "pino": "^5.11.1",
         "pino-pretty": "^2.5.0",
         "pump": "^3.0.0",
