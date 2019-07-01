@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-jest-matchers",
     "description": "Jest matchers for BPL Core",
-    "version": "2.0.0-pre.1",
+    "version": "2.0.0-pre.3",
     "contributors": [
         "Brian Faust <brian@ark.io>",
         "Erwann Gentric <erwann@ark.io>",
@@ -21,8 +21,8 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@blockpool-io/core-container": "^2.0.0-pre.1",
-        "@blockpool-io/crypto": "^2.0.0-pre.1",
+        "@blockpool-io/core-container": "^2.0.0-pre.3",
+        "@blockpool-io/crypto": "^2.0.0-pre.3",
         "bip39": "^2.5.0",
         "jest-extended": "^0.11.1",
         "lodash.get": "^4.4.2",
