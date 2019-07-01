@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-transaction-pool",
     "description": "Transaction Pool Manager for BPL Core",
-    "version": "2.0.0-prerelease.11",
+    "version": "2.0.0-pre.1",
     "contributors": [
         "Kristjan Košič <kristjan@ark.io>",
         "Brian Faust <brian@ark.io>",
@@ -24,11 +24,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.11",
-        "@blockpool-io/core-database": "^2.0.0-prerelease.11",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.11",
-        "@blockpool-io/core-transactions": "^2.0.0-prerelease.11",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.11",
+        "@blockpool-io/core-container": "^2.0.0-pre.1",
+        "@blockpool-io/core-database": "^2.0.0-pre.1",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.1",
+        "@blockpool-io/core-transactions": "^2.0.0-pre.1",
+        "@blockpool-io/crypto": "^2.0.0-pre.1",
         "@faustbrian/dato": "^0.2.0",
         "@types/better-sqlite3": "^5.2.2",
         "@types/fs-extra": "^5.0.5",
@@ -40,7 +40,7 @@
         "pluralize": "^7.0.0"
     },
     "devDependencies": {
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.11",
+        "@blockpool-io/core-utils": "^2.0.0-pre.1",
         "@types/better-sqlite3": "^5.2.2",
         "@types/bip39": "^2.4.2",
         "@types/fs-extra": "^5.0.5",

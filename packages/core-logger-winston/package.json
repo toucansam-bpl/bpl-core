@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-logger-winston",
     "description": "Winston Logger for BPL Core",
-    "version": "2.0.0-prerelease.11",
+    "version": "2.0.0-pre.1",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Brian Faust <brian@ark.io>"
@@ -20,8 +20,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.11",
-        "@blockpool-io/core-logger": "^2.0.0-prerelease.11",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.1",
+        "@blockpool-io/core-logger": "^2.0.0-pre.1",
         "chalk": "^2.4.2",
         "colors": "^1.3.3",
         "dayjs-ext": "^2.2.0",
