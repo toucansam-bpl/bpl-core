@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-vote-report",
     "description": "Vote Report for BPL Core",
-    "version": "2.0.0-prerelease.9",
+    "version": "2.0.0-prerelease.8",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,10 +18,10 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-http-utils": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.9",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-http-utils": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.8",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.8",
         "handlebars": "^4.1.0",
         "lodash.sumby": "^4.6.0",
         "vision": "^5.4.4"
@@ -37,5 +37,5 @@
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "fc2998b72be6da79c4a32b0bcc84fb635c01a856"
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

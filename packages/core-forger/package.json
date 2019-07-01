@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-forger",
     "description": "Forger for BPL Core",
-    "version": "2.0.0-prerelease.9",
+    "version": "2.0.0-prerelease.8",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -21,11 +21,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-p2p": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.9",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-p2p": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.8",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.8",
         "lodash.isempty": "^4.4.0",
         "lodash.uniq": "^4.5.0",
         "pluralize": "^7.0.0"
@@ -41,5 +41,5 @@
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "fc2998b72be6da79c4a32b0bcc84fb635c01a856"
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

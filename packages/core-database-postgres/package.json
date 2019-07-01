@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-database-postgres",
     "description": "PostgreSQL integration for BPL Core",
-    "version": "2.0.0-prerelease.9",
+    "version": "2.0.0-prerelease.8",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -22,11 +22,11 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@blockpool-io/core-container": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-database": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.9",
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.9",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-database": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.8",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.8",
         "@faustbrian/dato": "^0.2.0",
         "@types/bluebird": "^3.5.26",
         "@types/lodash.chunk": "^4.2.6",
@@ -49,5 +49,5 @@
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "fc2998b72be6da79c4a32b0bcc84fb635c01a856"
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }
