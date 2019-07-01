@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-event-emitter",
     "description": "Event Manager for BPL Core",
-    "version": "2.0.0-prerelease.6",
+    "version": "2.0.0-prerelease.9",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],

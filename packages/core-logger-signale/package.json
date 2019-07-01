@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-logger-signale",
     "description": "Signale integration for BPL Core",
-    "version": "2.0.0-prerelease.6",
+    "version": "2.0.0-prerelease.9",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.6",
-        "@blockpool-io/core-logger": "^2.0.0-prerelease.6",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-logger": "^2.0.0-prerelease.9",
         "signale": "^1.4.0"
     },
     "publishConfig": {

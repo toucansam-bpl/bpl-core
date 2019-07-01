@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-api",
     "description": "Public API for BPL Core",
-    "version": "2.0.0-prerelease.6",
+    "version": "2.0.0-prerelease.9",
     "contributors": [
         "Kristjan Košič <kristjan@ark.io>",
         "Brian Faust <brian@ark.io>"
@@ -22,12 +22,12 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@blockpool-io/core-container": "^2.0.0-prerelease.6",
-        "@blockpool-io/core-http-utils": "^2.0.0-prerelease.6",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.6",
-        "@blockpool-io/core-transaction-pool": "^2.0.0-prerelease.6",
-        "@blockpool-io/core-utils": "^2.0.0-prerelease.6",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.6",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-http-utils": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-transaction-pool": "^2.0.0-prerelease.9",
+        "@blockpool-io/core-utils": "^2.0.0-prerelease.9",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.9",
         "@faustbrian/dato": "^0.2.0",
         "@faustbrian/hapi-version": "^0.2.11",
         "ajv": "^6.10.0",
