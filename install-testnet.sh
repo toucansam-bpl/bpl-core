@@ -184,7 +184,6 @@ sudo ntpd -gq
 
 success "Installed NTP!"
 
-
 heading "Installing system updates..."
 
 if [[ ! -z $DEB ]]; then
@@ -202,7 +201,7 @@ success "Installed system updates!"
 
 heading "Installing BPL Core..."
 
-yarn global add @blockpool-io/core@next
+yarn global add @blockpool-io/core
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
 bpl config:publish
