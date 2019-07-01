@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-error-tracker-rollbar",
     "description": "Rollbar error tracker integration for BPL Core.",
-    "version": "2.0.0-prerelease.7",
+    "version": "2.0.0-prerelease.6",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.7",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.6",
         "rollbar": "^2.5.4"
     },
     "publishConfig": {
@@ -27,5 +27,5 @@
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "ca7927dbaabee07d990a4a810502317c29f991ef"
+    "gitHead": "fc2998b72be6da79c4a32b0bcc84fb635c01a856"
 }
