@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-utils",
     "description": "Utilities for BPL Core",
-    "version": "2.0.0-prerelease.8",
+    "version": "2.0.0-prerelease.11",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,9 +18,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-prerelease.8",
-        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.8",
-        "@blockpool-io/crypto": "^2.0.0-prerelease.8",
+        "@blockpool-io/core-container": "^2.0.0-prerelease.11",
+        "@blockpool-io/core-interfaces": "^2.0.0-prerelease.11",
+        "@blockpool-io/crypto": "^2.0.0-prerelease.11",
         "@faustbrian/dato": "^0.2.0",
         "cli-table3": "^0.5.1",
         "fast-json-parse": "^1.0.3",
