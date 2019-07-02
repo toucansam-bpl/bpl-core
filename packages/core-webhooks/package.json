@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-webhooks",
     "description": "Webhooks for BPL Core",
-    "version": "2.0.0-pre.3",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,11 +19,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.3",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
         "@blockpool-io/core-event-emitter": "^2.0.0-pre.3",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.3",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.3",
-        "@blockpool-io/core-utils": "^2.0.0-pre.3",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
         "boom": "^7.3.0",
         "fs-extra": "^7.0.1",
         "hapi-pagination": "^2.1.0",

@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-error-tracker-airbrake",
     "description": "Airbrake error tracker integration for BPL Core.",
-    "version": "2.0.0-pre.3",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,7 +18,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.3",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
         "airbrake-js": "^1.6.6"
     },
     "publishConfig": {
