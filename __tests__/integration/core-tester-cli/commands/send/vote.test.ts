@@ -1,8 +1,8 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import "jest-extended";
 import nock from "nock";
 import { VoteCommand } from "../../../../../packages/core-tester-cli/src/commands/send/vote";
-import { arkToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
+import { bplToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
 
 beforeEach(() => {
     // Just passthru. We'll test the Command class logic in its own test file more thoroughly
@@ -42,7 +42,7 @@ describe("Commands - Vote", () => {
         expect(httpie.post).toHaveBeenCalledTimes(2);
 
         expectTransactions(expectedTransactions, {
-            fee: arkToSatoshi(opts.voteFee),
+            fee: bplToSatoshi(opts.voteFee),
             asset: {
                 votes: [`+${expectedDelegate}`],
             },
@@ -71,7 +71,7 @@ describe("Commands - Vote", () => {
         expect(httpie.post).toHaveBeenCalledTimes(2);
 
         expectTransactions(expectedTransactions, {
-            fee: arkToSatoshi(opts.voteFee),
+            fee: bplToSatoshi(opts.voteFee),
             asset: {
                 votes: [`+${expectedDelegate}`],
             },

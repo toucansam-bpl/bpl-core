@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import snakeCase from "lodash.snakecase";
 
 export class SearchParameterConverter implements Database.ISearchParameterConverter {

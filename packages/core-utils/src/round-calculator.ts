@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Shared } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Shared } from "@blockpool-io/core-interfaces";
 
 export const calculateRound = (height: number): Shared.IRoundInfo => {
     const config = app.getConfig();

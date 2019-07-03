@@ -1,4 +1,4 @@
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
 import { Index } from "./base";
 
 export class Wallets extends Index {

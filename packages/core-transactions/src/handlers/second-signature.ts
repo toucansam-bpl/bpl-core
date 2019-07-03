@@ -1,10 +1,10 @@
-import { Database, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Database, TransactionPool } from "@blockpool-io/core-interfaces";
 import {
     ITransactionData,
     SecondSignatureRegistrationTransaction,
     Transaction,
     TransactionConstructor,
-} from "@arkecosystem/crypto";
+} from "@blockpool-io/crypto";
 import { SecondSignatureAlreadyRegisteredError } from "../errors";
 import { TransactionHandler } from "./transaction";
 

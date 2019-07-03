@@ -1,4 +1,4 @@
-import { bignumify, httpie } from "@arkecosystem/core-utils";
+import { bignumify, httpie } from "@blockpool-io/core-utils";
 
 const defaultOpts = ["--skipProbing"];
 
@@ -8,7 +8,7 @@ export const toFlags = (opts: object): string[] => {
         .reduce((a, b) => a.concat(b), defaultOpts);
 };
 
-export const arkToSatoshi = value =>
+export const bplToSatoshi = value =>
     bignumify(value)
         .times(1e8)
         .toFixed();

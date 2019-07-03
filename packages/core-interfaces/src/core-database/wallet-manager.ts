@@ -1,4 +1,4 @@
-import { Bignum, IMultiSignatureAsset, ITransactionData, models, Transaction } from "@arkecosystem/crypto";
+import { Bignum, IMultiSignatureAsset, ITransactionData, models, Transaction } from "@blockpool-io/crypto";
 import { Logger, Shared } from "../index";
 import { IRoundInfo } from "../shared";
 

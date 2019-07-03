@@ -1,7 +1,7 @@
 import { database } from "./database";
 import { state } from "./state";
 
-jest.mock("@arkecosystem/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {

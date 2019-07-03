@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-transactions",
-    "description": "Transaction Services for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-transactions",
+    "description": "Transaction Services for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Joshua Noack <joshua@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "bs58check": "^2.1.2"
     },
     "publishConfig": {
@@ -28,5 +28,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

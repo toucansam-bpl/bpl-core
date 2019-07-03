@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { bignumify } from "@arkecosystem/core-utils";
+import { Database } from "@blockpool-io/core-interfaces";
+import { bignumify } from "@blockpool-io/core-utils";
 import { Model } from "./model";
 
 export class Block extends Model {

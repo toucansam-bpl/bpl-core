@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { Wallet, WalletManager } from "@arkecosystem/core-database";
-import { Database } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { crypto, isException, Transaction } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Wallet, WalletManager } from "@blockpool-io/core-database";
+import { Database } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { crypto, isException, Transaction } from "@blockpool-io/crypto";
 
 export class PoolWalletManager extends WalletManager {
     public readonly databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

@@ -1,4 +1,4 @@
-import { Bignum } from "@arkecosystem/crypto";
+import { Bignum } from "@blockpool-io/crypto";
 import { SearchOrderBy, SearchPaginate, SearchParameters } from "../search";
 import { IRepository } from "./repository";
 

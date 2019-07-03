@@ -1,6 +1,6 @@
 import "./mocks/core-container";
 
-import { Transaction } from "@arkecosystem/crypto";
+import { Transaction } from "@blockpool-io/crypto";
 import nock from "nock";
 import { Peer } from "../../../packages/core-p2p/src/peer";
 import { genesisBlock } from "../../utils/fixtures/unitnet/block-model";

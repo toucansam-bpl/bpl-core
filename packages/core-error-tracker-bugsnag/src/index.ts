@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import bugsnag, { Bugsnag } from "@bugsnag/js";
 import { defaults } from "./defaults";
 

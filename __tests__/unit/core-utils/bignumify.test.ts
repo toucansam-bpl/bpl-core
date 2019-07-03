@@ -1,4 +1,4 @@
-import { Bignum } from "@arkecosystem/crypto";
+import { Bignum } from "@blockpool-io/crypto";
 import "jest-extended";
 import { bignumify } from "../../../packages/core-utils/src/bignumify";
 

@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { dato } from "@faustbrian/dato";
 
 /**

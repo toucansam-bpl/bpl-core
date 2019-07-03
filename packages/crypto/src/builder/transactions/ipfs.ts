@@ -28,6 +28,7 @@ export class IPFSBuilder extends TransactionBuilder<IPFSBuilder> {
      * TODO: revise
      */
     public vendorField(type: string): IPFSBuilder {
+        // @ts-ignore
         this.data.vendorFieldHex = Buffer.from(this.data.ipfsHash, type).toString("hex");
 
         while (this.data.vendorFieldHex.length < 128) {

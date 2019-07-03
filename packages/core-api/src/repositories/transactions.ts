@@ -1,4 +1,4 @@
-import { constants, slots } from "@arkecosystem/crypto";
+import { constants, slots } from "@blockpool-io/crypto";
 import { dato } from "@faustbrian/dato";
 import partition from "lodash.partition";
 import snakeCase from "lodash.snakecase";

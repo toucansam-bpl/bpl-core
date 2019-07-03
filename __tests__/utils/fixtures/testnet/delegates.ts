@@ -1,4 +1,4 @@
-import { client, crypto } from "@arkecosystem/crypto";
+import { client, crypto } from "@blockpool-io/crypto";
 
 /**
  * Get the testnet genesis delegates information

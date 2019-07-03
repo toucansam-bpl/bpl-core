@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, Logger } from "@blockpool-io/core-interfaces";
 import Hapi from "hapi";
 import { paginate, respondWith, respondWithCache, toCollection, toResource } from "../utils";
 

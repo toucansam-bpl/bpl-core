@@ -199,11 +199,11 @@ fi
 
 success "Installed system updates!"
 
-heading "Installing ARK Core..."
+heading "Installing BPL Core..."
 
 cd /home/vagrant
-git clone https://github.com/ARKEcosystem/core.git ark-core -b develop
-cd ark-core
+git clone https://github.com/blockpool-io/core.git bpl-core -b develop
+cd bpl-core
 yarn setup
 
-success "Installed ARK Core!"
+success "Installed BPL Core!"

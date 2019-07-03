@@ -1,7 +1,7 @@
 const {
     HashAlgorithms,
     Transaction
-} = require('@arkecosystem/crypto')
+} = require('@blockpool-io/crypto')
 const createHash = require("create-hash");
 const nodeSha256 = (bytes) => createHash("sha256").update(bytes).digest()
 

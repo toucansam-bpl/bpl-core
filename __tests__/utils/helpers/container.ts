@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Container } from "@arkecosystem/core-interfaces";
-import "@arkecosystem/core-jest-matchers";
+import { app } from "@blockpool-io/core-container";
+import { Container } from "@blockpool-io/core-interfaces";
+import "@blockpool-io/core-jest-matchers";
 import { asValue } from "awilix";
 import isString from "lodash.isstring";
 import * as path from "path";
@@ -16,7 +16,7 @@ export async function setUpContainer(options: any): Promise<Container.IContainer
     await app.setUp(
         "2.1.1",
         {
-            token: options.token || "ark",
+            token: options.token || "bpl",
             network: options.network,
         },
         options,

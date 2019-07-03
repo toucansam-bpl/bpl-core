@@ -1,5 +1,5 @@
-import { ConnectionManager, databaseServiceFactory, WalletManager } from "@arkecosystem/core-database";
-import { Container, Database, Logger } from "@arkecosystem/core-interfaces";
+import { ConnectionManager, databaseServiceFactory, WalletManager } from "@blockpool-io/core-database";
+import { Container, Database, Logger } from "@blockpool-io/core-interfaces";
 import { defaults } from "./defaults";
 import { PostgresConnection } from "./postgres-connection";
 
@@ -7,7 +7,7 @@ export const plugin: Container.PluginDescriptor = {
     pkg: require("../package.json"),
     defaults,
     alias: "database",
-    extends: "@arkecosystem/core-database",
+    extends: "@blockpool-io/core-database",
     async register(container: Container.IContainer, options) {
         container.resolvePlugin<Logger.ILogger>("logger").info("Establishing Database Connection");
 

@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 import delay from "delay";
 import { plugin } from "../../../../packages/core-api/src/plugin";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
@@ -23,10 +23,10 @@ async function setUp() {
 
     await setUpContainer({
         exclude: [
-            "@arkecosystem/core-webhooks",
-            "@arkecosystem/core-forger",
-            "@arkecosystem/core-json-rpc",
-            "@arkecosystem/core-api",
+            "@blockpool-io/core-webhooks",
+            "@blockpool-io/core-forger",
+            "@blockpool-io/core-json-rpc",
+            "@blockpool-io/core-api",
         ],
     });
 

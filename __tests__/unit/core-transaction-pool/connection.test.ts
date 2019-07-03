@@ -1,10 +1,10 @@
 /* tslint:disable:max-line-length */
 import "./mocks/core-container";
 
-import { Wallet } from "@arkecosystem/core-database";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { bignumify } from "@arkecosystem/core-utils";
-import { Bignum, constants, models, slots, Transaction } from "@arkecosystem/crypto";
+import { Wallet } from "@blockpool-io/core-database";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { bignumify } from "@blockpool-io/core-utils";
+import { Bignum, constants, models, slots, Transaction } from "@blockpool-io/crypto";
 import { dato } from "@faustbrian/dato";
 import delay from "delay";
 import cloneDeep from "lodash.clonedeep";

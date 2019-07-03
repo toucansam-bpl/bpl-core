@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@arkecosystem/core-p2p";
-import { httpie, IHttpieResponse } from "@arkecosystem/core-utils";
-import { ITransactionData, models } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { ICurrentRound, IForgingTransactions, IResponse, NetworkState } from "@blockpool-io/core-p2p";
+import { httpie, IHttpieResponse } from "@blockpool-io/core-utils";
+import { ITransactionData, models } from "@blockpool-io/crypto";
 import { URL } from "url";
 import { HostNoResponseError, RelayCommunicationError } from "./errors";
 

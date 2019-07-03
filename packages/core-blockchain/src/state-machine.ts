@@ -1,10 +1,10 @@
 /* tslint:disable:jsdoc-format max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
 
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { isException, models } from "@arkecosystem/crypto";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { isException, models } from "@blockpool-io/crypto";
 
 import pluralize from "pluralize";
 import { config as localConfig } from "./config";
@@ -120,7 +120,7 @@ blockchainMachine.actionMap = (blockchain: Blockchain) => ({
     },
 
     exitApp() {
-        app.forceExit("Failed to startup blockchain. Exiting ARK Core!");
+        app.forceExit("Failed to startup blockchain. Exiting BPL Core!");
     },
 
     async init() {

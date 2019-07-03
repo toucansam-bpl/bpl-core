@@ -1,18 +1,18 @@
 #!/usr/bin/env bash
 
-rm -rf /home/ark/ark-core
-git clone https://github.com/ARKEcosystem/core -b upgrade /home/ark/ark-core
+rm -rf /home/bpl/bpl-core
+git clone https://github.com/blockpool-io/core -b upgrade /home/bpl/bpl-core
 
-mkdir /home/ark/.ark
-touch /home/ark/.ark/.env
+mkdir /home/bpl/.bpl
+touch /home/bpl/.bpl/.env
 
-mkdir /home/ark/.ark/config
+mkdir /home/bpl/.bpl/config
 
-mkdir /home/ark/.ark/database
-touch /home/ark/.ark/database/json-rpc.sqlite
-touch /home/ark/.ark/database/transaction-pool.sqlite
-touch /home/ark/.ark/database/webhooks.sqlite
+mkdir /home/bpl/.bpl/database
+touch /home/bpl/.bpl/database/json-rpc.sqlite
+touch /home/bpl/.bpl/database/transaction-pool.sqlite
+touch /home/bpl/.bpl/database/webhooks.sqlite
 
-mkdir /home/ark/.ark/logs
-mkdir /home/ark/.ark/logs/mainnet
-touch /home/ark/.ark/logs/mainnet/test.log
+mkdir /home/bpl/.bpl/logs
+mkdir /home/bpl/.bpl/logs/mainnet
+touch /home/bpl/.bpl/logs/mainnet/test.log

@@ -1,6 +1,6 @@
 import "./mocks/core-container";
 
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import "jest-extended";
 import { CappedSet } from "../../../packages/core-utils/src/capped-set";
 

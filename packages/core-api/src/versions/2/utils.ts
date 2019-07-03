@@ -7,7 +7,7 @@ function paginate(request: Hapi.Request): any {
         // @ts-ignore
         offset: (request.query.page - 1) * request.query.limit || 0,
         // @ts-ignore
-        limit: request.query.limit || 100,
+        limit: request.query.limit || 201,
     };
 
     // @ts-ignore

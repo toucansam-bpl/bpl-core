@@ -1,5 +1,5 @@
 /* tslint:disable:max-line-length */
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import {
     Blockchain as blockchain,
     Database,
@@ -7,8 +7,8 @@ import {
     Logger,
     P2P,
     TransactionPool,
-} from "@arkecosystem/core-interfaces";
-import { models, slots, Transaction } from "@arkecosystem/crypto";
+} from "@blockpool-io/core-interfaces";
+import { models, slots, Transaction } from "@blockpool-io/crypto";
 
 import async from "async";
 import delay from "delay";
@@ -72,9 +72,9 @@ export class Blockchain implements blockchain.IBlockchain {
 
         if (this.state.networkStart) {
             logger.warn(
-                "ARK Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong.",
+                "BPL Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong.",
             );
-            logger.info("Starting ARK Core for a new world, welcome aboard");
+            logger.info("Starting BPL Core for a new world, welcome aboard");
         }
 
         this.actions = stateMachine.actionMap(this);

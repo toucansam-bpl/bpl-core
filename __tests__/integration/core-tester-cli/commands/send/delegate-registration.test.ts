@@ -1,9 +1,9 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import "jest-extended";
 import nock from "nock";
 import pokemon from "pokemon";
 import { DelegateRegistrationCommand } from "../../../../../packages/core-tester-cli/src/commands/send/delegate-registration";
-import { arkToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
+import { bplToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
 
 beforeEach(() => {
     // Just passthru. We'll test the Command class logic in its own test file more thoroughly
@@ -50,7 +50,7 @@ describe("Commands - Delegate Registration", () => {
         expect(httpie.post).toHaveBeenCalledTimes(2);
 
         expectTransactions(expectedTransactions, {
-            fee: arkToSatoshi(opts.delegateFee),
+            fee: bplToSatoshi(opts.delegateFee),
             asset: {
                 delegate: {
                     username: expectedDelegateName,

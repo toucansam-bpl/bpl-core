@@ -1,4 +1,4 @@
-import { configManager, models } from "@arkecosystem/crypto";
+import { configManager, models } from "@blockpool-io/crypto";
 import genesisBlockJson from "../../config/unitnet/genesisBlock.json";
 
 configManager.setFromPreset("unitnet");

@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { MultiPaymentTransaction, Transaction, TransactionConstructor } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { MultiPaymentTransaction, Transaction, TransactionConstructor } from "@blockpool-io/crypto";
 import { TransactionHandler } from "./transaction";
 
 export class MultiPaymentTransactionHandler extends TransactionHandler {

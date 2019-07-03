@@ -1,4 +1,4 @@
-import { Bignum, slots, Transaction } from "@arkecosystem/crypto";
+import { Bignum, slots, Transaction } from "@blockpool-io/crypto";
 import assert from "assert";
 import { MemPoolTransaction } from "./mem-pool-transaction";
 

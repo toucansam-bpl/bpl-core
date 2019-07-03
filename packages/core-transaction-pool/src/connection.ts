@@ -1,12 +1,12 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database, EventEmitter, Logger, TransactionPool } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, EventEmitter, Logger, TransactionPool } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
 
 import { dato, Dato } from "@faustbrian/dato";
 import assert from "assert";
 import { PoolWalletManager } from "./pool-wallet-manager";
 
-import { Bignum, constants, ITransactionData, models, Transaction } from "@arkecosystem/crypto";
+import { Bignum, constants, ITransactionData, models, Transaction } from "@blockpool-io/crypto";
 import { Mem } from "./mem";
 import { MemPoolTransaction } from "./mem-pool-transaction";
 import { Storage } from "./storage";

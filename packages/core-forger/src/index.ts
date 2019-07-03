@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import pluralize from "pluralize";
 import { defaults } from "./defaults";
 import { ForgerManager } from "./manager";

@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-json-rpc",
-    "description": "A JSON-RPC 2.0 Specification compliant server to interact with the ARK Blockchain.",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-json-rpc",
+    "description": "A JSON-RPC 2.0 Specification compliant server to interact with the BPL Blockchain.",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Brian Faust <brian@ark.io>"
@@ -20,11 +20,11 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-http-utils": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "@keyv/sqlite": "^2.0.0",
         "bip39": "^2.5.0",
         "boom": "^7.3.0",
@@ -36,7 +36,7 @@
         "wif": "^2.0.6"
     },
     "devDependencies": {
-        "@arkecosystem/core-p2p": "^2.3.23",
+        "@blockpool-io/core-p2p": "^2.0.0-pre.5",
         "@types/bip39": "^2.4.2",
         "@types/boom": "^7.2.1",
         "@types/is-reachable": "^3.0.0",
@@ -52,5 +52,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

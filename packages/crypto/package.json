@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/crypto",
-    "description": "Crypto utilities for the ARK Blockchain",
-    "version": "2.3.23",
+    "name": "@blockpool-io/crypto",
+    "description": "Crypto utilities for the BPL Blockchain",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "François-Xavier Thoorens <fx.thoorens@ark.io>",
         "Brian Faust <brian@ark.io>",
@@ -75,5 +75,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

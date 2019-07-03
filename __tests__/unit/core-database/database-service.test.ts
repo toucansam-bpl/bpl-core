@@ -1,10 +1,10 @@
 import "jest-extended";
 import "./mocks/core-container";
 
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { Address, Bignum, constants, models, Transaction, transactionBuilder } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, EventEmitter } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { Address, Bignum, constants, models, Transaction, transactionBuilder } from "@blockpool-io/crypto";
 import { Wallet, WalletManager } from "../../../packages/core-database/src";
 import { DatabaseService } from "../../../packages/core-database/src/database-service";
 import { roundCalculator } from "../../../packages/core-utils/dist";

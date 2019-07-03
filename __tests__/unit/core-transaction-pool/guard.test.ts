@@ -1,6 +1,6 @@
 import "./mocks/core-container";
 
-import { configManager, constants, slots } from "@arkecosystem/crypto";
+import { configManager, constants, slots } from "@blockpool-io/crypto";
 import "jest-extended";
 import { config as localConfig } from "../../../packages/core-transaction-pool/src/config";
 import { Connection } from "../../../packages/core-transaction-pool/src/connection";

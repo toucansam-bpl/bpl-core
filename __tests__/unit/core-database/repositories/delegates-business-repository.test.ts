@@ -1,8 +1,8 @@
 import "../mocks/core-container";
 
-import { Database } from "@arkecosystem/core-interfaces";
-import { delegateCalculator } from "@arkecosystem/core-utils";
-import { Bignum, constants, crypto } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { delegateCalculator } from "@blockpool-io/core-utils";
+import { Bignum, constants, crypto } from "@blockpool-io/crypto";
 import { DelegatesBusinessRepository, Wallet, WalletsBusinessRepository } from "../../../../packages/core-database/src";
 import { DatabaseService } from "../../../../packages/core-database/src/database-service";
 import { genesisBlock } from "../../../utils/fixtures/testnet/block-model";

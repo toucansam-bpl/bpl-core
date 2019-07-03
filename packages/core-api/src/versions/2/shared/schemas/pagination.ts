@@ -10,5 +10,5 @@ export const pagination = {
     limit: Joi.number()
         .integer()
         .min(1)
-        .max(100),
+        .max(201),
 };

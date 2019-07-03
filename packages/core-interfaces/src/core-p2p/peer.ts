@@ -1,4 +1,4 @@
-import { models, Transaction } from "@arkecosystem/crypto";
+import { models, Transaction } from "@blockpool-io/crypto";
 
 export interface IPeer {
     setHeaders(headers: Record<string, any>): void;

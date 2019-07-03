@@ -1,8 +1,8 @@
-import { Bignum } from "@arkecosystem/crypto";
 import { sortBy } from "@arkecosystem/utils";
+import { Bignum } from "@blockpool-io/crypto";
 
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger } from "@blockpool-io/core-interfaces";
 import { queries } from "./queries";
 import { QueryExecutor } from "./sql/query-executor";
 

@@ -1,11 +1,11 @@
-import { configManager } from "@arkecosystem/crypto";
+import { configManager } from "@blockpool-io/crypto";
 import { blocks2to100 } from "../../../utils/fixtures";
 import { delegates } from "../../../utils/fixtures/testnet/delegates";
 import { genesisBlock } from "../../../utils/fixtures/unitnet/block-model";
 
 configManager.setFromPreset("testnet");
 
-jest.mock("@arkecosystem/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {

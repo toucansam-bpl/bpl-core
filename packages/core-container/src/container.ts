@@ -1,4 +1,4 @@
-import { Container as container, EventEmitter, Logger } from "@arkecosystem/core-interfaces";
+import { Container as container, EventEmitter, Logger } from "@blockpool-io/core-interfaces";
 import { createContainer, Resolver } from "awilix";
 import delay from "delay";
 import semver from "semver";

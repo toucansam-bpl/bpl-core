@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-database",
-    "description": "Database Interface for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-database",
+    "description": "Database Interface for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -22,13 +22,13 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-event-emitter": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-transactions": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
         "@arkecosystem/utils": "^0.3.0",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-event-emitter": "^2.0.0-pre.3",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/core-transactions": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "lodash.clonedeep": "^4.5.0",
         "lodash.compact": "^3.0.1",
         "lodash.uniq": "^4.5.0",
@@ -45,5 +45,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

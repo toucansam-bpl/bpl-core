@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core",
-    "description": "Core of the ARK Blockchain",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core",
+    "description": "Core of the Blockpool Blockchain",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -17,7 +17,7 @@
         "/oclif.manifest.json"
     ],
     "bin": {
-        "ark": "./bin/run"
+        "bpl": "./bin/run"
     },
     "scripts": {
         "prepublishOnly": "yarn build",
@@ -28,36 +28,36 @@
         "build:watch": "yarn clean && yarn copy && yarn compile -w",
         "clean": "del dist",
         "copy": "cd ./src && cpy './config' '../dist/' --parents && cd ..",
-        "debug:start": "node --inspect-brk yarn ark core:run",
-        "debug:relay": "node --inspect-brk yarn ark relay:run",
-        "debug:forger": "node --inspect-brk yarn ark forger:run",
-        "ark": "./bin/run",
-        "start:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark core:run",
-        "start:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark core:run",
-        "start:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run",
-        "relay:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark relay:run",
-        "relay:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark relay:run",
-        "relay:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark relay:run",
-        "forger:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn ark forger:run",
-        "forger:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn ark forger:run",
-        "forger:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark forger:run",
-        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn ark core:run --networkStart"
+        "debug:start": "node --inspect-brk yarn bpl core:run",
+        "debug:relay": "node --inspect-brk yarn bpl relay:run",
+        "debug:forger": "node --inspect-brk yarn bpl forger:run",
+        "start:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn bpl core:run",
+        "start:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn bpl core:run",
+        "start:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn bpl core:run",
+        "relay:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn bpl relay:run",
+        "relay:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn bpl relay:run",
+        "relay:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn bpl relay:run",
+        "forger:mainnet": "cross-env CORE_PATH_CONFIG=./bin/config/mainnet yarn bpl forger:run",
+        "forger:devnet": "cross-env CORE_PATH_CONFIG=./bin/config/devnet yarn bpl forger:run",
+        "forger:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn bpl forger:run",
+        "full:testnet": "cross-env CORE_PATH_CONFIG=./bin/config/testnet CORE_ENV=test yarn bpl core:run --networkStart",
+        "bpl": "./bin/run"
     },
     "dependencies": {
-        "@arkecosystem/core-api": "^2.3.23",
-        "@arkecosystem/core-blockchain": "^2.3.23",
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-database-postgres": "^2.3.23",
-        "@arkecosystem/core-event-emitter": "^2.3.23",
-        "@arkecosystem/core-forger": "^2.3.23",
-        "@arkecosystem/core-json-rpc": "^2.3.23",
-        "@arkecosystem/core-logger-pino": "^2.3.23",
-        "@arkecosystem/core-p2p": "^2.3.23",
-        "@arkecosystem/core-snapshots": "^2.3.23",
-        "@arkecosystem/core-transaction-pool": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/core-webhooks": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-api": "^2.0.0-pre.5",
+        "@blockpool-io/core-blockchain": "^2.0.0-pre.5",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-database-postgres": "^2.0.0-pre.5",
+        "@blockpool-io/core-event-emitter": "^2.0.0-pre.3",
+        "@blockpool-io/core-forger": "^2.0.0-pre.5",
+        "@blockpool-io/core-json-rpc": "^2.0.0-pre.5",
+        "@blockpool-io/core-logger-pino": "^2.0.0-pre.5",
+        "@blockpool-io/core-p2p": "^2.0.0-pre.5",
+        "@blockpool-io/core-snapshots": "^2.0.0-pre.5",
+        "@blockpool-io/core-transaction-pool": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
+        "@blockpool-io/core-webhooks": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "@faustbrian/dato": "^0.2.0",
         "@oclif/command": "^1.5.11",
         "@oclif/config": "^1.12.9",
@@ -124,7 +124,7 @@
                 "./dist/hooks/command_not_found/suggest"
             ]
         },
-        "bin": "ark",
+        "bin": "bpl",
         "topics": {
             "config": {
                 "description": "manage core config variables"
@@ -150,5 +150,6 @@
             "@oclif/plugin-commands",
             "@oclif/plugin-help"
         ]
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

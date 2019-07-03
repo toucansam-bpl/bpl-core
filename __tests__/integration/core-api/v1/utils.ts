@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { httpie } from "@arkecosystem/core-utils";
-import { client, NetworkManager, transactionBuilder } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { httpie } from "@blockpool-io/core-utils";
+import { client, NetworkManager, transactionBuilder } from "@blockpool-io/crypto";
 import "jest-extended";
 import { ApiHelpers } from "../../../utils/helpers/api";
 

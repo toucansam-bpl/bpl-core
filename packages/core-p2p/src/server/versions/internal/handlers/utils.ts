@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter } from "@blockpool-io/core-interfaces";
 
 const emitter = app.resolvePlugin<EventEmitter.EventEmitter>("event-emitter");
 

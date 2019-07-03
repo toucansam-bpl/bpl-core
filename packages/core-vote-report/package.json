@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-vote-report",
-    "description": "Vote Report for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-vote-report",
+    "description": "Vote Report for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,10 +18,10 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-http-utils": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "handlebars": "^4.1.0",
         "lodash.sumby": "^4.6.0",
         "vision": "^5.4.4"
@@ -36,5 +36,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

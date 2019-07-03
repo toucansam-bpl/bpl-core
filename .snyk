@@ -215,13 +215,13 @@ ignore:
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
   'npm:chownr:20180731':
-    - '@arkecosystem/core > @arkecosystem/core-transaction-pool > better-sqlite3 > tar > chownr':
+    - '@blockpool-io/core > @blockpool-io/core-transaction-pool > better-sqlite3 > tar > chownr':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
-    - '@arkecosystem/core > @arkecosystem/core-webhooks > sqlite3 > node-pre-gyp > tar > chownr':
+    - '@blockpool-io/core > @blockpool-io/core-webhooks > sqlite3 > node-pre-gyp > tar > chownr':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
-    - '@arkecosystem/core > @arkecosystem/core-json-rpc > @keyv/sqlite > sqlite3 > node-pre-gyp > tar > chownr':
+    - '@blockpool-io/core > @blockpool-io/core-json-rpc > @keyv/sqlite > sqlite3 > node-pre-gyp > tar > chownr':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
     - jest-mock-process > jest > jest-cli > jest-haste-map > sane > fsevents > node-pre-gyp > tar > chownr:
@@ -237,13 +237,13 @@ ignore:
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
   'npm:lodash:20180130':
-    - '@arkecosystem/core > @arkecosystem/core-database-postgres > sql > lodash':
+    - '@blockpool-io/core > @blockpool-io/core-database-postgres > sql > lodash':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
-    - '@arkecosystem/core-snapshots > @arkecosystem/core-database-postgres > sql > lodash':
+    - '@blockpool-io/core-snapshots > @blockpool-io/core-database-postgres > sql > lodash':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
-    - '@arkecosystem/core > @arkecosystem/core-json-rpc > @keyv/sqlite > @keyv/sql > sql > lodash':
+    - '@blockpool-io/core > @blockpool-io/core-json-rpc > @keyv/sqlite > @keyv/sql > sql > lodash':
         reason: None given
         expires: '2018-12-11T05:03:38.314Z'
   'npm:mem:20180117':
@@ -257,13 +257,13 @@ ignore:
         reason: None given
         expires: '2018-12-11T05:03:38.315Z'
   'npm:sql:20180512':
-    - '@arkecosystem/core > @arkecosystem/core-database-postgres > sql':
+    - '@blockpool-io/core > @blockpool-io/core-database-postgres > sql':
         reason: None given
         expires: '2018-12-11T05:03:38.315Z'
-    - '@arkecosystem/core-snapshots > @arkecosystem/core-database-postgres > sql':
+    - '@blockpool-io/core-snapshots > @blockpool-io/core-database-postgres > sql':
         reason: None given
         expires: '2018-12-11T05:03:38.315Z'
-    - '@arkecosystem/core > @arkecosystem/core-json-rpc > @keyv/sqlite > @keyv/sql > sql':
+    - '@blockpool-io/core > @blockpool-io/core-json-rpc > @keyv/sqlite > @keyv/sql > sql':
         reason: None given
         expires: '2018-12-11T05:03:38.315Z'
 patch: {}

@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-jest-matchers",
-    "description": "Jest matchers for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-jest-matchers",
+    "description": "Jest matchers for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>",
         "Erwann Gentric <erwann@ark.io>",
@@ -20,9 +20,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
         "@arkecosystem/utils": "^0.3.0",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "bip39": "^2.5.0",
         "jest-extended": "^0.11.1",
         "lodash.get": "^4.4.2",
@@ -42,5 +42,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database, Logger, TransactionPool } from "@arkecosystem/core-interfaces";
-import { errors, TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, Logger, TransactionPool } from "@blockpool-io/core-interfaces";
+import { errors, TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
 import {
     configManager,
     constants,
@@ -8,7 +8,7 @@ import {
     ITransactionData,
     slots,
     Transaction,
-} from "@arkecosystem/crypto";
+} from "@blockpool-io/crypto";
 import pluralize from "pluralize";
 import { dynamicFeeMatcher } from "./dynamic-fee";
 

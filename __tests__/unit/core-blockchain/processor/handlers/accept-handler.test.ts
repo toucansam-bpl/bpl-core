@@ -5,7 +5,7 @@ import { logger } from "../../mocks/logger";
 import { AcceptBlockHandler } from "../../../../../packages/core-blockchain/src/processor/handlers";
 import "../../../../utils";
 
-import { models } from "@arkecosystem/crypto";
+import { models } from "@blockpool-io/crypto";
 import { BlockProcessorResult } from "../../../../../packages/core-blockchain/src/processor";
 import { blocks2to100 } from "../../../../utils/fixtures/testnet/blocks2to100";
 

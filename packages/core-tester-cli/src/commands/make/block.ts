@@ -1,4 +1,4 @@
-import { configManager, models, slots } from "@arkecosystem/crypto";
+import { configManager, models, slots } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import { writeFileSync } from "fs";
 import { satoshiFlag } from "../../flags";

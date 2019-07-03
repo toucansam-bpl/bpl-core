@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-logger-signale",
-    "description": "Signale integration for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-logger-signale",
+    "description": "Signale integration for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-logger": "^2.3.23",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/core-logger": "^2.0.0-pre.5",
         "signale": "^1.4.0"
     },
     "publishConfig": {
@@ -28,5 +28,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

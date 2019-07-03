@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import { config } from "./config";
 import { defaults } from "./defaults";
 import { monitor, Monitor } from "./monitor";

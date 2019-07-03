@@ -1,6 +1,6 @@
 import "jest-extended";
 
-import { Database, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Database, TransactionPool } from "@blockpool-io/core-interfaces";
 import {
     Bignum,
     configManager,
@@ -12,7 +12,7 @@ import {
     Transaction,
     TransactionConstructor,
     TransactionRegistry,
-} from "@arkecosystem/crypto";
+} from "@blockpool-io/crypto";
 import bs58check from "bs58check";
 import ByteBuffer from "bytebuffer";
 import { errors, TransactionHandler, TransactionHandlerRegistry } from "../../../packages/core-transactions/src";

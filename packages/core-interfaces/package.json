@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-interfaces",
-    "description": "Interface types for essential ARK Core modules",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-interfaces",
+    "description": "Interface types for essential BPL Core modules",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
@@ -23,7 +23,7 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "@faustbrian/dato": "^0.2.0",
         "awilix": "^4.2.1"
     },
@@ -32,5 +32,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

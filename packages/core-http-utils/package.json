@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-http-utils",
-    "description": "Http Utilities for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-http-utils",
+    "description": "Http Utilities for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,9 +18,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-utils": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "boom": "^7.3.0",
         "expand-home-dir": "^0.0.3",
         "good": "^8.1.2",
@@ -42,5 +42,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

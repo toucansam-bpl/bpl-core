@@ -1,4 +1,4 @@
-import { createServer, mountServer, plugins } from "@arkecosystem/core-http-utils";
+import { createServer, mountServer, plugins } from "@blockpool-io/core-http-utils";
 import { randomBytes } from "crypto";
 import { database } from "../database";
 import * as schema from "./schema";

@@ -1,5 +1,5 @@
-import { Logger } from "@arkecosystem/core-interfaces";
-import { AbstractLogger } from "@arkecosystem/core-logger";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { AbstractLogger } from "@blockpool-io/core-logger";
 import { Signale } from "signale";
 
 export class SignaleLogger extends AbstractLogger {

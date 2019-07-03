@@ -1,6 +1,6 @@
 import "../../../../utils";
 
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { setUp, tearDown } from "../../__support__/setup";
 import { utils } from "../utils";
 

@@ -1,5 +1,5 @@
-import { bignumify } from "@arkecosystem/core-utils";
-import { Address, Bignum, configManager, formatSatoshi, NetworkName } from "@arkecosystem/crypto";
+import { bignumify } from "@blockpool-io/core-utils";
+import { Address, Bignum, configManager, formatSatoshi, NetworkName } from "@blockpool-io/crypto";
 import Command, { flags } from "@oclif/command";
 import delay from "delay";
 import { satoshiFlag } from "../flags";

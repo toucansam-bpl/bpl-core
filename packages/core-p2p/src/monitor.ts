@@ -1,8 +1,8 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database, EventEmitter, Logger, P2P } from "@arkecosystem/core-interfaces";
-import { slots } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database, EventEmitter, Logger, P2P } from "@blockpool-io/core-interfaces";
+import { slots } from "@blockpool-io/crypto";
 import { dato, Dato } from "@faustbrian/dato";
 import delay from "delay";
 import fs from "fs";

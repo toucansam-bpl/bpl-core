@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import { Round } from "../models";
 import { queries } from "../queries";
 import { Repository } from "./repository";

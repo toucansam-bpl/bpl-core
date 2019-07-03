@@ -7,7 +7,7 @@ import { configManager } from "../../managers";
 import { Bignum } from "../../utils";
 import { ITransactionData } from "../interfaces";
 
-// Reference: https://github.com/ARKEcosystem/AIPs/blob/master/AIPS/aip-11.md
+// Reference: https://github.com/blockpool-io/AIPs/blob/master/AIPS/aip-11.md
 class TransactionDeserializer {
     public deserialize(serialized: string | Buffer): Transaction {
         const data = {} as ITransactionData;

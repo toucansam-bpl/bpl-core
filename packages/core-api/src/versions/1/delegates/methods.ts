@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 import { ServerCache } from "../../../services";
 import { paginate, respondWith, toCollection, toResource } from "../utils";
 
@@ -10,7 +10,7 @@ const index = async request => {
         ...request.query,
         ...{
             offset: request.query.offset || 0,
-            limit: request.query.limit || 51,
+            limit: request.query.limit || 201,
         },
     });
 
@@ -75,7 +75,7 @@ export function registerMethods(server) {
             ...request.query,
             ...{
                 offset: request.query.offset || 0,
-                limit: request.query.limit || 51,
+                limit: request.query.limit || 201,
             },
         }))
         .method("v1.delegates.show", show, 8, request => ({

@@ -1,8 +1,8 @@
 import "jest-extended";
 import "./mocks/core-container-calculator";
 
-import { Wallet } from "@arkecosystem/core-database";
-import { Bignum } from "@arkecosystem/crypto";
+import { Wallet } from "@blockpool-io/core-database";
+import { Bignum } from "@blockpool-io/crypto";
 import { calculateApproval, calculateForgedTotal } from "../../../packages/core-utils/src/delegate-calculator";
 
 let delegate: Wallet;

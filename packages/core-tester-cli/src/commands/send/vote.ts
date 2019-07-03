@@ -1,4 +1,4 @@
-import { Address } from "@arkecosystem/crypto";
+import { Address } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import { satoshiFlag } from "../../flags";
 import { logger } from "../../logger";

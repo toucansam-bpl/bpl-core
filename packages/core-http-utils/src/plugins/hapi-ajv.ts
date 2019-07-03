@@ -1,4 +1,4 @@
-import { AjvWrapper } from "@arkecosystem/crypto";
+import { AjvWrapper } from "@blockpool-io/crypto";
 import Boom from "boom";
 import Hapi from "hapi";
 

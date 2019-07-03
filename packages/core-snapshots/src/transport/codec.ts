@@ -1,4 +1,4 @@
-import { Bignum, models, Transaction } from "@arkecosystem/crypto";
+import { Bignum, models, Transaction } from "@blockpool-io/crypto";
 import { createCodec, decode, encode } from "msgpack-lite";
 import { camelizeKeys, decamelizeKeys } from "xcase";
 

@@ -1,6 +1,6 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/vote";
 
-import { constants } from "@arkecosystem/crypto";
+import { constants } from "@blockpool-io/crypto";
 const { TransactionTypes } = constants;
 
 describe(".toBeVoteType", () => {

@@ -1,10 +1,10 @@
 /* tslint:disable:max-line-length no-empty */
 import "./mocks/core-container";
 
-import { Database } from "@arkecosystem/core-interfaces";
-import { InsufficientBalanceError } from "@arkecosystem/core-transactions/src/errors";
-import { Bignum, constants, crypto, models, transactionBuilder } from "@arkecosystem/crypto";
-import { IMultiSignatureAsset, Transaction } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { InsufficientBalanceError } from "@blockpool-io/core-transactions/src/errors";
+import { Bignum, constants, crypto, models, transactionBuilder } from "@blockpool-io/crypto";
+import { IMultiSignatureAsset, Transaction } from "@blockpool-io/crypto";
 import { Wallet } from "../../../packages/core-database/src";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { fixtures } from "../../utils";

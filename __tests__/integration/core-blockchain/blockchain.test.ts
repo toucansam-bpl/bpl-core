@@ -1,6 +1,6 @@
 /* tslint:disable:max-line-length */
-import { Wallet } from "@arkecosystem/core-database";
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { Wallet } from "@blockpool-io/core-database";
+import { roundCalculator } from "@blockpool-io/core-utils";
 import {
     Bignum,
     crypto,
@@ -10,7 +10,7 @@ import {
     slots,
     sortTransactions,
     transactionBuilder,
-} from "@arkecosystem/crypto";
+} from "@blockpool-io/crypto";
 import { asValue } from "awilix";
 import delay from "delay";
 import { Blockchain } from "../../../packages/core-blockchain/src/blockchain";

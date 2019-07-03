@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database } from "@arkecosystem/core-interfaces";
-import { formatTimestamp } from "@arkecosystem/core-utils";
-import { Transaction } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database } from "@blockpool-io/core-interfaces";
+import { formatTimestamp } from "@blockpool-io/core-utils";
+import { Transaction } from "@blockpool-io/crypto";
 
 export function transformTransaction(model) {
     const blockchain = app.resolvePlugin<Blockchain.IBlockchain>("blockchain");

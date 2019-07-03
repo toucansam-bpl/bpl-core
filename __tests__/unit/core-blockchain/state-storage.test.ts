@@ -1,7 +1,7 @@
 import "./mocks/";
 import { logger } from "./mocks/logger";
 
-import { ITransactionData, models } from "@arkecosystem/crypto";
+import { ITransactionData, models } from "@blockpool-io/crypto";
 import delay from "delay";
 import { config } from "../../../packages/core-blockchain/src/config";
 import { defaults } from "../../../packages/core-blockchain/src/defaults";

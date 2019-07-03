@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import { database } from "./database";
 import { defaults } from "./defaults";
 import { WebhookManager } from "./manager";

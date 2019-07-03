@@ -1,6 +1,6 @@
-import { Blockchain, Container, Database } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { crypto, models } from "@arkecosystem/crypto";
+import { Blockchain, Container, Database } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { crypto, models } from "@blockpool-io/crypto";
 import bip39 from "bip39";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { delegates, genesisBlock, wallets } from "../../utils/fixtures/unitnet";

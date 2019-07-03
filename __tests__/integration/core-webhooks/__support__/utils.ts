@@ -1,4 +1,4 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import "jest-extended";
 
 export async function request(method, path, params = {}) {

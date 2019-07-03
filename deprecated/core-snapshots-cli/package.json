@@ -1,6 +1,6 @@
 {
-    "name": "@arkecosystem/core-snapshots-cli",
-    "description": "Provides live cli interface to the core-snapshots module for ARK Core",
+    "name": "@blockpool-io/core-snapshots-cli",
+    "description": "Provides live cli interface to the core-snapshots module for BPL Core",
     "version": "2.2.0",
     "contributors": [
         "Kristjan Košič <chris@ark.io>"
@@ -47,9 +47,9 @@
         "truncate:testnet": "yarn snapshot truncate --network testnet"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.2.0",
-        "@arkecosystem/core-interfaces": "^2.2.0",
-        "@arkecosystem/core-snapshots": "^2.2.0",
+        "@blockpool-io/core-container": "^2.2.0",
+        "@blockpool-io/core-interfaces": "^2.2.0",
+        "@blockpool-io/core-snapshots": "^2.2.0",
         "@oclif/command": "^1.5.10",
         "@oclif/config": "^1.12.6",
         "@oclif/plugin-help": "^2.1.6",

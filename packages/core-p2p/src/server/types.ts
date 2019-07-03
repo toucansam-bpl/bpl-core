@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { models } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { models } from "@blockpool-io/crypto";
 
 export interface IResponse<T> {
     data: T;

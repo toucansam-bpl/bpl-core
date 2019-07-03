@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain } from "@blockpool-io/core-interfaces";
 import Boom from "boom";
 
 /**

@@ -2,8 +2,8 @@ import "./mocks/core-container";
 
 import "jest-extended";
 
-import { NetworkState, NetworkStateStatus } from "@arkecosystem/core-p2p";
-import { models, Transaction } from "@arkecosystem/crypto";
+import { NetworkState, NetworkStateStatus } from "@blockpool-io/core-p2p";
+import { models, Transaction } from "@blockpool-io/crypto";
 import { defaults } from "../../../packages/core-forger/src/defaults";
 import { ForgerManager } from "../../../packages/core-forger/src/manager";
 import { testnet } from "../../../packages/crypto/src/networks";

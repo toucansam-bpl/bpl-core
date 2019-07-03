@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { P2P } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { P2P } from "@blockpool-io/core-interfaces";
 import Boom from "boom";
 import Hapi from "hapi";
 import semver from "semver";

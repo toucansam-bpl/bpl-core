@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
-import { models } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
+import { models } from "@blockpool-io/crypto";
 import genesisBlock from "../../utils/config/testnet/genesisBlock.json";
 import { setUp, tearDown } from "./__support__/setup";
 

@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import { defaults } from "./defaults";
 import { startServer } from "./server";
 

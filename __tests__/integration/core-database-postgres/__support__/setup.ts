@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
 
 jest.setTimeout(60000);
@@ -15,13 +15,13 @@ const options = {
 
 export const setUp = async () => {
     await setUpContainer({
-        exit: "@arkecosystem/core-database-postgres",
-        exclude: ["@arkecosystem/core-database-postgres"],
+        exit: "@blockpool-io/core-database-postgres",
+        exclude: ["@blockpool-io/core-database-postgres"],
     });
 
     // register first core-database because core-database-postgres extends it
     // (we might improve registerWithContainer to take care of extends)
-    const { plugin: pluginDatabase } = require("@arkecosystem/core-database");
+    const { plugin: pluginDatabase } = require("@blockpool-io/core-database");
     await registerWithContainer(pluginDatabase, options);
 
     const { plugin } = require("../../../../packages/core-database-postgres/src/plugin");

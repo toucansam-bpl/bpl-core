@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { slots } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { slots } from "@blockpool-io/crypto";
 import { dato } from "@faustbrian/dato";
 import partition from "lodash.partition";
 import { Transaction } from "../models";

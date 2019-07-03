@@ -1,16 +1,16 @@
-# ARK Core
+# BPL Core
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/ARKEcosystem/core/master/banner.png" />
+    <img src="https://raw.githubusercontent.com/blockpool-io/core/master/banner.png" />
 </p>
 
-[![Build Status](https://badgen.now.sh/circleci/github/ARKEcosystem/core)](https://circleci.com/gh/ARKEcosystem/core)
+[![Build Status](https://badgen.now.sh/circleci/github/blockpool-io/core)](https://circleci.com/gh/blockpool-io/core)
 [![Codecov](https://badgen.now.sh/codecov/c/github/arkecosystem/core)](https://codecov.io/gh/arkecosystem/core)
 [![License: MIT](https://badgen.now.sh/badge/license/MIT/green)](https://opensource.org/licenses/MIT)
 
 ## Introduction
 
-> This repository contains all plugins that make up the ARK Core.
+> This repository contains all plugins that make up the BPL Core.
 
 Check our [dedicated documentation site](https://docs.ark.io/guidebook/core/plugins/) for information about all available plugins and [How to write a Core Plugin
 ](https://docs.ark.io/tutorials/core/plugins/how-to-write-a-core-plugin.html) if you want to get started with developing your own plugins.
@@ -27,11 +27,11 @@ Check our [dedicated documentation site](https://docs.ark.io/guidebook/core/plug
 
 ## GitHub Development Bounty
 
--   Get involved with the development and start earning ARK : https://bounty.ark.io
+-   Get involved with the development and start earning BPL : https://bounty.ark.io
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to security@ark.io. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this package, please send an e-mail to support@blockpool.io. All security vulnerabilities will be promptly addressed.
 
 ## Credits
 
@@ -39,4 +39,5 @@ This project exists thanks to all the people who [contribute](../../contributors
 
 ## License
 
+[MIT](LICENSE) © [Blockpool](https://blockpool.io)
 [MIT](LICENSE) © [ARK Ecosystem](https://ark.io)

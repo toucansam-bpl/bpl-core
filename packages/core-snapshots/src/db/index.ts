@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { PostgresConnection } from "@arkecosystem/core-database-postgres";
-import { Logger, Shared } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { PostgresConnection } from "@blockpool-io/core-database-postgres";
+import { Logger, Shared } from "@blockpool-io/core-interfaces";
 
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { roundCalculator } from "@blockpool-io/core-utils";
 import { queries } from "./queries";
 import { rawQuery } from "./utils";
 

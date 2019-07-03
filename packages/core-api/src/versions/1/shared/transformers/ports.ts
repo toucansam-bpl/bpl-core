@@ -1,10 +1,10 @@
 export function transformPortsLegacy(config: any) {
     const result = {};
     const keys = [
-        "@arkecosystem/core-p2p",
-        "@arkecosystem/core-api",
-        "@arkecosystem/core-json-rpc",
-        "@arkecosystem/core-webhooks",
+        "@blockpool-io/core-p2p",
+        "@blockpool-io/core-api",
+        "@blockpool-io/core-json-rpc",
+        "@blockpool-io/core-webhooks",
     ];
 
     const plugins = config.get("plugins");

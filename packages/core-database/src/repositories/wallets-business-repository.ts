@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import filterRows from "./utils/filter-rows";
 import limitRows from "./utils/limit-rows";
 import { sortEntries } from "./utils/sort-entries";
@@ -108,6 +108,7 @@ export class WalletsBusinessRepository implements Database.IWalletsBusinessRepos
         if (params.addresses) {
             // Use the `in` filter instead of `exact` for the `address` field
             if (!params.address) {
+                // @ts-ignore
                 params.address = params.addresses;
                 query.exact.shift();
                 query.in = ["address"];

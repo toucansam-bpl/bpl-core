@@ -1,4 +1,4 @@
-import { configManager, crypto } from "@arkecosystem/crypto";
+import { configManager, crypto } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import bip38 from "bip38";
 import bip39 from "bip39";
@@ -13,7 +13,7 @@ export class BIP38Command extends BaseCommand {
 
     public static examples: string[] = [
         `Configure a delegate using an encrypted BIP38
-$ ark config:forger:bip38 --bip39="..." --password="..."
+$ bpl config:forger:bip38 --bip39="..." --password="..."
 `,
     ];
 

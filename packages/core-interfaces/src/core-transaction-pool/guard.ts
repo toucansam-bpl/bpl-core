@@ -1,4 +1,4 @@
-import { ITransactionData, Transaction } from "@arkecosystem/crypto";
+import { ITransactionData, Transaction } from "@blockpool-io/crypto";
 import { IConnection } from "./connection";
 
 export interface ITransactionErrorResponse {

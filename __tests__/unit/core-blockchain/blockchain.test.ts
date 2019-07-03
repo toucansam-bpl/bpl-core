@@ -1,7 +1,7 @@
 /* tslint:disable:max-line-length */
 import "./mocks/";
 
-import { models, slots } from "@arkecosystem/crypto";
+import { models, slots } from "@blockpool-io/crypto";
 import delay from "delay";
 import { Blockchain } from "../../../packages/core-blockchain/src/blockchain";
 import { config as localConfig } from "../../../packages/core-blockchain/src/config";
@@ -299,9 +299,9 @@ describe("Blockchain", () => {
             const blockchainNetworkStart = new Blockchain({ networkStart: true });
 
             expect(loggerWarn).toHaveBeenCalledWith(
-                "ARK Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong.",
+                "BPL Core is launched in Genesis Start mode. This is usually for starting the first node on the blockchain. Unless you know what you are doing, this is likely wrong.",
             );
-            expect(loggerInfo).toHaveBeenCalledWith("Starting ARK Core for a new world, welcome aboard");
+            expect(loggerInfo).toHaveBeenCalledWith("Starting BPL Core for a new world, welcome aboard");
         });
     });
 });

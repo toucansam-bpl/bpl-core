@@ -1,9 +1,9 @@
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Blockchain, Database, EventEmitter, Logger, Shared } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Bignum, configManager, crypto, HashAlgorithms, models, Transaction } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Blockchain, Database, EventEmitter, Logger, Shared } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Bignum, configManager, crypto, HashAlgorithms, models, Transaction } from "@blockpool-io/crypto";
 import assert from "assert";
 
 const { Block } = models;

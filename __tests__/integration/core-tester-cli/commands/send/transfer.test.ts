@@ -1,8 +1,8 @@
-import { httpie } from "@arkecosystem/core-utils";
+import { httpie } from "@blockpool-io/core-utils";
 import "jest-extended";
 import nock from "nock";
 import { TransferCommand } from "../../../../../packages/core-tester-cli/src/commands/send/transfer";
-import { arkToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
+import { bplToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
 
 beforeEach(() => {
     // Just passthru. We'll test the Command class logic in its own test file more thoroughly
@@ -43,8 +43,8 @@ describe("Commands - Transfer", () => {
 
         expectTransactions(expectedTransactions, {
             vendorField: "foo bar",
-            amount: arkToSatoshi(expectedTransactionAmount),
-            fee: arkToSatoshi(expectedFee),
+            amount: bplToSatoshi(expectedTransactionAmount),
+            fee: bplToSatoshi(expectedFee),
             recipientId: expectedRecipientId,
         });
     });

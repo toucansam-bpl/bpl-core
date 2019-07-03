@@ -1,9 +1,9 @@
 import "../../utils";
 import "./mocks/";
 
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { slots } from "@arkecosystem/crypto";
-import { Block } from "@arkecosystem/crypto/dist/models";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { slots } from "@blockpool-io/crypto";
+import { Block } from "@blockpool-io/crypto/dist/models";
 import { config as localConfig } from "../../../packages/core-blockchain/src/config";
 import { stateStorage } from "../../../packages/core-blockchain/src/state-storage";
 import genesisBlockJSON from "../../utils/config/testnet/genesisBlock.json";
@@ -149,7 +149,7 @@ describe("State Machine", () => {
             it("should call container forceExit with error message", () => {
                 const forceExit = jest.spyOn(container.app, "forceExit").mockImplementationOnce(() => null);
                 actionMap.exitApp();
-                expect(forceExit).lastCalledWith("Failed to startup blockchain. Exiting ARK Core!");
+                expect(forceExit).lastCalledWith("Failed to startup blockchain. Exiting BPL Core!");
             });
         });
 

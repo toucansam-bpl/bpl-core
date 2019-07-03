@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, TransactionPool } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database, TransactionPool } from "@blockpool-io/core-interfaces";
 import snakeCase from "lodash.snakecase";
 import { IRepository } from "../interfaces";
 

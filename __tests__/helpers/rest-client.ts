@@ -1,4 +1,4 @@
-import { httpie, IHttpieResponse } from "@arkecosystem/core-utils";
+import { httpie, IHttpieResponse } from "@blockpool-io/core-utils";
 
 export class RestClient {
     public static async get<T = any>(path: string, opts?): Promise<IHttpieResponse<T>> {

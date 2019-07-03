@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { Ajv } from "ajv";
 import * as bs58check from "bs58check";
 import * as ipAddress from "ip";

@@ -1,4 +1,4 @@
-import { crypto } from "@arkecosystem/crypto";
+import { crypto } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import { generateMnemonic } from "bip39";
 import { writeFileSync } from "fs";

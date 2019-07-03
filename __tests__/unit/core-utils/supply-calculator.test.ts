@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import "jest-extended";
 import { calculate } from "../../../packages/core-utils/src/supply-calculator";
 

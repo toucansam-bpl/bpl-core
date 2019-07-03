@@ -1,5 +1,5 @@
 const { benchmarker } = require('@faustbrian/benchmarker');
-const { configManager } = require("@arkecosystem/crypto");
+const { configManager } = require("@blockpool-io/crypto");
 
 configManager.setFromPreset("mainnet");
 

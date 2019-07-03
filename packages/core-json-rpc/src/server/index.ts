@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { createServer, mountServer, plugins } from "@arkecosystem/core-http-utils";
-import { Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { createServer, mountServer, plugins } from "@blockpool-io/core-http-utils";
+import { Logger } from "@blockpool-io/core-interfaces";
 import { registerMethods } from "./methods";
 import { Processor } from "./services/processor";
 

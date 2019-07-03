@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-logger",
-    "description": "Logger Manager for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-logger",
+    "description": "Logger Manager for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -19,8 +19,8 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {
@@ -33,5 +33,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

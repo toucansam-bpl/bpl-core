@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
-import { bignumify, formatTimestamp } from "@arkecosystem/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
+import { bignumify, formatTimestamp } from "@blockpool-io/core-utils";
 
 export function transformBlock(model) {
     const databaseService = app.resolvePlugin<Database.IDatabaseService>("database");

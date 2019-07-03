@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database, EventEmitter, Logger } from "@blockpool-io/core-interfaces";
 import { client } from "../client";
 import { storage } from "../storage";
 

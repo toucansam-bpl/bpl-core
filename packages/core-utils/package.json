@@ -1,7 +1,7 @@
 {
-    "name": "@arkecosystem/core-utils",
-    "description": "Utilities for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-utils",
+    "description": "Utilities for BPL Core",
+    "version": "2.0.0-pre.5",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
@@ -18,9 +18,9 @@
         "clean": "del dist"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "@faustbrian/dato": "^0.2.0",
         "cli-table3": "^0.5.1",
         "fast-json-parse": "^1.0.3",
@@ -31,5 +31,6 @@
     },
     "engines": {
         "node": ">=10.x"
-    }
+    },
+    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
 }

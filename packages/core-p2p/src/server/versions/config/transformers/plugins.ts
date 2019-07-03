@@ -4,7 +4,7 @@
  * @return {Object}
  */
 export function transformPlugins(config) {
-    const allowed = ["@arkecosystem/core-api", "@arkecosystem/core-json-rpc", "@arkecosystem/core-webhooks"];
+    const allowed = ["@blockpool-io/core-api", "@blockpool-io/core-json-rpc", "@blockpool-io/core-webhooks"];
 
     const result = {};
 

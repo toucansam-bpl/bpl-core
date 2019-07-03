@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Database } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { slots } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Database } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { slots } from "@blockpool-io/crypto";
 
 const config = app.getConfig();
 

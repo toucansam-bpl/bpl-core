@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
 
 jest.setTimeout(60000);
@@ -16,7 +16,7 @@ export async function setUp() {
     process.env.CORE_JSON_RPC_ENABLED = true;
 
     await setUpContainer({
-        exclude: ["@arkecosystem/core-webhooks", "@arkecosystem/core-forger", "@arkecosystem/core-json-rpc"],
+        exclude: ["@blockpool-io/core-webhooks", "@blockpool-io/core-forger", "@blockpool-io/core-json-rpc"],
     });
 
     const { plugin } = require("../../../../packages/core-json-rpc/src");

@@ -1,4 +1,4 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import { asValue } from "awilix";
 import { Blockchain } from "./blockchain";
 import { config } from "./config";

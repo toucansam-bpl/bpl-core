@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, Logger } from "@blockpool-io/core-interfaces";
 
 const logger = app.resolvePlugin<Logger.ILogger>("logger");
 

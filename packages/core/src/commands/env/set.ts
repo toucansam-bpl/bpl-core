@@ -8,7 +8,7 @@ export class SetCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Set the log level
-$ ark env:set CORE_LOG_LEVEL info
+$ bpl env:set CORE_LOG_LEVEL info
 `,
     ];
 

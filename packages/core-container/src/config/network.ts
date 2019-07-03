@@ -1,4 +1,4 @@
-import { NetworkManager } from "@arkecosystem/crypto";
+import { NetworkManager } from "@blockpool-io/crypto";
 import Joi from "joi";
 import { schemaNetwork } from "./schema";
 

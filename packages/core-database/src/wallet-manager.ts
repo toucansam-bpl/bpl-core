@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger, Shared } from "@arkecosystem/core-interfaces";
-import { TransactionHandlerRegistry } from "@arkecosystem/core-transactions";
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger, Shared } from "@blockpool-io/core-interfaces";
+import { TransactionHandlerRegistry } from "@blockpool-io/core-transactions";
+import { roundCalculator } from "@blockpool-io/core-utils";
 import {
     Bignum,
     constants,
@@ -11,7 +11,7 @@ import {
     ITransactionData,
     models,
     Transaction,
-} from "@arkecosystem/crypto";
+} from "@blockpool-io/crypto";
 import cloneDeep from "lodash.clonedeep";
 import pluralize from "pluralize";
 import { Wallet } from "./wallet";

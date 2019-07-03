@@ -1,7 +1,7 @@
 import "jest-extended";
 import "./mocks/core-container";
 
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { calculateRound, isNewRound } from "../../../packages/core-utils/src/round-calculator";
 
 describe("Round calculator", () => {

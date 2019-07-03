@@ -1,4 +1,4 @@
-import { Transaction } from "@arkecosystem/crypto";
+import { Transaction } from "@blockpool-io/crypto";
 import { storage } from "../storage";
 import { first, last } from "../utils";
 import { Index } from "./base";

@@ -1,7 +1,7 @@
-import { TransactionPool } from "@arkecosystem/core-interfaces";
+import { TransactionPool } from "@blockpool-io/core-interfaces";
 import { Dato } from "@faustbrian/dato";
 
-import { constants, ITransactionData, models, Transaction } from "@arkecosystem/crypto";
+import { constants, ITransactionData, models, Transaction } from "@blockpool-io/crypto";
 
 export class Connection implements TransactionPool.IConnection {
     public options: any;

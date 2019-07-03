@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import { ConnectionManager } from "./manager";
 
 export const plugin: Container.PluginDescriptor = {

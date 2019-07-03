@@ -1,4 +1,4 @@
-import { configManager, crypto, NetworkName, Transaction } from "@arkecosystem/crypto";
+import { configManager, crypto, NetworkName, Transaction } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import { handleOutput } from "../../utils";
 import { BaseCommand } from "../command";

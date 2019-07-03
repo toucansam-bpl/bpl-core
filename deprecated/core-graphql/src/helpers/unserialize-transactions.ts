@@ -1,4 +1,4 @@
-import { Transaction } from "@arkecosystem/crypto";
+import { Transaction } from "@blockpool-io/crypto";
 
 /**
  * Deserialize multiple transactions

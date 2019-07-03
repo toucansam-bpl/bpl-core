@@ -9,7 +9,7 @@ export class ResetCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Reset the configuration for the mainnet network
-$ ark config:reset --network=mainnet
+$ bpl config:reset --network=mainnet
 `,
     ];
 

@@ -6,7 +6,7 @@ export const SATOSHI: number = 1e8;
 /**
  * Alias of SATOSHI.
  */
-export const ARKTOSHI: number = SATOSHI;
+export const BPLTOSHI: number = SATOSHI;
 
 /**
  * Available transaction types.

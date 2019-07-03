@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 import Boom from "boom";
 import { blocksRepository } from "../../../repositories";
 import { ServerCache } from "../../../services";

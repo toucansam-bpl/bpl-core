@@ -1,4 +1,4 @@
-import { constants, Transaction } from "@arkecosystem/crypto";
+import { constants, Transaction } from "@blockpool-io/crypto";
 import { MemPoolTransaction } from "../../../packages/core-transaction-pool/src/mem-pool-transaction";
 import { transactions } from "./__fixtures__/transactions";
 

@@ -350,7 +350,7 @@ describe("Models - Block", () => {
                 "%s",
                 (network: NetworkName, length: number) => {
                     configManager.setFromPreset(network);
-                    const genesis = require(`@arkecosystem/crypto/src/networks/${network}/genesisBlock.json`);
+                    const genesis = require(`@blockpool-io/crypto/src/networks/${network}/genesisBlock.json`);
                     const serialized = Block.serializeFull(genesis).toString("hex");
                     const genesisBlock = new Block(Block.deserialize(serialized));
                     expect(serialized).toHaveLength(length);

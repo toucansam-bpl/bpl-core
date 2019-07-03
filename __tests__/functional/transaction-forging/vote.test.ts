@@ -1,4 +1,4 @@
-import { Address, PublicKey } from "@arkecosystem/crypto";
+import { Address, PublicKey } from "@blockpool-io/crypto";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { secrets } from "../../utils/config/testnet/delegates.json";
 import * as support from "./__support__";
