@@ -1,31 +1,33 @@
 {
-    "name": "@blockpool-io/core-error-tracker-raygun",
-    "description": "Raygun error tracker integration for BPL Core.",
-    "version": "2.0.0-pre.5",
+    "name": "@arkecosystem/core-error-tracker-raygun",
+    "version": "2.5.7",
+    "description": "Raygun error tracker integration for ARK Core.",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@arkecosystem/core-container": "^2.5.7",
         "raygun": "^0.10.1"
     },
-    "publishConfig": {
-        "access": "public"
+    "devDependencies": {
+        "@types/raygun": "^0.10.1"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    }
 }

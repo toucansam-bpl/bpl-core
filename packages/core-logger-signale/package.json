@@ -1,33 +1,35 @@
 {
-    "name": "@blockpool-io/core-logger-signale",
-    "description": "Signale integration for BPL Core",
-    "version": "2.0.0-pre.5",
+    "name": "@arkecosystem/core-logger-signale",
+    "version": "2.5.7",
+    "description": "Signale integration for ARK Core",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index",
-    "types": "dist/index",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
+    "types": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
-        "@blockpool-io/core-logger": "^2.0.0-pre.5",
+        "@arkecosystem/core-interfaces": "^2.5.7",
+        "@arkecosystem/core-logger": "^2.5.7",
         "signale": "^1.4.0"
     },
-    "publishConfig": {
-        "access": "public"
+    "devDependencies": {
+        "@types/signale": "^1.2.1"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    }
 }

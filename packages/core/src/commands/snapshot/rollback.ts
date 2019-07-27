@@ -1,6 +1,5 @@
-import { app } from "@blockpool-io/core-container";
-import { Logger } from "@blockpool-io/core-interfaces";
-import { SnapshotManager } from "@blockpool-io/core-snapshots";
+import { app } from "@arkecosystem/core-container";
+import { SnapshotManager } from "@arkecosystem/core-snapshots";
 import { flags } from "@oclif/command";
 import { setUpLite } from "../../helpers/snapshot";
 import { CommandFlags } from "../../types";

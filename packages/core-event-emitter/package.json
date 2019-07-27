@@ -1,27 +1,26 @@
 {
-    "name": "@blockpool-io/core-event-emitter",
-    "description": "Event Manager for BPL Core",
-    "version": "2.0.0-pre.3",
+    "name": "@arkecosystem/core-event-emitter",
+    "version": "2.5.7",
+    "description": "Event Manager for ARK Core",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
-    },
-    "publishConfig": {
-        "access": "public"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    }
 }

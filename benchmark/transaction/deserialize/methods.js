@@ -1,7 +1,7 @@
 const {
-    TransactionDeserializer
-} = require('@blockpool-io/crypto')
+    Transactions
+} = require('@arkecosystem/crypto')
 
 exports.deserialize = data => {
-    return TransactionDeserializer.deserialize(data)
+    return Transactions.deserializer.deserialize(data)
 }

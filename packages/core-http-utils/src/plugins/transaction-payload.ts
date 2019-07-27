@@ -1,5 +1,5 @@
-import { app } from "@blockpool-io/core-container";
-import Boom from "boom";
+import { app } from "@arkecosystem/core-container";
+import Boom from "@hapi/boom";
 
 export const transactionPayload = {
     name: "transaction-payload",

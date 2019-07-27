@@ -7,7 +7,8 @@
         "block": {
             "version": 0,
             "maxTransactions": 50,
-            "maxPayload": 2097152
+            "maxPayload": 2097152,
+            "acceptExpiredTransactionTimestamps": true
         },
         "epoch": "2019-06-05T22:27:05.400Z",
         "fees": {
@@ -20,7 +21,7 @@
                 "ipfs": 0,
                 "timelockTransfer": 0,
                 "multiPayment": 0,
-                "delegateResignation": 0
+                "delegateResignation": 2500000000
             }
         },
         "vendorFieldLength": 255

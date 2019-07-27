@@ -3,7 +3,7 @@ import { LoggerManager } from "@blockpool-io/core-logger";
 import { defaults } from "./defaults";
 import { WinstonLogger } from "./driver";
 
-export const plugin: Container.PluginDescriptor = {
+export const plugin: Container.IPluginDescriptor = {
     pkg: require("../package.json"),
     defaults,
     alias: "logger",

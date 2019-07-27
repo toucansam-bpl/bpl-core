@@ -1,31 +1,30 @@
 {
-    "name": "@blockpool-io/core-error-tracker-sentry",
-    "description": "Sentry error tracker integration for BPL Core.",
-    "version": "2.0.0-pre.5",
+    "name": "@arkecosystem/core-error-tracker-sentry",
+    "version": "2.5.7",
+    "description": "Sentry error tracker integration for ARK Core.",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.5",
-        "@sentry/node": "^4.6.4"
-    },
-    "publishConfig": {
-        "access": "public"
+        "@arkecosystem/core-container": "^2.5.7",
+        "@sentry/node": "^5.5.0"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    }
 }

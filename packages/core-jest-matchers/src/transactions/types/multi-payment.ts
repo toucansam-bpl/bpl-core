@@ -1,6 +1,6 @@
-import { constants } from "@blockpool-io/crypto";
+import { Enums } from "@arkecosystem/crypto";
 
-const { MultiPayment } = constants.TransactionTypes;
+const { MultiPayment } = Enums.TransactionTypes;
 
 export {};
 
