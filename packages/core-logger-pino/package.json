@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-logger-pino",
-    "version": "2.0.0-pre.6",
+    "version": "2.0.0-pre.9",
     "description": "Pino integration for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,9 +19,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.6",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.6",
-        "@blockpool-io/core-logger": "^2.0.0-pre.6",
+        "@blockpool-io/core-container": "^2.0.0-pre.9",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.9",
+        "@blockpool-io/core-logger": "^2.0.0-pre.9",
         "pino": "^5.12.6",
         "pino-pretty": "^3.2.0",
         "pump": "^3.0.0",

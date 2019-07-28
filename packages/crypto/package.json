@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/crypto",
-    "version": "2.0.0-pre.6",
+    "version": "2.0.0-pre.9",
     "description": "Crypto utilities for the ARK Blockchain",
     "license": "MIT",
     "contributors": [
