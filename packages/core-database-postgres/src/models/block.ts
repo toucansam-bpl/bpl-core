@@ -1,5 +1,6 @@
 import { Database } from "@blockpool-io/core-interfaces";
-import { bignumify } from "@blockpool-io/core-utils";
+import { Utils } from "@blockpool-io/crypto";
+import { IColumnDescriptor } from "../interfaces";
 import { Model } from "./model";
 
 export class Block extends Model {

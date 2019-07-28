@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-utils",
-    "version": "2.0.0-pre.11",
+    "version": "2.0.0-pre.10",
     "description": "Utilities for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -18,9 +18,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.11",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.11",
-        "@blockpool-io/crypto": "^2.0.0-pre.11",
+        "@blockpool-io/core-container": "^2.0.0-pre.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.10",
+        "@blockpool-io/crypto": "^2.0.0-pre.10",
         "cli-table3": "^0.5.1",
         "dayjs": "^1.8.15",
         "fast-json-parse": "^1.0.3",
@@ -37,5 +37,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
+    "gitHead": "7282f6682bd76a1666e1ddf7673c1942fc3a2c3d"
 }

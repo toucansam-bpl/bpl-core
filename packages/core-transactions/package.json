@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-transactions",
-    "version": "2.0.0-pre.11",
+    "version": "2.0.0-pre.10",
     "description": "Transaction Services for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,9 +19,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-event-emitter": "^2.0.0-pre.11",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.11",
-        "@blockpool-io/crypto": "^2.0.0-pre.11",
+        "@blockpool-io/core-event-emitter": "^2.0.0-pre.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.10",
+        "@blockpool-io/crypto": "^2.0.0-pre.10",
         "bs58check": "^2.1.2"
     },
     "engines": {
@@ -30,5 +30,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
+    "gitHead": "7282f6682bd76a1666e1ddf7673c1942fc3a2c3d"
 }

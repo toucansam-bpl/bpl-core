@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-state",
-    "version": "2.0.0-pre.11",
+    "version": "2.0.0-pre.10",
     "description": "State Management for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -21,11 +21,11 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.11",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.11",
-        "@blockpool-io/core-transactions": "^2.0.0-pre.11",
-        "@blockpool-io/core-utils": "^2.0.0-pre.11",
-        "@blockpool-io/crypto": "^2.0.0-pre.11",
+        "@blockpool-io/core-container": "^2.0.0-pre.10",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.10",
+        "@blockpool-io/core-transactions": "^2.0.0-pre.10",
+        "@blockpool-io/core-utils": "^2.0.0-pre.10",
+        "@blockpool-io/crypto": "^2.0.0-pre.10",
         "immutable": "^4.0.0-rc.12",
         "lodash.clonedeep": "^4.5.0",
         "pluralize": "^8.0.0"
@@ -40,5 +40,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
+    "gitHead": "7282f6682bd76a1666e1ddf7673c1942fc3a2c3d"
 }
