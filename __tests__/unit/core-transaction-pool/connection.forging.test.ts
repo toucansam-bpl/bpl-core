@@ -55,7 +55,7 @@ describe("Connection", () => {
         for (let i = 0; i < delegates.length; i++) {
             const { publicKey } = delegates[i];
             const wallet = databaseWalletManager.findByPublicKey(publicKey);
-            wallet.balance = Utils.BigNumber.make(100_000 * Constants.ARKTOSHI);
+            wallet.balance = Utils.BigNumber.make(100_000 * Constants.BPLTOSHI);
             wallet.username = `delegate-${i + 1}`;
             wallet.vote = publicKey;
 

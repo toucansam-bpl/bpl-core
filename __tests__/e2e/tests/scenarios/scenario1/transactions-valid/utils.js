@@ -112,13 +112,13 @@ const wallets = {
     ],
 };
 
-const arktoshi = 10 ** 8;
+const bpltoshi = 10 ** 8;
 
 const fees = {
-    transfer: 0.1 * arktoshi,
-    vote: 1 * arktoshi,
-    secondSignRegistration: 5 * arktoshi,
-    delegateRegistration: 25 * arktoshi,
+    transfer: 0.1 * bpltoshi,
+    vote: 1 * bpltoshi,
+    secondSignRegistration: 5 * bpltoshi,
+    delegateRegistration: 25 * bpltoshi,
 };
 
 module.exports = {

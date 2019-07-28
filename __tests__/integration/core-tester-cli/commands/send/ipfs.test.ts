@@ -4,7 +4,7 @@ import { httpie } from "@blockpool-io/core-utils";
 import { Managers } from "@blockpool-io/crypto";
 import nock from "nock";
 import { IpfsCommand } from "../../../../../packages/core-tester-cli/src/commands/send/ipfs";
-import { arkToSatoshi, captureTransactions, toFlags } from "../../shared";
+import { bplToSatoshi, captureTransactions, toFlags } from "../../shared";
 
 beforeEach(() => {
     // Just passthru. We'll test the Command class logic in its own test file more thoroughly
@@ -44,7 +44,7 @@ describe("Commands - Ipfs", () => {
         expectedTransactions
             .filter(tx => tx.type === 5)
             .map(tx => {
-                expect(tx.fee).toEqual(arkToSatoshi(opts.ipfsFee));
+                expect(tx.fee).toEqual(bplToSatoshi(opts.ipfsFee));
                 expect(tx.asset.ipfs).toEqual(`Qm${tx.senderPublicKey.slice(0, 44)}`);
             });
     });
@@ -64,7 +64,7 @@ describe("Commands - Ipfs", () => {
         expectedTransactions
             .filter(tx => tx.type === 5)
             .map(tx => {
-                expect(tx.fee).toEqual(arkToSatoshi(5));
+                expect(tx.fee).toEqual(bplToSatoshi(5));
                 expect(tx.asset.ipfs).toEqual(`Qm${tx.senderPublicKey.slice(0, 44)}`);
             });
     });
