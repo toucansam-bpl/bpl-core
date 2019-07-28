@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/crypto",
-    "version": "2.0.0-pre.7",
+    "version": "2.0.0-pre.6",
     "description": "Crypto utilities for the ARK Blockchain",
     "license": "MIT",
     "contributors": [
@@ -69,5 +69,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
 }

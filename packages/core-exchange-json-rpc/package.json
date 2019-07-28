@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-exchange-json-rpc",
-    "version": "2.0.0-pre.7",
+    "version": "2.0.0-pre.6",
     "description": "Exchange JSON-RPC for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,14 +19,15 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.7",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.7",
-        "@blockpool-io/exchange-json-rpc": "^1.0.3"
+        "@blockpool-io/core-container": "^2.0.0-pre.6",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.6",
+        "@arkecosystem/exchange-json-rpc": "^1.0.3"
     },
     "engines": {
         "node": ">=10.x"
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
 }

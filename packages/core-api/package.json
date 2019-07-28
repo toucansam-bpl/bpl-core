@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-api",
-    "version": "2.0.0-pre.7",
+    "version": "2.0.0-pre.6",
     "description": "Public API for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -21,13 +21,13 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.7",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.7",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.7",
-        "@blockpool-io/core-transaction-pool": "^2.0.0-pre.7",
-        "@blockpool-io/core-utils": "^2.0.0-pre.7",
-        "@blockpool-io/crypto": "^2.0.0-pre.7",
-        "@blockpool-io/utils": "^0.3.0",
+        "@blockpool-io/core-container": "^2.0.0-pre.6",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.6",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.6",
+        "@blockpool-io/core-transaction-pool": "^2.0.0-pre.6",
+        "@blockpool-io/core-utils": "^2.0.0-pre.6",
+        "@blockpool-io/crypto": "^2.0.0-pre.6",
+        "@arkecosystem/utils": "^0.3.0",
         "@hapi/boom": "^7.4.2",
         "@hapi/joi": "^15.1.0",
         "ajv": "^6.10.2",
@@ -57,5 +57,6 @@
     },
     "publishConfig": {
         "access": "public"
-    }
+    },
+    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
 }
