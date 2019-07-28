@@ -206,7 +206,7 @@ success "Installed system updates!"
 heading "Installing BPL Core..."
 
 while ! yarn global add @blockpool-io/core ; do
-    read -p "Installing ARK Core failed, do you want to retry? [y/N]: " choice
+    read -p "Installing Blockpool Core failed, do you want to retry? [y/N]: " choice
     if [[ ! "$choice" =~ ^(yes|y|Y) ]] ; then
         exit 1
     fi
@@ -243,9 +243,9 @@ if [[ "$choice" =~ ^(yes|y|Y) ]]; then
         read -p "Proceed? [y/N]: " choice
     done
 
-    ark env:set CORE_DB_USERNAME "${databaseUsername}"
-    ark env:set CORE_DB_PASSWORD "${databasePassword}"
-    ark env:set CORE_DB_DATABASE "${databaseName}"
+    bpl env:set CORE_DB_USERNAME "${databaseUsername}"
+    bpl env:set CORE_DB_PASSWORD "${databasePassword}"
+    bpl env:set CORE_DB_DATABASE "${databaseName}"
 
     userExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_user WHERE usename = '${databaseUsername}'")
     databaseExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname = '${databaseName}'")

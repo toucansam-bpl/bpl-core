@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -e
+
 # Typography
 red=$(tput setaf 1)
 green=$(tput setaf 2)
@@ -39,8 +41,8 @@ error ()
 }
 
 # Detect pkg type
-DEB=$(which apt-get)
-RPM=$(which yum)
+DEB=$(which apt-get || :)
+RPM=$(which yum || :)
 
 # Detect SystemV / SystemD
 SYS=$([[ -L "/sbin/init" ]] && echo 'SystemD' || echo 'SystemV')
@@ -105,12 +107,12 @@ sudo rm -rf ~/{.npm,.forever,.node*,.cache,.nvm}
 
 if [[ ! -z $DEB ]]; then
     sudo wget --quiet -O - https://deb.nodesource.com/gpgkey/nodesource.gpg.key | sudo apt-key add -
-    (echo "deb https://deb.nodesource.com/node_10.x $(lsb_release -s -c) main" | sudo tee /etc/apt/sources.list.d/nodesource.list)
+    (echo "deb https://deb.nodesource.com/node_11.x $(lsb_release -s -c) main" | sudo tee /etc/apt/sources.list.d/nodesource.list)
     sudo apt-get update
     sudo apt-get install nodejs -y
 elif [[ ! -z $RPM ]]; then
     sudo yum install gcc-c++ make -y
-    curl -sL https://rpm.nodesource.com/setup_10.x | sudo -E bash - > /dev/null 2>&1
+    curl -sL https://rpm.nodesource.com/setup_11.x | sudo -E bash - > /dev/null 2>&1
 fi
 
 success "Installed node.js & npm!"
@@ -180,7 +182,9 @@ elif [[ ! -z $RPM ]]; then
     sudo yum install ntp -y -q
 fi
 
-sudo ntpd -gq
+if [ -z "$(sudo service ntp status |grep running)" ] ; then
+    sudo ntpd -gq
+fi
 
 success "Installed NTP!"
 
@@ -199,32 +203,55 @@ fi
 
 success "Installed system updates!"
 
-heading "Installing BPL Core..."
+heading "Installing Blockpool Core..."
 
-yarn global add @blockpool-io/core
+while ! yarn global add @blockpool-io/core@next ; do
+    read -p "Installing Blockpool Core failed, do you want to retry? [y/N]: " choice
+    if [[ ! "$choice" =~ ^(yes|y|Y) ]] ; then
+        exit 1
+    fi
+done
+
 echo 'export PATH=$(yarn global bin):$PATH' >> ~/.bashrc
 export PATH=$(yarn global bin):$PATH
 bpl config:publish
 
-success "Installed BPL Core!"
+success "Installed Blockpool Core!"
+
+readNonempty() {
+    prompt=${1}
+    answer=""
+    while [ -z "${answer}" ] ; do
+        read -p "${prompt}" answer
+    done
+    echo "${answer}"
+}
 
 # setup postgres username, password and database
 read -p "Would you like to configure the database? [y/N]: " choice
 
 if [[ "$choice" =~ ^(yes|y|Y) ]]; then
-    read -p "Enter the database username: " databaseUsername
-    read -p "Enter the database password: " databasePassword
-    read -p "Enter the database name: " databaseName
+    choice=""
+    while [[ ! "$choice" =~ ^(yes|y|Y) ]] ; do
+        databaseUsername=$(readNonempty "Enter the database username: ")
+        databasePassword=$(readNonempty "Enter the database password: ")
+        databaseName=$(readNonempty "Enter the database name: ")
 
-    bpl env:set CORE_DB_USERNAME $databaseUsername
-    bpl env:set CORE_DB_PASSWORD $databasePassword
-    bpl env:set CORE_DB_DATABASE $databaseName
+        echo "database username: ${databaseUsername}"
+        echo "database password: ${databasePassword}"
+        echo "database name: ${databaseName}"
+        read -p "Proceed? [y/N]: " choice
+    done
 
-    userExists=$(sudo -i -u postgres psql -c "SELECT * FROM pg_user WHERE usename = '${databaseUsername}'" | grep -c "1 row")
+    bpl env:set CORE_DB_USERNAME "${databaseUsername}"
+    bpl env:set CORE_DB_PASSWORD "${databasePassword}"
+    bpl env:set CORE_DB_DATABASE "${databaseName}"
+
+    userExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_user WHERE usename = '${databaseUsername}'")
     databaseExists=$(sudo -i -u postgres psql -tAc "SELECT 1 FROM pg_database WHERE datname = '${databaseName}'")
 
     if [[ $userExists == 1 ]]; then
-        read -p "The database user ${databaseUsername} already exists, do you want to overwrite it? [y/N]: " choice
+        read -p "The database user ${databaseUsername} already exists, do you want to recreate it? [y/N]: " choice
 
         if [[ "$choice" =~ ^(yes|y|Y) ]]; then
             if [[ $databaseExists == 1 ]]; then
@@ -232,8 +259,6 @@ if [[ "$choice" =~ ^(yes|y|Y) ]]; then
             fi
             sudo -i -u postgres psql -c "DROP USER ${databaseUsername}"
             sudo -i -u postgres psql -c "CREATE USER ${databaseUsername} WITH PASSWORD '${databasePassword}' CREATEDB;"
-        elif [[ "$choice" =~ ^(no|n|N) ]]; then
-            continue;
         fi
     else
         sudo -i -u postgres psql -c "CREATE USER ${databaseUsername} WITH PASSWORD '${databasePassword}' CREATEDB;"
