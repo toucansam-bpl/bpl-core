@@ -5,11 +5,11 @@ import { utils } from "../utils";
 
 import { blocks2to100 } from "../../../utils/fixtures/testnet/blocks2to100";
 
-import { Blocks, Utils } from "@arkecosystem/crypto";
+import { Blocks, Utils } from "@blockpool-io/crypto";
 const { BlockFactory } = Blocks;
 
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 
 const delegate = {
     username: "genesis_10",

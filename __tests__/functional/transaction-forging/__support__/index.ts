@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { Container, Database, State } from "@arkecosystem/core-interfaces";
-import { Identities, Managers, Utils } from "@arkecosystem/crypto";
+import { Container, Database, State } from "@blockpool-io/core-interfaces";
+import { Identities, Managers, Utils } from "@blockpool-io/crypto";
 import delay from "delay";
 import { secrets } from "../../../utils/config/testnet/delegates.json";
 import { setUpContainer } from "../../../utils/helpers/container";
@@ -13,15 +13,15 @@ export const setUp = async (): Promise<void> => {
     try {
         app = await setUpContainer({
             include: [
-                "@arkecosystem/core-event-emitter",
-                "@arkecosystem/core-logger-pino",
-                "@arkecosystem/core-state",
-                "@arkecosystem/core-database-postgres",
-                "@arkecosystem/core-transaction-pool",
-                "@arkecosystem/core-p2p",
-                "@arkecosystem/core-blockchain",
-                "@arkecosystem/core-api",
-                "@arkecosystem/core-forger",
+                "@blockpool-io/core-event-emitter",
+                "@blockpool-io/core-logger-pino",
+                "@blockpool-io/core-state",
+                "@blockpool-io/core-database-postgres",
+                "@blockpool-io/core-transaction-pool",
+                "@blockpool-io/core-p2p",
+                "@blockpool-io/core-blockchain",
+                "@blockpool-io/core-api",
+                "@blockpool-io/core-forger",
             ],
         });
 

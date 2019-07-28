@@ -1,4 +1,4 @@
-import { Container, Logger, TransactionPool } from "@arkecosystem/core-interfaces";
+import { Container, Logger, TransactionPool } from "@blockpool-io/core-interfaces";
 import { Connection } from "./connection";
 import { defaults } from "./defaults";
 import { ConnectionManager } from "./manager";

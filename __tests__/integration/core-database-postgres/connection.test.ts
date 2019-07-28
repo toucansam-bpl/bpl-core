@@ -1,8 +1,8 @@
 import "jest-extended";
 
-import { app } from "@arkecosystem/core-container";
-import { Database, State } from "@arkecosystem/core-interfaces";
-import { Blocks, Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, State } from "@blockpool-io/core-interfaces";
+import { Blocks, Interfaces } from "@blockpool-io/crypto";
 import { genesisBlock } from "../../utils/config/testnet/genesisBlock";
 import { setUp, tearDown } from "./__support__/setup";
 

@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger, P2P } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Logger, P2P } from "@blockpool-io/core-interfaces";
 import SocketCluster from "socketcluster";
 import { SocketErrors } from "../enums";
 import { requestSchemas } from "../schemas";

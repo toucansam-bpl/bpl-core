@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { plugin } from "../../../../packages/core-database-postgres/src/plugin";
 import { plugin as pluginDatabase } from "../../../../packages/core-database/src/plugin";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";

@@ -1,5 +1,5 @@
-import { httpie } from "@arkecosystem/core-utils";
-import { Utils } from "@arkecosystem/crypto";
+import { httpie } from "@blockpool-io/core-utils";
+import { Utils } from "@blockpool-io/crypto";
 
 const defaultOpts = ["--skipProbing"];
 

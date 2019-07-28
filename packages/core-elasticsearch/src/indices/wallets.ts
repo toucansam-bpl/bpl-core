@@ -1,5 +1,5 @@
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { State } from "@arkecosystem/core-interfaces";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { State } from "@blockpool-io/core-interfaces";
 import { Index } from "./base";
 
 export class Wallets extends Index {

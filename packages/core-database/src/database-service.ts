@@ -1,9 +1,9 @@
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Database, EventEmitter, Logger, Shared, State } from "@arkecosystem/core-interfaces";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Blocks, Crypto, Identities, Interfaces, Managers, Transactions, Utils } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Database, EventEmitter, Logger, Shared, State } from "@blockpool-io/core-interfaces";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Blocks, Crypto, Identities, Interfaces, Managers, Transactions, Utils } from "@blockpool-io/crypto";
 import assert from "assert";
 
 export class DatabaseService implements Database.IDatabaseService {

@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { Interfaces, Utils } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { Interfaces, Utils } from "@blockpool-io/crypto";
 import { Block } from "../models";
 import { queries } from "../queries";
 import { Repository } from "./repository";

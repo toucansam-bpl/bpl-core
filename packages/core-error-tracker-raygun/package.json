@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-error-tracker-raygun",
+    "name": "@blockpool-io/core-error-tracker-raygun",
     "version": "2.5.7",
     "description": "Raygun error tracker integration for ARK Core.",
     "license": "MIT",
@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.5.7",
+        "@blockpool-io/core-container": "^2.5.7",
         "raygun": "^0.10.1"
     },
     "devDependencies": {

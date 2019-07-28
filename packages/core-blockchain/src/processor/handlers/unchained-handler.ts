@@ -1,9 +1,9 @@
 // tslint:disable:max-classes-per-file
 
-import { app } from "@arkecosystem/core-container";
-import { Shared, State } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Shared, State } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Interfaces } from "@blockpool-io/crypto";
 import { Blockchain } from "../../blockchain";
 import { BlockProcessorResult } from "../block-processor";
 import { BlockHandler } from "./block-handler";

@@ -1,12 +1,12 @@
 import { strictEqual } from "assert";
 import clonedeep from "lodash.clonedeep";
 
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Database, EventEmitter, Logger, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Wallets } from "@arkecosystem/core-state";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Enums, Interfaces, Transactions, Utils } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Database, EventEmitter, Logger, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Wallets } from "@blockpool-io/core-state";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Enums, Interfaces, Transactions, Utils } from "@blockpool-io/crypto";
 import { ITransactionsProcessed } from "./interfaces";
 import { Memory } from "./memory";
 import { Processor } from "./processor";

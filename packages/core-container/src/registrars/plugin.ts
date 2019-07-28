@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import Hoek from "@hapi/hoek";
 import { asValue } from "awilix";
 import isString from "lodash.isstring";

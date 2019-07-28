@@ -1,6 +1,6 @@
 // tslint:disable:max-classes-per-file
 
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@blockpool-io/crypto";
 
 export class ServerError extends Error {
     constructor(message: string) {

@@ -1,4 +1,4 @@
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@blockpool-io/crypto";
 import { IPeer } from "./peer";
 
 export interface IPeerCommunicator {

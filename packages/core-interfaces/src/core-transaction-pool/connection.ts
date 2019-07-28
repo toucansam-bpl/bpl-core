@@ -1,4 +1,4 @@
-import { Enums, Interfaces } from "@arkecosystem/crypto";
+import { Enums, Interfaces } from "@blockpool-io/crypto";
 import { IProcessor } from "./processor";
 
 export interface IAddTransactionResponse {

@@ -1,6 +1,6 @@
 /* tslint:disable:no-empty */
-import { State } from "@arkecosystem/core-interfaces";
-import { Blocks, Interfaces } from "@arkecosystem/crypto";
+import { State } from "@blockpool-io/core-interfaces";
+import { Blocks, Interfaces } from "@blockpool-io/crypto";
 
 export class StateStorageStub implements State.IStateStorage {
     public blockchain: any;

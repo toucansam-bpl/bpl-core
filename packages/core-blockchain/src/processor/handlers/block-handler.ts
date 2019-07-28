@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { Interfaces } from "@blockpool-io/crypto";
 import { Blockchain } from "../../blockchain";
 import { BlockProcessorResult } from "../block-processor";
 

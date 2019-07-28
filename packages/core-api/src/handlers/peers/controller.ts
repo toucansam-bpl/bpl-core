@@ -1,4 +1,4 @@
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 import Boom from "@hapi/boom";
 import Hapi from "@hapi/hapi";
 import semver from "semver";

@@ -1,4 +1,4 @@
-import { Identities, Managers, Types, Utils } from "@arkecosystem/crypto";
+import { Identities, Managers, Types, Utils } from "@blockpool-io/crypto";
 import Command, { flags } from "@oclif/command";
 import delay from "delay";
 import { satoshiFlag } from "../flags";

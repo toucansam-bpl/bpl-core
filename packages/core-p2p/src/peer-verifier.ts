@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger, P2P, Shared, State } from "@arkecosystem/core-interfaces";
-import { CappedSet, NSect, roundCalculator } from "@arkecosystem/core-utils";
-import { Blocks, Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger, P2P, Shared, State } from "@blockpool-io/core-interfaces";
+import { CappedSet, NSect, roundCalculator } from "@blockpool-io/core-utils";
+import { Blocks, Interfaces } from "@blockpool-io/crypto";
 import assert from "assert";
 import { inspect } from "util";
 import { Severity } from "./enums";

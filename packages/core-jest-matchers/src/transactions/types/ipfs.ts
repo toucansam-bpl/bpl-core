@@ -1,4 +1,4 @@
-import { Enums } from "@arkecosystem/crypto";
+import { Enums } from "@blockpool-io/crypto";
 
 const { Ipfs } = Enums.TransactionTypes;
 

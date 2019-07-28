@@ -1,5 +1,5 @@
-import { OrderedCappedMap } from "@arkecosystem/core-utils";
-import { Interfaces } from "@arkecosystem/crypto";
+import { OrderedCappedMap } from "@blockpool-io/core-utils";
+import { Interfaces } from "@blockpool-io/crypto";
 import assert from "assert";
 
 export class BlockStore {

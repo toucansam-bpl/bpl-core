@@ -1,4 +1,4 @@
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@blockpool-io/crypto";
 import SocketCluster from "socketcluster";
 import { INetworkState } from "./network-state";
 

@@ -1,4 +1,4 @@
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 import { cidr } from "ip";
 import { PeerRepository } from "./peer-repository";
 

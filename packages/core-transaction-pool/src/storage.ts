@@ -1,4 +1,4 @@
-import { Interfaces, Transactions } from "@arkecosystem/crypto";
+import { Interfaces, Transactions } from "@blockpool-io/crypto";
 import { strictEqual } from "assert";
 import BetterSqlite3 from "better-sqlite3";
 import { ensureFileSync } from "fs-extra";

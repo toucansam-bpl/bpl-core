@@ -1,6 +1,6 @@
 import "jest-extended";
 
-import { Utils } from "@arkecosystem/crypto";
+import { Utils } from "@blockpool-io/crypto";
 import {
     MalformedTransactionBytesError,
     TransactionTypeError,

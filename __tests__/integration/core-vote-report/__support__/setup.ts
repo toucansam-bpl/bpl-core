@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { asValue } from "awilix";
 import { defaults } from "../../../../packages/core-vote-report/src/defaults";
 import { startServer } from "../../../../packages/core-vote-report/src/server";

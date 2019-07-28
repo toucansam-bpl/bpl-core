@@ -1,9 +1,9 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter/dist";
-import { Blockchain, EventEmitter, Logger, P2P } from "@arkecosystem/core-interfaces";
-import { Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter/dist";
+import { Blockchain, EventEmitter, Logger, P2P } from "@blockpool-io/core-interfaces";
+import { Interfaces } from "@blockpool-io/crypto";
 import delay from "delay";
 import groupBy from "lodash.groupby";
 import sample from "lodash.sample";

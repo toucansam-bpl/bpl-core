@@ -1,8 +1,8 @@
 // tslint:disable:max-classes-per-file
 // tslint:disable:member-ordering
 
-import { Database, EventEmitter, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Enums, Interfaces, Managers, Transactions } from "@arkecosystem/crypto";
+import { Database, EventEmitter, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Enums, Interfaces, Managers, Transactions } from "@blockpool-io/crypto";
 import {
     InsufficientBalanceError,
     InvalidMultiSignatureError,

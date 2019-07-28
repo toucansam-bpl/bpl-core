@@ -1,4 +1,4 @@
-import { Container, Logger } from "@arkecosystem/core-interfaces";
+import { Container, Logger } from "@blockpool-io/core-interfaces";
 import history from "connect-history-api-fallback";
 import express, { Handler } from "express";
 import { existsSync } from "fs";

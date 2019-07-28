@@ -1,8 +1,8 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { EventEmitter, Logger, P2P } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { EventEmitter, Logger, P2P } from "@blockpool-io/core-interfaces";
 import { Peer } from "./peer";
 import { isValidPeer, isWhitelisted } from "./utils";
 

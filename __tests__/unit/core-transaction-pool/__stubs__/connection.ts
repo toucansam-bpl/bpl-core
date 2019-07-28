@@ -1,5 +1,5 @@
-import { TransactionPool } from "@arkecosystem/core-interfaces";
-import { Blocks, Enums, Interfaces } from "@arkecosystem/crypto";
+import { TransactionPool } from "@blockpool-io/core-interfaces";
+import { Blocks, Enums, Interfaces } from "@blockpool-io/crypto";
 import { ITransactionsProcessed } from "../../../../packages/core-transaction-pool/src/interfaces";
 import { Memory } from "../../../../packages/core-transaction-pool/src/memory";
 import { Storage } from "../../../../packages/core-transaction-pool/src/storage";

@@ -1,4 +1,4 @@
-import { createServer, mountServer } from "@arkecosystem/core-http-utils";
+import { createServer, mountServer } from "@blockpool-io/core-http-utils";
 import Boom from "@hapi/boom";
 import Joi from "@hapi/joi";
 import { client } from "./client";

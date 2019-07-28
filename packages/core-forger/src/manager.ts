@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Logger, P2P } from "@arkecosystem/core-interfaces";
-import { NetworkStateStatus } from "@arkecosystem/core-p2p";
-import { Blocks, Crypto, Interfaces, Managers, Transactions, Types } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Logger, P2P } from "@blockpool-io/core-interfaces";
+import { NetworkStateStatus } from "@blockpool-io/core-p2p";
+import { Blocks, Crypto, Interfaces, Managers, Transactions, Types } from "@blockpool-io/crypto";
 import isEmpty from "lodash.isempty";
 import uniq from "lodash.uniq";
 import pluralize from "pluralize";

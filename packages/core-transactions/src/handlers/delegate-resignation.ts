@@ -1,6 +1,6 @@
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Database, EventEmitter, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Interfaces, Transactions } from "@arkecosystem/crypto";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Database, EventEmitter, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Interfaces, Transactions } from "@blockpool-io/crypto";
 import { WalletAlreadyResignedError, WalletUsernameEmptyError } from "../errors";
 import { TransactionHandler } from "./transaction";
 

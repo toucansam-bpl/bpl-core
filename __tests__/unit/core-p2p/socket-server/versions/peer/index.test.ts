@@ -3,7 +3,7 @@ import "../../../mocks/core-container";
 import { blockchain } from "../../../mocks/blockchain";
 import { database } from "../../../mocks/database";
 
-import { Crypto } from "@arkecosystem/crypto";
+import { Crypto } from "@blockpool-io/crypto";
 import { acceptNewPeer } from "../../../../../../packages/core-p2p/src/socket-server/versions/internal";
 import {
     getBlocks,
@@ -16,7 +16,7 @@ import {
 import { createPeerService } from "../../../../../helpers/peers";
 import { block2 } from "../../../../../utils/fixtures/unitnet/blocks";
 
-jest.mock("@arkecosystem/core-transaction-pool", () => {
+jest.mock("@blockpool-io/core-transaction-pool", () => {
     return {
         // tslint:disable-next-line
         TransactionGuard: function() {

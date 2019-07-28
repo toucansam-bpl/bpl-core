@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Container } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Container } from "@blockpool-io/core-interfaces";
 import { lstatSync, readdirSync } from "fs";
 import prompts from "prompts";
 import { CommandFlags } from "../types";
@@ -10,11 +10,11 @@ const { version } = require("../../package.json");
 export const setUpLite = async (options): Promise<Container.IContainer> => {
     await app.setUp(version, options, {
         include: [
-            "@arkecosystem/core-event-emitter",
-            "@arkecosystem/core-logger-pino",
-            "@arkecosystem/core-state",
-            "@arkecosystem/core-database-postgres",
-            "@arkecosystem/core-snapshots",
+            "@blockpool-io/core-event-emitter",
+            "@blockpool-io/core-logger-pino",
+            "@blockpool-io/core-state",
+            "@blockpool-io/core-database-postgres",
+            "@blockpool-io/core-snapshots",
         ],
     });
 

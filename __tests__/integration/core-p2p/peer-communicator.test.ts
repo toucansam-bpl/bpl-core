@@ -2,8 +2,8 @@ import "jest-extended";
 
 import "./mocks/core-container";
 
-import { P2P } from "@arkecosystem/core-interfaces";
-import { Transactions } from "@arkecosystem/crypto";
+import { P2P } from "@blockpool-io/core-interfaces";
+import { Transactions } from "@blockpool-io/crypto";
 import { createPeerService, createStubPeer } from "../../helpers/peers";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { genesisBlock } from "../../utils/config/unitnet/genesisBlock";

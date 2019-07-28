@@ -1,4 +1,4 @@
-import { Database, State } from "@arkecosystem/core-interfaces";
+import { Database, State } from "@blockpool-io/core-interfaces";
 import filterRows from "./utils/filter-rows";
 import limitRows from "./utils/limit-rows";
 import { sortEntries } from "./utils/sort-entries";

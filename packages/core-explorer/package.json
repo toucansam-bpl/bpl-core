@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-explorer",
+    "name": "@blockpool-io/core-explorer",
     "version": "2.5.7",
     "description": "Explorer for ARK Core",
     "license": "MIT",
@@ -19,8 +19,8 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.5.7",
-        "@arkecosystem/core-interfaces": "^2.5.7",
+        "@blockpool-io/core-container": "^2.5.7",
+        "@blockpool-io/core-interfaces": "^2.5.7",
         "connect-history-api-fallback": "^1.6.0",
         "express": "^4.17.1"
     },

@@ -1,4 +1,4 @@
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@blockpool-io/crypto";
 
 export interface IRequestParameters {
     jsonrpc: "2.0";

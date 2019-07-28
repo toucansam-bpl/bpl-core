@@ -1,5 +1,5 @@
-import { Delegate } from "@arkecosystem/core-forger";
-import { Crypto, Interfaces, Managers } from "@arkecosystem/crypto";
+import { Delegate } from "@blockpool-io/core-forger";
+import { Crypto, Interfaces, Managers } from "@blockpool-io/crypto";
 import { flags } from "@oclif/command";
 import { writeFileSync } from "fs";
 import { satoshiFlag } from "../../flags";

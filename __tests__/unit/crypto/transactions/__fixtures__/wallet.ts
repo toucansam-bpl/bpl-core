@@ -1,5 +1,5 @@
-import { Wallets } from "@arkecosystem/core-state";
-import { Utils } from "@arkecosystem/crypto";
+import { Wallets } from "@blockpool-io/core-state";
+import { Utils } from "@blockpool-io/crypto";
 
 export const wallet = {
     address: "DTRdbaUW3RQQSL5By4G43JVaeHiqfVp9oh",

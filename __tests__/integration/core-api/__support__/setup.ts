@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, State } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database, State } from "@blockpool-io/core-interfaces";
 import delay from "delay";
 import { defaults } from "../../../../packages/core-api/src/defaults";
 import { plugin } from "../../../../packages/core-api/src/plugin";
@@ -8,7 +8,7 @@ import { registerWithContainer, setUpContainer } from "../../../utils/helpers/co
 import { delegates } from "../../../utils/fixtures";
 import { generateRound } from "./utils/generate-round";
 
-import { sortBy } from "@arkecosystem/utils";
+import { sortBy } from "@blockpool-io/utils";
 import { asValue } from "awilix";
 
 const round = generateRound(delegates.map(delegate => delegate.publicKey), 1);
@@ -28,10 +28,10 @@ const setUp = async () => {
 
     await setUpContainer({
         exclude: [
-            "@arkecosystem/core-webhooks",
-            "@arkecosystem/core-forger",
-            "@arkecosystem/core-exchange-json-rpc",
-            "@arkecosystem/core-api",
+            "@blockpool-io/core-webhooks",
+            "@blockpool-io/core-forger",
+            "@blockpool-io/core-exchange-json-rpc",
+            "@blockpool-io/core-api",
         ],
     });
 

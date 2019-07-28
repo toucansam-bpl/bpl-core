@@ -1,4 +1,4 @@
-import { State } from "@arkecosystem/core-interfaces";
+import { State } from "@blockpool-io/core-interfaces";
 import { BlockStore } from "./stores/blocks";
 import { TransactionStore } from "./stores/transactions";
 

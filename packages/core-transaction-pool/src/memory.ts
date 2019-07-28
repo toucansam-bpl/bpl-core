@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { State } from "@arkecosystem/core-interfaces";
-import { Crypto, Enums, Interfaces, Managers, Utils } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { State } from "@blockpool-io/core-interfaces";
+import { Crypto, Enums, Interfaces, Managers, Utils } from "@blockpool-io/crypto";
 import assert from "assert";
 
 export class Memory {

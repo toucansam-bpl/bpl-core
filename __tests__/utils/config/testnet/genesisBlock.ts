@@ -1,4 +1,4 @@
-import { Utils } from "@arkecosystem/crypto";
+import { Utils } from "@blockpool-io/crypto";
 
 export const genesisBlock = {
     version: 0,

@@ -1,4 +1,4 @@
-import { Database, State } from "@arkecosystem/core-interfaces";
+import { Database, State } from "@blockpool-io/core-interfaces";
 import { DatabaseService } from "./database-service";
 import { BlocksBusinessRepository } from "./repositories/blocks-business-repository";
 import { DelegatesBusinessRepository } from "./repositories/delegates-business-repository";

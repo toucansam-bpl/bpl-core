@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-event-emitter",
+    "name": "@blockpool-io/core-event-emitter",
     "version": "2.5.7",
     "description": "Event Manager for ARK Core",
     "license": "MIT",

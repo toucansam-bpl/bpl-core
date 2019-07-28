@@ -3,9 +3,9 @@ import "jest-extended";
 import { container } from "./mocks/core-container";
 import { state } from "./mocks/state";
 
-import { Wallets } from "@arkecosystem/core-state";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Blocks, Constants, Crypto, Enums, Interfaces, Managers, Transactions, Utils } from "@arkecosystem/crypto";
+import { Wallets } from "@blockpool-io/core-state";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Blocks, Constants, Crypto, Enums, Interfaces, Managers, Transactions, Utils } from "@blockpool-io/crypto";
 import delay from "delay";
 import cloneDeep from "lodash.clonedeep";
 import randomSeed from "random-seed";

@@ -1,14 +1,14 @@
 import "jest-extended";
 
-import { Blockchain, Container, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Blocks, Identities, Interfaces, Managers, Utils } from "@arkecosystem/crypto";
+import { Blockchain, Container, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Blocks, Identities, Interfaces, Managers, Utils } from "@blockpool-io/crypto";
 import { generateMnemonic } from "bip39";
 import { TransactionFactory } from "../../helpers/transaction-factory";
 import { delegates, genesisBlock, wallets, wallets2ndSig } from "../../utils/fixtures/unitnet";
 import { generateWallets } from "../../utils/generators/wallets";
 import { setUpFull, tearDownFull } from "./__support__/setup";
-// import { Crypto, Enums, Managers } from "@arkecosystem/crypto";
+// import { Crypto, Enums, Managers } from "@blockpool-io/crypto";
 // import { Connection } from "../../../packages/core-transaction-pool/src/connection";
 // import { delegates, wallets } from "../../utils/fixtures/unitnet";
 

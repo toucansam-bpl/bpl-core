@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { P2P } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { P2P } from "@blockpool-io/core-interfaces";
 import dayjs, { Dayjs } from "dayjs";
 import { PeerVerificationResult } from "./peer-verifier";
 

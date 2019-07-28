@@ -3,13 +3,13 @@ import "../../../utils";
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../utils";
 
-import { Blocks } from "@arkecosystem/crypto";
+import { Blocks } from "@blockpool-io/crypto";
 import { genesisBlock } from "../../../utils/config/testnet/genesisBlock";
 import { blocks2to100 } from "../../../utils/fixtures";
 import { resetBlockchain } from "../../../utils/helpers";
 
-import { app } from "@arkecosystem/core-container";
-import { Database } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Database } from "@blockpool-io/core-interfaces";
 
 const { BlockFactory } = Blocks;
 

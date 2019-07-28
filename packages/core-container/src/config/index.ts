@@ -1,4 +1,4 @@
-import { Interfaces, Managers, Types } from "@arkecosystem/crypto";
+import { Interfaces, Managers, Types } from "@blockpool-io/crypto";
 import Joi from "@hapi/joi";
 import get from "lodash.get";
 import set from "lodash.set";

@@ -1,4 +1,4 @@
-import { orderBy } from "@arkecosystem/utils";
+import { orderBy } from "@blockpool-io/utils";
 import { Database } from "@blockpool-io/core-interfaces";
 
 export const sortEntries = (params: Database.IParameters, entries: any[], defaultValue) => {

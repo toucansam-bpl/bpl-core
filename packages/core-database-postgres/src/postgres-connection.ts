@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter, Logger, State } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Interfaces, Managers, Transactions } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, EventEmitter, Logger, State } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Interfaces, Managers, Transactions } from "@blockpool-io/crypto";
 import chunk from "lodash.chunk";
 import path from "path";
 import pgPromise, { IMain } from "pg-promise";

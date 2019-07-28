@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-error-tracker-bugsnag",
+    "name": "@blockpool-io/core-error-tracker-bugsnag",
     "version": "2.5.7",
     "description": "Bugsnag error tracker integration for ARK Core.",
     "license": "MIT",
@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.5.7",
+        "@blockpool-io/core-container": "^2.5.7",
         "@bugsnag/js": "^6.3.2"
     },
     "engines": {

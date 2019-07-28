@@ -1,8 +1,8 @@
 module.exports = {
-    "@arkecosystem/core-event-emitter": {},
-    "@arkecosystem/core-logger-pino": {},
-    "@arkecosystem/core-state": {},
-    "@arkecosystem/core-database-postgres": {
+    "@blockpool-io/core-event-emitter": {},
+    "@blockpool-io/core-logger-pino": {},
+    "@blockpool-io/core-state": {},
+    "@blockpool-io/core-database-postgres": {
         connection: {
             host: process.env.CORE_DB_HOST || "localhost",
             port: process.env.CORE_DB_PORT || 5432,
@@ -20,7 +20,7 @@ module.exports = {
             minFeeBroadcast: 1000,
         },
     },
-    "@arkecosystem/core-p2p": {
+    "@blockpool-io/core-p2p": {
         server: {
             port: process.env.CORE_P2P_PORT || 4000,
         },
@@ -42,8 +42,8 @@ module.exports = {
             whitelist: ["127.0.0.1", "::ffff:127.0.0.1"],
         },
     },
-    "@arkecosystem/core-forger": {},
-    "@arkecosystem/core-exchange-json-rpc": {
+    "@blockpool-io/core-forger": {},
+    "@blockpool-io/core-exchange-json-rpc": {
         enabled: process.env.CORE_EXCHANGE_JSON_RPC_ENABLED,
         host: process.env.CORE_EXCHANGE_JSON_RPC_HOST || "0.0.0.0",
         port: process.env.CORE_EXCHANGE_JSON_RPC_PORT || 8080,

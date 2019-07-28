@@ -2,9 +2,9 @@ import "jest-extended";
 
 import "../mocks/core-container";
 
-import { Database, State } from "@arkecosystem/core-interfaces";
-import { delegateCalculator } from "@arkecosystem/core-utils";
-import { Utils } from "@arkecosystem/crypto";
+import { Database, State } from "@blockpool-io/core-interfaces";
+import { delegateCalculator } from "@blockpool-io/core-utils";
+import { Utils } from "@blockpool-io/crypto";
 import { DelegatesBusinessRepository, WalletsBusinessRepository } from "../../../../packages/core-database/src";
 import { DatabaseService } from "../../../../packages/core-database/src/database-service";
 import { Wallet, WalletManager } from "../../../../packages/core-state/src/wallets";

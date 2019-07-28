@@ -1,6 +1,6 @@
 "use strict";
 
-const { Managers, Transactions } = require("@arkecosystem/crypto");
+const { Managers, Transactions } = require("@blockpool-io/crypto");
 const utils = require("./utils");
 const testUtils = require("../../../../lib/utils/test-utils");
 const { delegates } = require("../../../../lib/utils/testnet");

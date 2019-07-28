@@ -1,6 +1,6 @@
-import { State } from "@arkecosystem/core-interfaces";
-import { Errors } from "@arkecosystem/core-transactions";
-import { Crypto, Enums, Identities, Interfaces, Transactions, Utils } from "@arkecosystem/crypto";
+import { State } from "@blockpool-io/core-interfaces";
+import { Errors } from "@blockpool-io/core-transactions";
+import { Crypto, Enums, Identities, Interfaces, Transactions, Utils } from "@blockpool-io/crypto";
 
 export class Wallet implements State.IWallet {
     public address: string;

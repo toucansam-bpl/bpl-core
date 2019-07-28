@@ -1,8 +1,8 @@
 import "jest-extended";
 
-import { State } from "@arkecosystem/core-interfaces";
-import { Wallets } from "@arkecosystem/core-state";
-import { Identities, Interfaces, Managers, Transactions, Utils } from "@arkecosystem/crypto";
+import { State } from "@blockpool-io/core-interfaces";
+import { Wallets } from "@blockpool-io/core-state";
+import { Identities, Interfaces, Managers, Transactions, Utils } from "@blockpool-io/crypto";
 import {
     AlreadyVotedError,
     InsufficientBalanceError,

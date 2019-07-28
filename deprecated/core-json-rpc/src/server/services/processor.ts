@@ -1,4 +1,4 @@
-import { Validation } from "@arkecosystem/crypto";
+import { Validation } from "@blockpool-io/crypto";
 import { Server } from "@hapi/hapi";
 import get from "lodash.get";
 import { IRequestParameters, IResponse, IResponseError } from "../../interfaces";

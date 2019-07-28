@@ -1,4 +1,4 @@
-import { Managers } from "@arkecosystem/crypto";
+import { Managers } from "@blockpool-io/crypto";
 import * as plugins from "../../../utils/config/testnet/plugins.js";
 import { blocks2to100 } from "../../../utils/fixtures";
 import { delegates } from "../../../utils/fixtures/testnet/delegates";
@@ -7,7 +7,7 @@ import { defaults } from "./p2p-options";
 
 Managers.configManager.setFromPreset("unitnet");
 
-jest.mock("@arkecosystem/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {

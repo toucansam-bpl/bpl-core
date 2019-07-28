@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-webhooks",
+    "name": "@blockpool-io/core-webhooks",
     "version": "2.5.7",
     "description": "Webhooks for ARK Core",
     "license": "MIT",
@@ -19,11 +19,11 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.5.7",
-        "@arkecosystem/core-event-emitter": "^2.5.7",
-        "@arkecosystem/core-http-utils": "^2.5.7",
-        "@arkecosystem/core-interfaces": "^2.5.7",
-        "@arkecosystem/core-utils": "^2.5.7",
+        "@blockpool-io/core-container": "^2.5.7",
+        "@blockpool-io/core-event-emitter": "^2.5.7",
+        "@blockpool-io/core-http-utils": "^2.5.7",
+        "@blockpool-io/core-interfaces": "^2.5.7",
+        "@blockpool-io/core-utils": "^2.5.7",
         "@hapi/boom": "^7.4.2",
         "@hapi/joi": "^15.1.0",
         "fs-extra": "^8.1.0",

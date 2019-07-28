@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { asValue } from "awilix";
 import { defaults as defaultsBlockchain } from "../../../../packages/core-blockchain/src/defaults";
 import { defaults as defaultsPeer } from "../../../../packages/core-p2p/src/defaults";
@@ -32,8 +32,8 @@ const options = {
 export const setUp = async () => {
     try {
         return await setUpContainer({
-            exit: "@arkecosystem/core-blockchain",
-            exclude: ["@arkecosystem/core-transaction-pool"],
+            exit: "@blockpool-io/core-blockchain",
+            exclude: ["@blockpool-io/core-transaction-pool"],
             network: "unitnet",
         });
     } catch (error) {
@@ -47,8 +47,8 @@ export const setUpFull = async () => {
 
     try {
         await setUpContainer({
-            exit: "@arkecosystem/core-transaction-pool",
-            exclude: ["@arkecosystem/core-transaction-pool"],
+            exit: "@blockpool-io/core-transaction-pool",
+            exclude: ["@blockpool-io/core-transaction-pool"],
             network: "unitnet",
         });
 
@@ -60,7 +60,7 @@ export const setUpFull = async () => {
 
         // now registering the plugins that need to be registered after transaction pool
         // register p2p
-        await registerWithContainer(require("@arkecosystem/core-p2p").plugin, {
+        await registerWithContainer(require("@blockpool-io/core-p2p").plugin, {
             host: "0.0.0.0",
             port: 4000,
             minimumNetworkReach: 5,
@@ -68,7 +68,7 @@ export const setUpFull = async () => {
 
         app.register("pkg.blockchain.opts", asValue(defaultsBlockchain));
 
-        await registerWithContainer(require("@arkecosystem/core-blockchain").plugin, {});
+        await registerWithContainer(require("@blockpool-io/core-blockchain").plugin, {});
 
         return app;
     } catch (error) {

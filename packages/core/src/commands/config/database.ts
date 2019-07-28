@@ -1,4 +1,4 @@
-import { hasSomeProperty } from "@arkecosystem/core-utils";
+import { hasSomeProperty } from "@blockpool-io/core-utils";
 import { flags } from "@oclif/command";
 import prompts from "prompts";
 import { CommandFlags, EnvironmentVars } from "../../types";

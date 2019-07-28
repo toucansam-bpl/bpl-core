@@ -1,8 +1,8 @@
 import "jest-extended";
 
-import { app } from "@arkecosystem/core-container";
-import { httpie } from "@arkecosystem/core-utils";
-import { Managers, Transactions } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { httpie } from "@blockpool-io/core-utils";
+import { Managers, Transactions } from "@blockpool-io/crypto";
 import { ApiHelpers } from "../../utils/helpers/api";
 
 class Helpers {

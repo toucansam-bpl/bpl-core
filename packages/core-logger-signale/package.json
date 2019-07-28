@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-logger-signale",
+    "name": "@blockpool-io/core-logger-signale",
     "version": "2.5.7",
     "description": "Signale integration for ARK Core",
     "license": "MIT",
@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-interfaces": "^2.5.7",
-        "@arkecosystem/core-logger": "^2.5.7",
+        "@blockpool-io/core-interfaces": "^2.5.7",
+        "@blockpool-io/core-logger": "^2.5.7",
         "signale": "^1.4.0"
     },
     "devDependencies": {

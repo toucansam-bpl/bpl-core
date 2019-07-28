@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import { ColumnSet, IMain } from "pg-promise";
 import sql, { Query } from "sql";
 import { IColumnDescriptor } from "../interfaces";

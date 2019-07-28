@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-transactions",
+    "name": "@blockpool-io/core-transactions",
     "version": "2.5.7",
     "description": "Transaction Services for ARK Core",
     "license": "MIT",
@@ -19,9 +19,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-event-emitter": "^2.5.7",
-        "@arkecosystem/core-interfaces": "^2.5.7",
-        "@arkecosystem/crypto": "^2.5.7",
+        "@blockpool-io/core-event-emitter": "^2.5.7",
+        "@blockpool-io/core-interfaces": "^2.5.7",
+        "@blockpool-io/crypto": "^2.5.7",
         "bs58check": "^2.1.2"
     },
     "engines": {

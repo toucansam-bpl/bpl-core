@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, EventEmitter, Logger, State } from "@arkecosystem/core-interfaces";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Interfaces, Managers } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, EventEmitter, Logger, State } from "@blockpool-io/core-interfaces";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Interfaces, Managers } from "@blockpool-io/crypto";
 
 export class StateBuilder {
     private readonly logger: Logger.ILogger = app.resolvePlugin<Logger.ILogger>("logger");

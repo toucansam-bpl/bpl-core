@@ -1,8 +1,8 @@
 import "jest-extended";
 import "../mocks/core-container";
 
-import { Database, State } from "@arkecosystem/core-interfaces";
-import { Utils } from "@arkecosystem/crypto";
+import { Database, State } from "@blockpool-io/core-interfaces";
+import { Utils } from "@blockpool-io/crypto";
 import compact from "lodash.compact";
 import uniq from "lodash.uniq";
 import { genesisBlock } from "../../../utils/fixtures/testnet/block-model";

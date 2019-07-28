@@ -205,7 +205,7 @@ success "Installed system updates!"
 
 heading "Installing BPL Core..."
 
-while ! yarn global add @arkecosystem/core ; do
+while ! yarn global add @blockpool-io/core ; do
     read -p "Installing ARK Core failed, do you want to retry? [y/N]: " choice
     if [[ ! "$choice" =~ ^(yes|y|Y) ]] ; then
         exit 1

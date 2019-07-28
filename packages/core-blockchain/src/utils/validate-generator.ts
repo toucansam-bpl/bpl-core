@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger, Shared, State } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Crypto, Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger, Shared, State } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Crypto, Interfaces } from "@blockpool-io/crypto";
 
 export const validateGenerator = async (block: Interfaces.IBlock): Promise<boolean> => {
     const database: Database.IDatabaseService = app.resolvePlugin<Database.IDatabaseService>("database");

@@ -1,9 +1,9 @@
 import "../../utils";
 
 /* tslint:disable:max-line-length */
-import { Wallets } from "@arkecosystem/core-state";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Blocks, Crypto, Identities, Interfaces, Utils } from "@arkecosystem/crypto";
+import { Wallets } from "@blockpool-io/core-state";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Blocks, Crypto, Identities, Interfaces, Utils } from "@blockpool-io/crypto";
 import delay from "delay";
 import { Blockchain } from "../../../packages/core-blockchain/src/blockchain";
 import { TransactionFactory } from "../../helpers/transaction-factory";
@@ -69,7 +69,7 @@ describe("Blockchain", () => {
         container = await setUp({
             options: {
                 // 100 years worth of blocks, so that the genesis transactions don't get expired
-                "@arkecosystem/core-transaction-pool": { maxTransactionAge: 394200000 },
+                "@blockpool-io/core-transaction-pool": { maxTransactionAge: 394200000 },
             },
         });
 

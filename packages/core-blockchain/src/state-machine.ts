@@ -1,10 +1,10 @@
 /* tslint:disable:jsdoc-format max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter, Logger, State } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger, State } from "@blockpool-io/core-interfaces";
 
-import { isBlockChained, roundCalculator } from "@arkecosystem/core-utils";
-import { Blocks, Interfaces, Utils } from "@arkecosystem/crypto";
+import { isBlockChained, roundCalculator } from "@blockpool-io/core-utils";
+import { Blocks, Interfaces, Utils } from "@blockpool-io/crypto";
 
 import pluralize from "pluralize";
 import { blockchainMachine } from "./machines/blockchain";

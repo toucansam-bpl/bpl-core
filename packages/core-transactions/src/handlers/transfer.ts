@@ -1,5 +1,5 @@
-import { Database, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Interfaces, Managers, Transactions } from "@arkecosystem/crypto";
+import { Database, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Interfaces, Managers, Transactions } from "@blockpool-io/crypto";
 import { isRecipientOnActiveNetwork } from "../utils";
 import { TransactionHandler } from "./transaction";
 

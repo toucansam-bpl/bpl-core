@@ -8,15 +8,15 @@ describe("transformPlugins", () => {
         const transformed = Plugins.transformPlugins(plugins);
 
         expect(transformed).toEqual({
-            "@arkecosystem/core-api": {
+            "@blockpool-io/core-api": {
                 enabled: true,
                 port: 4003,
             },
-            "@arkecosystem/core-exchange-json-rpc": {
+            "@blockpool-io/core-exchange-json-rpc": {
                 enabled: false,
                 port: 8080,
             },
-            "@arkecosystem/core-webhooks": {
+            "@blockpool-io/core-webhooks": {
                 enabled: false,
                 port: 4004,
             },

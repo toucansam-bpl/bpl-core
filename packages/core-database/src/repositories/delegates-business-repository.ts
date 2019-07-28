@@ -1,5 +1,5 @@
-import { Database, State } from "@arkecosystem/core-interfaces";
-import { delegateCalculator, hasSomeProperty } from "@arkecosystem/core-utils";
+import { Database, State } from "@blockpool-io/core-interfaces";
+import { delegateCalculator, hasSomeProperty } from "@blockpool-io/core-utils";
 import filterRows from "./utils/filter-rows";
 import limitRows from "./utils/limit-rows";
 import { sortEntries } from "./utils/sort-entries";

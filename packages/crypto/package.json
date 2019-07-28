@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/crypto",
+    "name": "@blockpool-io/crypto",
     "version": "2.5.7",
     "description": "Crypto utilities for the ARK Blockchain",
     "license": "MIT",

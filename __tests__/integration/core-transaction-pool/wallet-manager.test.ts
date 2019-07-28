@@ -1,6 +1,6 @@
-import { Blockchain, Container, Database } from "@arkecosystem/core-interfaces";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Blocks, Identities, Utils } from "@arkecosystem/crypto";
+import { Blockchain, Container, Database } from "@blockpool-io/core-interfaces";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Blocks, Identities, Utils } from "@blockpool-io/crypto";
 import { generateMnemonic } from "bip39";
 import { WalletManager } from "../../../packages/core-transaction-pool/src/wallet-manager";
 import { TransactionFactory } from "../../helpers/transaction-factory";

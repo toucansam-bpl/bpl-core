@@ -1,6 +1,6 @@
 const {
     Transactions
-} = require('@arkecosystem/crypto')
+} = require('@blockpool-io/crypto')
 
 const data = require('../../helpers').getJSONFixture('transaction/deserialized/0');
 

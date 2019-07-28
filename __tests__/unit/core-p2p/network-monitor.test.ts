@@ -4,8 +4,8 @@ import "./mocks/core-container";
 
 import { blockchain } from "./mocks/blockchain";
 
-import { P2P } from "@arkecosystem/core-interfaces";
-import { Blocks, Transactions } from "@arkecosystem/crypto";
+import { P2P } from "@blockpool-io/core-interfaces";
+import { Blocks, Transactions } from "@blockpool-io/crypto";
 import { NetworkState } from "../../../packages/core-p2p/src/network-state";
 import { createPeerService, createStubPeer, stubPeer } from "../../helpers/peers";
 import { genesisBlock } from "../../utils/config/unitnet/genesisBlock";

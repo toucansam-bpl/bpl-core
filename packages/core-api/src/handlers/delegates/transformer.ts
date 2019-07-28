@@ -1,5 +1,5 @@
-import { delegateCalculator, formatTimestamp } from "@arkecosystem/core-utils";
-import { Utils } from "@arkecosystem/crypto";
+import { delegateCalculator, formatTimestamp } from "@blockpool-io/core-utils";
+import { Utils } from "@blockpool-io/crypto";
 
 export const transformDelegate = delegate => {
     const data = {

@@ -1,4 +1,4 @@
-import { Identities, Managers, Utils } from "@arkecosystem/crypto";
+import { Identities, Managers, Utils } from "@blockpool-io/crypto";
 
 Managers.configManager.setFromPreset("testnet");
 

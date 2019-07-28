@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { Constants, Enums, Managers, Utils } from "@arkecosystem/crypto";
-import { configManager } from "@arkecosystem/crypto/src/managers";
+import { Constants, Enums, Managers, Utils } from "@blockpool-io/crypto";
+import { configManager } from "@blockpool-io/crypto/src/managers";
 import { Wallet } from "../../../../packages/core-state/src/wallets";
 import { TransactionFactory } from "../../../helpers/transaction-factory";
 

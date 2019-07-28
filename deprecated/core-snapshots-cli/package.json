@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-snapshots-cli",
+    "name": "@blockpool-io/core-snapshots-cli",
     "version": "2.2.0",
     "description": "Provides live cli interface to the core-snapshots module for ARK Core",
     "license": "MIT",

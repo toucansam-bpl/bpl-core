@@ -1,8 +1,8 @@
 /* tslint:disable:no-shadowed-variable member-ordering max-classes-per-file */
 
-import { app } from "@arkecosystem/core-container";
-import { P2P } from "@arkecosystem/core-interfaces";
-import { Crypto, Interfaces } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { P2P } from "@blockpool-io/core-interfaces";
+import { Crypto, Interfaces } from "@blockpool-io/crypto";
 import { NetworkStateStatus } from "./enums";
 
 class QuorumDetails implements P2P.IQuorumDetails {

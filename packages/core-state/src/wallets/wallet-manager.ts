@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger, Shared, State } from "@arkecosystem/core-interfaces";
-import { Handlers } from "@arkecosystem/core-transactions";
-import { Enums, Identities, Interfaces, Utils } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Logger, Shared, State } from "@blockpool-io/core-interfaces";
+import { Handlers } from "@blockpool-io/core-transactions";
+import { Enums, Identities, Interfaces, Utils } from "@blockpool-io/crypto";
 import pluralize from "pluralize";
 import { TempWalletManager } from "./temp-wallet-manager";
 import { Wallet } from "./wallet";

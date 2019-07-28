@@ -1,6 +1,6 @@
 const {
     Blocks
-} = require('@arkecosystem/crypto')
+} = require('@blockpool-io/crypto')
 
 const dataEmpty = require('../helpers').getJSONFixture('block/deserialized/no-transactions');
 const dataFull = require('../helpers').getJSONFixture('block/deserialized/transactions');

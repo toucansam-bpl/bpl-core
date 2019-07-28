@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-graphql",
+    "name": "@blockpool-io/core-graphql",
     "version": "2.2.2",
     "description": "GraphQL Integration for ARK Core",
     "license": "MIT",

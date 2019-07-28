@@ -1,7 +1,7 @@
 import "../../../utils";
 
-import { app } from "@arkecosystem/core-container";
-import { Peer } from "@arkecosystem/core-p2p/src/peer";
+import { app } from "@blockpool-io/core-container";
+import { Peer } from "@blockpool-io/core-p2p/src/peer";
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../utils";
 

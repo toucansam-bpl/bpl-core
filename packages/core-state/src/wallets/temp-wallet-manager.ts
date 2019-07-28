@@ -1,4 +1,4 @@
-import { State } from "@arkecosystem/core-interfaces";
+import { State } from "@blockpool-io/core-interfaces";
 import cloneDeep from "lodash.clonedeep";
 import { WalletManager } from "./wallet-manager";
 

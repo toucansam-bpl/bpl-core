@@ -55,4 +55,4 @@ export const container = {
     },
 };
 
-jest.mock("@arkecosystem/core-container", () => container);
+jest.mock("@blockpool-io/core-container", () => container);

@@ -1,8 +1,8 @@
 // tslint:disable:variable-name
 
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter, Logger, State } from "@arkecosystem/core-interfaces";
-import { Interfaces, Managers, Transactions } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger, State } from "@blockpool-io/core-interfaces";
+import { Interfaces, Managers, Transactions } from "@blockpool-io/crypto";
 import assert from "assert";
 import { OrderedMap, OrderedSet, Seq } from "immutable";
 

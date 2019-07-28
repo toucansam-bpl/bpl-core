@@ -1,5 +1,5 @@
-import { Database } from "@arkecosystem/core-interfaces";
-import { Utils } from "@arkecosystem/crypto";
+import { Database } from "@blockpool-io/core-interfaces";
+import { Utils } from "@blockpool-io/crypto";
 import { IColumnDescriptor } from "../interfaces";
 import { Model } from "./model";
 

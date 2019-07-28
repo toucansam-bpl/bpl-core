@@ -30,7 +30,7 @@ export const tearDown = async () => {
 
 export const setUpFull = async () => {
     await setUpContainer({
-        exit: "@arkecosystem/core-blockchain",
+        exit: "@blockpool-io/core-blockchain",
     });
 };
 

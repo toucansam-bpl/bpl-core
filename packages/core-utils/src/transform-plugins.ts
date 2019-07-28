@@ -1,4 +1,4 @@
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 
 export const transformPlugins = (plugins): P2P.IPeerPlugins => {
     const result: P2P.IPeerPlugins = {};

@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import dayjs, { Dayjs } from "dayjs";
 import utc from "dayjs/plugin/utc";
 

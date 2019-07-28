@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Plugins } from "@arkecosystem/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { Plugins } from "@blockpool-io/core-utils";
 import { IPeerConfig } from "../../interfaces";
 
 export const getPeerConfig = (): IPeerConfig => {

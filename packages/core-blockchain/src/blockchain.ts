@@ -1,6 +1,6 @@
 /* tslint:disable:max-line-length */
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
 import {
     Blockchain as blockchain,
     Database,
@@ -9,10 +9,10 @@ import {
     P2P,
     State,
     TransactionPool,
-} from "@arkecosystem/core-interfaces";
-import { Blocks, Crypto, Interfaces, Managers } from "@arkecosystem/crypto";
+} from "@blockpool-io/core-interfaces";
+import { Blocks, Crypto, Interfaces, Managers } from "@blockpool-io/crypto";
 
-import { isBlockChained, roundCalculator } from "@arkecosystem/core-utils";
+import { isBlockChained, roundCalculator } from "@blockpool-io/core-utils";
 import async from "async";
 import delay from "delay";
 import pluralize from "pluralize";

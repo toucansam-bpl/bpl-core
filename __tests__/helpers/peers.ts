@@ -1,4 +1,4 @@
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 import { Peer } from "../../packages/core-p2p/src/peer";
 import { makePeerService } from "../../packages/core-p2p/src/plugin";
 

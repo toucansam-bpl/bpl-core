@@ -2,9 +2,9 @@ import "jest-extended";
 
 import "./mocks/core-container";
 
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { NetworkState, NetworkStateStatus } from "@arkecosystem/core-p2p";
-import { Crypto, Transactions } from "@arkecosystem/crypto";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { NetworkState, NetworkStateStatus } from "@blockpool-io/core-p2p";
+import { Crypto, Transactions } from "@blockpool-io/crypto";
 import { defaults } from "../../../packages/core-forger/src/defaults";
 import { Delegate } from "../../../packages/core-forger/src/delegate";
 import { ForgerManager } from "../../../packages/core-forger/src/manager";

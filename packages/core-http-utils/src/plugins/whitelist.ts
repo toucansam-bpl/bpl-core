@@ -1,4 +1,4 @@
-import { isWhitelisted } from "@arkecosystem/core-utils";
+import { isWhitelisted } from "@blockpool-io/core-utils";
 import Boom from "@hapi/boom";
 
 export const whitelist = {

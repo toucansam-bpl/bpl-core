@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, State } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, State } from "@blockpool-io/core-interfaces";
 import Hapi from "@hapi/hapi";
 import { Controller } from "../shared/controller";
 

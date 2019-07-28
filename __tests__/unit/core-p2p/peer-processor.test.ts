@@ -2,7 +2,7 @@ import "jest-extended";
 
 import "./mocks/core-container";
 
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 import { createPeerService, createStubPeer, stubPeer } from "../../helpers/peers";
 
 let processor: P2P.IPeerProcessor;

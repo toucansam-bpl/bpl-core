@@ -1,7 +1,7 @@
 import "jest-extended";
 
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
 import { Server } from "http";
 import { tmpdir } from "os";
 import { database } from "../../../packages/core-webhooks/src/database";

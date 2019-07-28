@@ -1,4 +1,4 @@
-import { Container, State } from "@arkecosystem/core-interfaces";
+import { Container, State } from "@blockpool-io/core-interfaces";
 import { Blockchain } from "./blockchain";
 import { defaults } from "./defaults";
 import { blockchainMachine } from "./machines/blockchain";

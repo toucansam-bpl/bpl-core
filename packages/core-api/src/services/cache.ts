@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Crypto } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Crypto } from "@blockpool-io/crypto";
 import Hapi, { ServerMethod } from "@hapi/hapi";
 
 export class ServerCache {

@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-interfaces",
+    "name": "@blockpool-io/core-interfaces",
     "version": "2.5.7",
     "description": "Interface types for essential ARK Core modules",
     "license": "MIT",
@@ -23,7 +23,7 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@arkecosystem/crypto": "^2.5.7",
+        "@blockpool-io/crypto": "^2.5.7",
         "awilix": "^4.2.2",
         "dayjs": "^1.8.15"
     },

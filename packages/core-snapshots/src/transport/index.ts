@@ -5,9 +5,9 @@ import QueryStream from "pg-query-stream";
 import pluralize from "pluralize";
 import zlib from "zlib";
 
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter, Logger } from "@arkecosystem/core-interfaces";
-import { Managers } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
+import { Managers } from "@blockpool-io/crypto";
 
 import * as utils from "../utils";
 import { Codec } from "./codec";

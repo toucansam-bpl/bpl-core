@@ -1,5 +1,5 @@
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { Transactions as CryptoTransactions } from "@arkecosystem/crypto";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { Transactions as CryptoTransactions } from "@blockpool-io/crypto";
 import { storage } from "../storage";
 import { first, last } from "../utils";
 import { Index } from "./base";

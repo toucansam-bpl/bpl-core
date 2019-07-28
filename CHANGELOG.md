@@ -13,11 +13,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 -   Accepted versions ([#2802])
 -   Fix the genesis block id during verification of snapshots ([#2809])
--   Average fee and wallet transaction retrieval in `@arkecosystem/core-exchange-json-rpc` ([1.0.3](https://github.com/ArkEcosystem/exchange-json-rpc/releases/tag/1.0.3))
+-   Average fee and wallet transaction retrieval in `@blockpool-io/core-exchange-json-rpc` ([1.0.3](https://github.com/ArkEcosystem/exchange-json-rpc/releases/tag/1.0.3))
 
 ### Changed
 
--   Export dist/index.js for cjs and umd in `@arkecosystem/crypto` ([#2807])
+-   Export dist/index.js for cjs and umd in `@blockpool-io/crypto` ([#2807])
 -   Update dependencies to their latest versions ([#2808])
 -   Lookup wallets by keys for improved performance ([#2810])
 
@@ -122,11 +122,11 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 All changes listed in this section are things that either alter how certain data in core is treated and processed or changes to the public API of a package.
 
-As we move towards 2.6 and the completion of AIP11, AIP18 and AIP29 there will be various breaking changes. The main concern of most developers will be breaking changes to `@arkecosystem/crypto` so go through the commits listed below and make sure you adjust everything in your application that is affected by a change.
+As we move towards 2.6 and the completion of AIP11, AIP18 and AIP29 there will be various breaking changes. The main concern of most developers will be breaking changes to `@blockpool-io/crypto` so go through the commits listed below and make sure you adjust everything in your application that is affected by a change.
 
 ### Exchange JSON-RPC
 
-The JSON-RPC we offer, formerly known as `@arkecosystem/core-json-rpc`, has received a rework to turn it into a real RPC that is easier to use and maintain.
+The JSON-RPC we offer, formerly known as `@blockpool-io/core-json-rpc`, has received a rework to turn it into a real RPC that is easier to use and maintain.
 
 #### Programmatic
 
@@ -138,7 +138,7 @@ https://github.com/ArkEcosystem/exchange-json-rpc
 **ARK Core Plugin**
 https://github.com/ArkEcosystem/core/tree/develop/packages/core-exchange-json-rpc
 
-> The `@arkecosystem/core-json-rpc` plugin has been deprecated and replaced by `@arkecosystem/core-exchange-json-rpc` because of different those 2 plugins work under the hood and their dependencies.
+> The `@blockpool-io/core-json-rpc` plugin has been deprecated and replaced by `@blockpool-io/core-exchange-json-rpc` because of different those 2 plugins work under the hood and their dependencies.
 
 #### Peers
 
@@ -161,20 +161,20 @@ If you've been using the JSON-RPC in the past together with ARK Core the migrati
 
 ### Added
 
--   Implement in `@arkecosystem/core-state` to manage the state of in-memory data ([#2479])
+-   Implement in `@blockpool-io/core-state` to manage the state of in-memory data ([#2479])
 -   Implement a blockchain replay command ([#2526])
 -   Save blocks in batches during sync ([#2500])
 -   Implement v2/node/fees endpoint ([#2393])
--   Allow setting a vendor field for transactions created via `@arkecosystem/core-json-rpc` ([#2425])
+-   Allow setting a vendor field for transactions created via `@blockpool-io/core-json-rpc` ([#2425])
 -   Limit the number of accepted peers per subnet ([#2507])
 -   **BREAKING:** Implement WebSockets with SocketCluster ([#2273])
 -   Parallel block download ([#2433])
 -   In-memory storage for last N blocks and transactions ([#2492])
 -   **BREAKING:** Switch transaction expiration from seconds to chain height ([#2461])
--   Require the user to choose a snapshot if the blocks flag is missing in `@arkecosystem/core` commands ([#2522])
--   **BREAKING:** Implement Block.fromHex, Block.fromBytes and Block.fromData methods in `@arkecosystem/crypto` ([#2377])
--   **BREAKING:** Implement BlockFactory in `@arkecosystem/crypto` ([#2429])
--   **BREAKING:** Implement TransactionFactory in `@arkecosystem/crypto` ([#2437])
+-   Require the user to choose a snapshot if the blocks flag is missing in `@blockpool-io/core` commands ([#2522])
+-   **BREAKING:** Implement Block.fromHex, Block.fromBytes and Block.fromData methods in `@blockpool-io/crypto` ([#2377])
+-   **BREAKING:** Implement BlockFactory in `@blockpool-io/crypto` ([#2429])
+-   **BREAKING:** Implement TransactionFactory in `@blockpool-io/crypto` ([#2437])
 -   Integrate end-to-end tests ([#2468])
 -   Initial Implementation of `core-wallet-api` ([#2544])
 -   Accept block height to list block transactions in `core-api` ([#2567])
@@ -189,7 +189,7 @@ If you've been using the JSON-RPC in the past together with ARK Core the migrati
 
 -   Insert the genesis block as soon as the database is ready ([#2376])
 -   **BREAKING:** Purge invalid transactions after a milestone change ([#2499])
--   Use public API to auto-configure `@arkecosystem/core-tester-cli` ([#2517])
+-   Use public API to auto-configure `@blockpool-io/core-tester-cli` ([#2517])
 -   Parse only the last line of pm2 stdout to avoid parsing faulty input ([#2484])
 -   Delete bad rounds after unclean shutdown ([#2581])
 -   Divide blocks into smaller chunks for batch processing ([#2586])
@@ -226,24 +226,24 @@ If you've been using the JSON-RPC in the past together with ARK Core the migrati
 -   Replace Joi with AJV for internal validation ([#2426])
 -   **BREAKING:** Bind plugin options before registering the plugin ([#2375])
 -   **BREAKING:** Extend the node.js event emitter ([#2440])
--   **BREAKING:** Move the wallet interfaces to `@arkecosystem/core-state` ([#2515])
+-   **BREAKING:** Move the wallet interfaces to `@blockpool-io/core-state` ([#2515])
 -   Remove height difference ban for peers ([#2360])
 -   **BREAKING:** Simplify the transaction pool by not using insertion order ([#2495])
--   **BREAKING:** Drop no longer needed pagination from `@arkecosystem/core-webhooks` ([#2424])
--   **BREAKING:** Extract transaction signing and utils out of the model in `@arkecosystem/crypto` ([#2514])
--   **BREAKING:** Extract transaction verification out of the model in `@arkecosystem/crypto` ([#2506])
--   **BREAKING:** Make all `Slots.*` methods static in `@arkecosystem/crypto` ([#2473])
--   **BREAKING:** Move interfaces, types and models in `@arkecosystem/crypto` ([#2379])
--   Move mainnet exceptions to config in `@arkecosystem/crypto` ([#2529])
--   **BREAKING:** Remove extraneous Client class in `@arkecosystem/crypto` ([#2417])
--   **BREAKING:** Split the `Crypto` class into `Hash` and `Transaction` in `@arkecosystem/crypto` ([#2444])
+-   **BREAKING:** Drop no longer needed pagination from `@blockpool-io/core-webhooks` ([#2424])
+-   **BREAKING:** Extract transaction signing and utils out of the model in `@blockpool-io/crypto` ([#2514])
+-   **BREAKING:** Extract transaction verification out of the model in `@blockpool-io/crypto` ([#2506])
+-   **BREAKING:** Make all `Slots.*` methods static in `@blockpool-io/crypto` ([#2473])
+-   **BREAKING:** Move interfaces, types and models in `@blockpool-io/crypto` ([#2379])
+-   Move mainnet exceptions to config in `@blockpool-io/crypto` ([#2529])
+-   **BREAKING:** Remove extraneous Client class in `@blockpool-io/crypto` ([#2417])
+-   **BREAKING:** Split the `Crypto` class into `Hash` and `Transaction` in `@blockpool-io/crypto` ([#2444])
 -   Invalidate blocks with expired transactions ([#2528])
 -   Transaction type agnostic wallet bootstrap to support AIP29 ([#2539])
 -   Return all schema errors in hapi-ajv ([#2571])
 -   Remove timeout banning ([#2597])
 -   Use dayjs as it now has official UTC support ([#2592])
 -   Require a minimum of 0 as pubKeyHash ([#2628])
--   **BREAKING:** Replaced `@arkecosystem/core-json-rpc` with `@arkecosystem/core-exchange-json-rpc` _(Use `@arkecosystem/core-exchange-json-rpc` programmatically)_ ([#2643])
+-   **BREAKING:** Replaced `@blockpool-io/core-json-rpc` with `@blockpool-io/core-exchange-json-rpc` _(Use `@blockpool-io/core-exchange-json-rpc` programmatically)_ ([#2643])
 -   Expire transactions that don't have an expiration ([#2672])
 
 ### Removed

@@ -1,7 +1,7 @@
 import "../../../utils";
 
-import { app } from "@arkecosystem/core-container";
-import { Managers } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Managers } from "@blockpool-io/crypto";
 import { setUp, tearDown } from "../__support__/setup";
 import { utils } from "../utils";
 

@@ -1,8 +1,8 @@
-import { app } from "@arkecosystem/core-container";
-import { Database, Logger, P2P, Shared, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Wallets } from "@arkecosystem/core-state";
-import { roundCalculator } from "@arkecosystem/core-utils";
-import { Blocks, Enums, Interfaces, Managers, Utils } from "@arkecosystem/crypto";
+import { app } from "@blockpool-io/core-container";
+import { Database, Logger, P2P, Shared, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Wallets } from "@blockpool-io/core-state";
+import { roundCalculator } from "@blockpool-io/core-utils";
+import { Blocks, Enums, Interfaces, Managers, Utils } from "@blockpool-io/crypto";
 import { Blockchain } from "../blockchain";
 import { FailedToReplayBlocksError } from "./errors";
 import { MemoryDatabaseService } from "./memory-database-service";

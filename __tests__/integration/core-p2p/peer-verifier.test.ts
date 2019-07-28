@@ -2,7 +2,7 @@ import "./mocks/core-container";
 
 import { MockSocketManager } from "./__support__/mock-socket-server/manager";
 
-import { P2P } from "@arkecosystem/core-interfaces";
+import { P2P } from "@blockpool-io/core-interfaces";
 import { PeerVerifier } from "../../../packages/core-p2p/src/peer-verifier";
 import { createPeerService, createStubPeer } from "../../helpers/peers";
 import { blocks2to100 as blocks2to100Json } from "../../utils/fixtures";

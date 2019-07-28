@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { isWhitelisted } from "../../utils/is-whitelisted";
 import * as internalHandlers from "./internal";
 import * as peerHandlers from "./peer";

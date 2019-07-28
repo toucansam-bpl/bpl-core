@@ -1,4 +1,4 @@
-import { supplyCalculator } from "@arkecosystem/core-utils";
+import { supplyCalculator } from "@blockpool-io/core-utils";
 import Hapi from "@hapi/hapi";
 import { Controller } from "../shared/controller";
 

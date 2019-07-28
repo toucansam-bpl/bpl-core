@@ -1,6 +1,6 @@
-import { ConnectionManager, databaseServiceFactory } from "@arkecosystem/core-database";
-import { Container, Database, Logger } from "@arkecosystem/core-interfaces";
-import { Wallets } from "@arkecosystem/core-state";
+import { ConnectionManager, databaseServiceFactory } from "@blockpool-io/core-database";
+import { Container, Database, Logger } from "@blockpool-io/core-interfaces";
+import { Wallets } from "@blockpool-io/core-state";
 import { defaults } from "./defaults";
 import { PostgresConnection } from "./postgres-connection";
 

@@ -1,4 +1,4 @@
-import { Container, Logger, P2P } from "@arkecosystem/core-interfaces";
+import { Container, Logger, P2P } from "@blockpool-io/core-interfaces";
 import { defaults } from "./defaults";
 import { EventListener } from "./event-listener";
 import { NetworkMonitor } from "./network-monitor";

@@ -1,4 +1,4 @@
-import { Interfaces } from "@arkecosystem/crypto";
+import { Interfaces } from "@blockpool-io/crypto";
 import { IBlocksRepository } from "./database-repository";
 import { IRoundsRepository } from "./database-repository";
 import { ITransactionsRepository } from "./database-repository";

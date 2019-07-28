@@ -1,5 +1,5 @@
 {
-    "name": "@arkecosystem/core-logger",
+    "name": "@blockpool-io/core-logger",
     "version": "2.5.7",
     "description": "Logger Manager for ARK Core",
     "license": "MIT",
@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.5.7",
-        "@arkecosystem/core-interfaces": "^2.5.7",
+        "@blockpool-io/core-container": "^2.5.7",
+        "@blockpool-io/core-interfaces": "^2.5.7",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {

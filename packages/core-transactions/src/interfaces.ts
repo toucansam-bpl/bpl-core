@@ -1,5 +1,5 @@
-import { Database, EventEmitter, State, TransactionPool } from "@arkecosystem/core-interfaces";
-import { Interfaces, Transactions } from "@arkecosystem/crypto";
+import { Database, EventEmitter, State, TransactionPool } from "@blockpool-io/core-interfaces";
+import { Interfaces, Transactions } from "@blockpool-io/crypto";
 
 export interface ITransactionHandler {
     getConstructor(): Transactions.TransactionConstructor;

@@ -1,4 +1,4 @@
-import { Interfaces, Utils } from "@arkecosystem/crypto";
+import { Interfaces, Utils } from "@blockpool-io/crypto";
 import { Logger, Shared } from "../index";
 import { IRoundInfo } from "../shared";
 

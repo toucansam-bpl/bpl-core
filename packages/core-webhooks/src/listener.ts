@@ -1,7 +1,7 @@
-import { app } from "@arkecosystem/core-container";
-import { ApplicationEvents } from "@arkecosystem/core-event-emitter";
-import { EventEmitter, Logger } from "@arkecosystem/core-interfaces";
-import { httpie } from "@arkecosystem/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { ApplicationEvents } from "@blockpool-io/core-event-emitter";
+import { EventEmitter, Logger } from "@blockpool-io/core-interfaces";
+import { httpie } from "@blockpool-io/core-utils";
 import * as conditions from "./conditions";
 import { database } from "./database";
 import { IWebhook } from "./interfaces";
