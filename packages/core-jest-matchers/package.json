@@ -20,8 +20,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.5.7",
-        "@blockpool-io/crypto": "^2.5.7",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "@blockpool-io/utils": "^0.3.0",
         "bip39": "^3.0.2",
         "got": "^9.6.0",

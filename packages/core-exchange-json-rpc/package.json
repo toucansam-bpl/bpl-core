@@ -19,8 +19,8 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.5.7",
-        "@blockpool-io/core-interfaces": "^2.5.7",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
         "@blockpool-io/exchange-json-rpc": "^1.0.3"
     },
     "engines": {

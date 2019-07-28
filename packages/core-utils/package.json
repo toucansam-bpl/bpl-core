@@ -18,9 +18,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.5.7",
-        "@blockpool-io/core-interfaces": "^2.5.7",
-        "@blockpool-io/crypto": "^2.5.7",
+        "@blockpool-io/core-container": "^2.0.0-pre.5",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/crypto": "^2.0.0-pre.5",
         "cli-table3": "^0.5.1",
         "dayjs": "^1.8.15",
         "fast-json-parse": "^1.0.3",
