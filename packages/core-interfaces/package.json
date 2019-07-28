@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-interfaces",
-    "version": "2.0.0-pre.9",
+    "version": "2.0.0-pre.8",
     "description": "Interface types for essential ARK Core modules",
     "license": "MIT",
     "contributors": [
@@ -23,7 +23,7 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/crypto": "^2.0.0-pre.9",
+        "@blockpool-io/crypto": "^2.0.0-pre.8",
         "awilix": "^4.2.2",
         "dayjs": "^1.8.15"
     },
@@ -33,5 +33,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
+    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
 }

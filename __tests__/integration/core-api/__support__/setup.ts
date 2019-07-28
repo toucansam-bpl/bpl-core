@@ -8,7 +8,7 @@ import { registerWithContainer, setUpContainer } from "../../../utils/helpers/co
 import { delegates } from "../../../utils/fixtures";
 import { generateRound } from "./utils/generate-round";
 
-import { sortBy } from "@blockpool-io/utils";
+import { sortBy } from "@arkecosystem/utils";
 import { asValue } from "awilix";
 
 const round = generateRound(delegates.map(delegate => delegate.publicKey), 1);

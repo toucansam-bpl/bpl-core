@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-tester-cli",
-    "version": "2.0.0-pre.9",
+    "version": "2.0.0-pre.8",
     "description": "Tester CLI for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -28,9 +28,9 @@
         "tester": "./bin/run"
     },
     "dependencies": {
-        "@blockpool-io/core-forger": "^2.0.0-pre.9",
-        "@blockpool-io/core-utils": "^2.0.0-pre.9",
-        "@blockpool-io/crypto": "^2.0.0-pre.9",
+        "@blockpool-io/core-forger": "^2.0.0-pre.8",
+        "@blockpool-io/core-utils": "^2.0.0-pre.8",
+        "@blockpool-io/crypto": "^2.0.0-pre.8",
         "@oclif/command": "^1.5.16",
         "@oclif/config": "^1.13.2",
         "@oclif/plugin-help": "^2.2.0",
@@ -74,5 +74,5 @@
             "@oclif/plugin-not-found"
         ]
     },
-    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
+    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
 }

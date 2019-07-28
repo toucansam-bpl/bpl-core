@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-database-postgres",
-    "version": "2.0.0-pre.9",
+    "version": "2.0.0-pre.8",
     "description": "PostgreSQL integration for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -22,13 +22,13 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@blockpool-io/core-container": "^2.0.0-pre.9",
-        "@blockpool-io/core-database": "^2.0.0-pre.9",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.9",
-        "@blockpool-io/core-state": "^2.0.0-pre.9",
-        "@blockpool-io/core-transactions": "^2.0.0-pre.9",
-        "@blockpool-io/core-utils": "^2.0.0-pre.9",
-        "@blockpool-io/crypto": "^2.0.0-pre.9",
+        "@blockpool-io/core-container": "^2.0.0-pre.8",
+        "@blockpool-io/core-database": "^2.0.0-pre.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.8",
+        "@blockpool-io/core-state": "^2.0.0-pre.8",
+        "@blockpool-io/core-transactions": "^2.0.0-pre.8",
+        "@blockpool-io/core-utils": "^2.0.0-pre.8",
+        "@blockpool-io/crypto": "^2.0.0-pre.8",
         "bluebird": "^3.5.5",
         "cpy-cli": "^2.0.0",
         "dayjs": "^1.8.15",
@@ -50,5 +50,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
+    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
 }

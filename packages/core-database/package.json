@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-database",
-    "version": "2.0.0-pre.9",
+    "version": "2.0.0-pre.8",
     "description": "Database Interface for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -23,12 +23,12 @@
     },
     "dependencies": {
         "@arkecosystem/utils": "^0.3.0",
-        "@blockpool-io/core-container": "^2.0.0-pre.9",
-        "@blockpool-io/core-event-emitter": "^2.0.0-pre.9",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.9",
-        "@blockpool-io/core-transactions": "^2.0.0-pre.9",
-        "@blockpool-io/core-utils": "^2.0.0-pre.9",
-        "@blockpool-io/crypto": "^2.0.0-pre.9",
+        "@blockpool-io/core-container": "^2.0.0-pre.8",
+        "@blockpool-io/core-event-emitter": "^2.0.0-pre.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.8",
+        "@blockpool-io/core-transactions": "^2.0.0-pre.8",
+        "@blockpool-io/core-utils": "^2.0.0-pre.8",
+        "@blockpool-io/crypto": "^2.0.0-pre.8",
         "lodash.clonedeep": "^4.5.0",
         "lodash.compact": "^3.0.1",
         "lodash.snakecase": "^4.1.1",
@@ -48,5 +48,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
+    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
 }

@@ -1,5 +1,5 @@
+import { orderBy } from "@arkecosystem/utils";
 import { Database } from "@blockpool-io/core-interfaces";
-import { orderBy } from "@blockpool-io/utils";
 
 export const sortEntries = (params: Database.IParameters, entries: any[], defaultValue) => {
     const [iteratee, order] = params.orderBy ? params.orderBy : defaultValue;

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-explorer",
-    "version": "2.0.0-pre.9",
+    "version": "2.0.0-pre.8",
     "description": "Explorer for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,8 +19,8 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.9",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.9",
+        "@blockpool-io/core-container": "^2.0.0-pre.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.8",
         "connect-history-api-fallback": "^1.6.0",
         "express": "^4.17.1"
     },
@@ -34,5 +34,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "7582cca4a1dab60c059441db131acd5654eef556"
+    "gitHead": "8eb3d3641736ca070e8a945114bd06881cf2cbaf"
 }
