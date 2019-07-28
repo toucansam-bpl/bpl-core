@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-container",
-    "version": "2.0.0-pre.8",
+    "version": "2.0.0-pre.11",
     "description": "Container for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.8",
-        "@blockpool-io/crypto": "^2.0.0-pre.8",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.11",
+        "@blockpool-io/crypto": "^2.0.0-pre.11",
         "@hapi/hoek": "^8.0.2",
         "@hapi/joi": "^15.1.0",
         "awilix": "^4.2.2",
