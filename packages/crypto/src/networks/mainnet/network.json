@@ -13,6 +13,6 @@
     "client": {
         "token": "BPL",
         "symbol": "β",
-        "explorer": "http://169.62.192.23:4200"
+        "explorer": "https://explorer.blockpool.io"
     }
 }

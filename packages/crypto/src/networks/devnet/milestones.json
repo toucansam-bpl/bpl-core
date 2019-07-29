@@ -6,11 +6,12 @@
         "blocktime": 15,
         "block": {
             "version": 0,
-            "maxTransactions": 50,
-            "maxPayload": 2097152,
-            "acceptExpiredTransactionTimestamps": true
+            "acceptExpiredTransactionTimestamps": false,
+            "idFullSha256": true,
+            "maxTransactions": 150,
+            "maxPayload": 6300000
         },
-        "epoch": "2019-06-05T22:27:07.911Z",
+        "epoch": "2019-07-24T16:12:48.587Z",
         "fees": {
             "staticFees": {
                 "transfer": 10000000,
@@ -24,50 +25,10 @@
                 "delegateResignation": 2500000000
             }
         },
-        "ignoreInvalidSecondSignatureField": true,
-        "ignoreExpiredTransactions": true,
-        "vendorFieldLength": 64
-    },
-    {
-        "height": 10800,
-        "reward": 200000000
-    },
-    {
-        "height": 21600,
-        "block": {
-            "maxTransactions": 150,
-            "maxPayload": 6300000
-        }
-    },
-    {
-        "height": 910000,
-        "block": {
-            "maxTransactions": 500,
-            "maxPayload": 21000000
-        }
-    },
-    {
-        "height": 950000,
-        "ignoreInvalidSecondSignatureField": false
-    },
-    {
-        "height": 1750000,
         "vendorFieldLength": 255
     },
     {
-        "height": 1895000,
-        "block": {
-            "idFullSha256": true
-        }
-    },
-    {
-        "height": 2300000,
-        "ignoreExpiredTransactions": false
-    },
-    {
-        "height": 2850000,
-        "block": {
-            "acceptExpiredTransactionTimestamps": false
-        }
+        "height": 202,
+        "reward": 400000000
     }
 ]
