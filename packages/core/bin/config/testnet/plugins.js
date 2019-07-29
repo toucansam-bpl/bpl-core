@@ -34,7 +34,7 @@ module.exports = {
     },
     "@blockpool-io/core-p2p": {
         server: {
-            port: process.env.CORE_P2P_PORT || 4000,
+            port: process.env.CORE_P2P_PORT || 19030,
         },
         minimumNetworkReach: 5,
     },
@@ -42,14 +42,14 @@ module.exports = {
     "@blockpool-io/core-api": {
         enabled: !process.env.CORE_API_DISABLED,
         host: process.env.CORE_API_HOST || "0.0.0.0",
-        port: process.env.CORE_API_PORT || 4003,
+        port: process.env.CORE_API_PORT || 19031,
     },
     "@blockpool-io/core-wallet-api": {},
     "@blockpool-io/core-webhooks": {
         enabled: process.env.CORE_WEBHOOKS_ENABLED,
         server: {
             host: process.env.CORE_WEBHOOKS_HOST || "0.0.0.0",
-            port: process.env.CORE_WEBHOOKS_PORT || 9032,
+            port: process.env.CORE_WEBHOOKS_PORT || 19032,
             whitelist: ["127.0.0.1", "::ffff:127.0.0.1"],
         },
     },
@@ -57,7 +57,7 @@ module.exports = {
     "@blockpool-io/core-exchange-json-rpc": {
         enabled: process.env.CORE_EXCHANGE_JSON_RPC_ENABLED,
         host: process.env.CORE_EXCHANGE_JSON_RPC_HOST || "0.0.0.0",
-        port: process.env.CORE_EXCHANGE_JSON_RPC_PORT || 8080,
+        port: process.env.CORE_EXCHANGE_JSON_RPC_PORT || 19034,
         allowRemote: false,
         whitelist: ["127.0.0.1", "::ffff:127.0.0.1"],
     },
