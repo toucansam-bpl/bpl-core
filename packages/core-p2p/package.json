@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-p2p",
-    "version": "2.0.0-pre.18",
+    "version": "2.0.0-pre.17",
     "description": "P2P API for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -23,13 +23,13 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.18",
+        "@blockpool-io/core-container": "^2.0.0-pre.17",
         "@blockpool-io/core-event-emitter": "^2.0.0-pre.13",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.18",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.18",
-        "@blockpool-io/core-transaction-pool": "^2.0.0-pre.18",
-        "@blockpool-io/core-utils": "^2.0.0-pre.18",
-        "@blockpool-io/crypto": "^2.0.0-pre.18",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.17",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.17",
+        "@blockpool-io/core-transaction-pool": "^2.0.0-pre.17",
+        "@blockpool-io/core-utils": "^2.0.0-pre.17",
+        "@blockpool-io/crypto": "^2.0.0-pre.17",
         "@hapi/boom": "^7.4.2",
         "@hapi/sntp": "^3.1.1",
         "ajv": "^6.10.2",
@@ -85,5 +85,5 @@
     "publishConfig": {
         "access": "public"
     },
-    "gitHead": "7282f6682bd76a1666e1ddf7673c1942fc3a2c3d"
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }
