@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-vote-report",
-    "version": "2.0.0-pre.17",
+    "version": "2.0.0-pre.20",
     "description": "Vote Report for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -18,10 +18,10 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.17",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.17",
-        "@blockpool-io/core-utils": "^2.0.0-pre.17",
-        "@blockpool-io/crypto": "^2.0.0-pre.17",
+        "@blockpool-io/core-container": "^2.0.0-pre.20",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.20",
+        "@blockpool-io/core-utils": "^2.0.0-pre.20",
+        "@blockpool-io/crypto": "^2.0.0-pre.20",
         "handlebars": "^4.1.2",
         "vision": "^5.4.4"
     },
