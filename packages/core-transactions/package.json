@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-transactions",
-    "version": "2.0.0-pre.16",
+    "version": "2.0.0-pre.18",
     "description": "Transaction Services for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -20,8 +20,8 @@
     },
     "dependencies": {
         "@blockpool-io/core-event-emitter": "^2.0.0-pre.13",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.16",
-        "@blockpool-io/crypto": "^2.0.0-pre.16",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.18",
+        "@blockpool-io/crypto": "^2.0.0-pre.18",
         "bs58check": "^2.1.2"
     },
     "engines": {

@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-error-tracker-sentry",
-    "version": "2.0.0-pre.16",
+    "version": "2.0.0-pre.18",
     "description": "Sentry error tracker integration for ARK Core.",
     "license": "MIT",
     "contributors": [
@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.16",
+        "@blockpool-io/core-container": "^2.0.0-pre.18",
         "@sentry/node": "^5.5.0"
     },
     "engines": {
