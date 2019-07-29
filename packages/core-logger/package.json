@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-logger",
-    "version": "2.0.0-2.0.0-pre.14.0",
+    "version": "2.0.0-pre.16",
     "description": "Logger Manager for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-2.0.0-pre.14.0",
-        "@blockpool-io/core-interfaces": "^2.0.0-2.0.0-pre.14.0",
+        "@blockpool-io/core-container": "^2.0.0-pre.16",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.16",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {
