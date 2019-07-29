@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-error-tracker-airbrake",
-    "version": "2.0.0-pre.13",
+    "version": "2.0.0-2.0.0-pre.14.0",
     "description": "Airbrake error tracker integration for ARK Core.",
     "license": "MIT",
     "contributors": [
@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.13",
+        "@blockpool-io/core-container": "^2.0.0-2.0.0-pre.14.0",
         "airbrake-js": "^1.6.8"
     },
     "engines": {
