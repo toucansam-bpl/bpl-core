@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-logger-winston",
-    "version": "2.0.0-pre.20",
+    "version": "2.0.0-pre.22",
     "description": "Winston Logger for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -20,8 +20,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.20",
-        "@blockpool-io/core-logger": "^2.0.0-pre.20",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.22",
+        "@blockpool-io/core-logger": "^2.0.0-pre.22",
         "chalk": "^2.4.2",
         "colors": "^1.3.3",
         "dayjs": "^1.8.15",
