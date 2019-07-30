@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-json-rpc",
-    "version": "2.4.0-next.9",
+    "version": "2.0.0-pre.20",
     "description": "A JSON-RPC 2.0 Specification compliant server to interact with the ARK Blockchain.",
     "license": "MIT",
     "contributors": [
@@ -20,11 +20,11 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.4.0-next.9",
-        "@blockpool-io/core-http-utils": "^2.4.0-next.9",
-        "@blockpool-io/core-interfaces": "^2.4.0-next.9",
-        "@blockpool-io/core-utils": "^2.4.0-next.9",
-        "@blockpool-io/crypto": "^2.4.0-next.9",
+        "@blockpool-io/core-container": "^2.0.0-pre.20",
+        "@blockpool-io/core-http-utils": "^2.0.0-pre.20",
+        "@blockpool-io/core-interfaces": "^2.0.0-pre.20",
+        "@blockpool-io/core-utils": "^2.0.0-pre.20",
+        "@blockpool-io/crypto": "^2.0.0-pre.20",
         "@hapi/boom": "^7.4.2",
         "@keyv/sqlite": "^2.0.0",
         "bip39": "^3.0.2",
@@ -36,7 +36,7 @@
         "wif": "^2.0.6"
     },
     "devDependencies": {
-        "@blockpool-io/core-p2p": "^2.4.0-next.9",
+        "@blockpool-io/core-p2p": "^2.0.0-pre.20",
         "@types/bip39": "^2.4.2",
         "@types/hapi__boom": "^7.4.0",
         "@types/is-reachable": "^3.1.0",
