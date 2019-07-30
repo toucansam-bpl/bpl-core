@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-interfaces",
-    "version": "2.0.0-pre.22",
+    "version": "2.0.0-pre.24",
     "description": "Interface types for essential ARK Core modules",
     "license": "MIT",
     "contributors": [
