@@ -20,8 +20,8 @@
     },
     "dependencies": {
         "@arkecosystem/exchange-json-rpc": "^1.0.3",
-        "@blockpool-io/core-container": "2.0.0-rc.1",
-        "@blockpool-io/core-interfaces": "2.0.0-rc.1"
+        "@blockpool-io/core-container": "2.0.0-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.0-rc.3"
     },
     "engines": {
         "node": ">=10.x"

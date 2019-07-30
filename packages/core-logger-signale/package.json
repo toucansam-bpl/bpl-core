@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "2.0.0-rc.1",
-        "@blockpool-io/core-logger": "2.0.0-rc.1",
+        "@blockpool-io/core-interfaces": "2.0.0-rc.3",
+        "@blockpool-io/core-logger": "2.0.0-rc.3",
         "signale": "^1.4.0"
     },
     "devDependencies": {
