@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@blockpool-io/core-event-emitter": "^2.0.2-rc.0",
-        "@blockpool-io/core-interfaces": "2.0.0-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
         "@blockpool-io/crypto": "^2.0.2-rc.0",
         "bs58check": "^2.1.2"
     },

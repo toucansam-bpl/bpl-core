@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@blockpool-io/core-container": "^2.0.2-rc.0",
-        "@blockpool-io/core-interfaces": "2.0.0-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {

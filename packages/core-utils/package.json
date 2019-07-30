@@ -19,7 +19,7 @@
     },
     "dependencies": {
         "@blockpool-io/core-container": "^2.0.2-rc.0",
-        "@blockpool-io/core-interfaces": "2.0.0-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
         "@blockpool-io/crypto": "^2.0.2-rc.0",
         "cli-table3": "^0.5.1",
         "dayjs": "^1.8.15",

@@ -19,7 +19,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "2.0.0-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
         "@blockpool-io/crypto": "^2.0.2-rc.0",
         "@hapi/hoek": "^8.0.2",
         "@hapi/joi": "^15.1.0",
