@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-http-utils",
-    "version": "2.0.2-rc.0",
+    "version": "2.0.2-rc.2",
     "description": "Http Utilities for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -18,8 +18,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.2-rc.0",
-        "@blockpool-io/core-utils": "^2.0.2-rc.0",
+        "@blockpool-io/core-container": "^2.0.2-rc.2",
+        "@blockpool-io/core-utils": "^2.0.2-rc.2",
         "@blockpool-io/crypto": "^2.0.2-rc.0",
         "@hapi/boom": "^7.4.2",
         "@hapi/good": "^8.2.0",
