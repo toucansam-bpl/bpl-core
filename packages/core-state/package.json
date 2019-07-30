@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-state",
-    "version": "2.0.0-pre.24",
+    "version": "2.0.0-rc.3",
     "description": "State Management for ARK Core",
     "license": "MIT",
     "contributors": [
