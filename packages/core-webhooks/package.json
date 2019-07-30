@@ -19,11 +19,11 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.24",
+        "@blockpool-io/core-container": "2.0.0-rc.1",
         "@blockpool-io/core-event-emitter": "^2.0.0-pre.13",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.24",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.24",
-        "@blockpool-io/core-utils": "^2.0.0-pre.24",
+        "@blockpool-io/core-http-utils": "2.0.0-rc.1",
+        "@blockpool-io/core-interfaces": "2.0.0-rc.1",
+        "@blockpool-io/core-utils": "2.0.0-rc.1",
         "@hapi/boom": "^7.4.2",
         "@hapi/joi": "^15.1.0",
         "fs-extra": "^8.1.0",

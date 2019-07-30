@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.24",
+        "@blockpool-io/core-container": "2.0.0-rc.1",
         "rollbar": "^2.8.1"
     },
     "engines": {

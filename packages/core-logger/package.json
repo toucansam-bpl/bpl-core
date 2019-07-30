@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.24",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.24",
+        "@blockpool-io/core-container": "2.0.0-rc.1",
+        "@blockpool-io/core-interfaces": "2.0.0-rc.1",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {

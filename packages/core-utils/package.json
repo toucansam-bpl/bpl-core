@@ -18,8 +18,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.24",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.24",
+        "@blockpool-io/core-container": "2.0.0-rc.1",
+        "@blockpool-io/core-interfaces": "2.0.0-rc.1",
         "@blockpool-io/crypto": "2.0.0-pre.22",
         "cli-table3": "^0.5.1",
         "dayjs": "^1.8.15",
