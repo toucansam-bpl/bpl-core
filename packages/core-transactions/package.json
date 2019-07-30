@@ -20,8 +20,8 @@
     },
     "dependencies": {
         "@blockpool-io/core-event-emitter": "^2.0.0-pre.13",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.22",
-        "@blockpool-io/crypto": "^2.0.0-pre.22",
+        "@blockpool-io/core-interfaces": "2.0.0-pre.22",
+        "@blockpool-io/crypto": "2.0.0-pre.22",
         "bs58check": "^2.1.2"
     },
     "engines": {

@@ -19,8 +19,8 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.22",
-        "@blockpool-io/crypto": "^2.0.0-pre.22",
+        "@blockpool-io/core-interfaces": "2.0.0-pre.22",
+        "@blockpool-io/crypto": "2.0.0-pre.22",
         "@hapi/hoek": "^8.0.2",
         "@hapi/joi": "^15.1.0",
         "awilix": "^4.2.2",

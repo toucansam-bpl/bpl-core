@@ -28,9 +28,9 @@
         "tester": "./bin/run"
     },
     "dependencies": {
-        "@blockpool-io/core-forger": "^2.0.0-pre.22",
-        "@blockpool-io/core-utils": "^2.0.0-pre.22",
-        "@blockpool-io/crypto": "^2.0.0-pre.22",
+        "@blockpool-io/core-forger": "2.0.0-pre.22",
+        "@blockpool-io/core-utils": "2.0.0-pre.22",
+        "@blockpool-io/crypto": "2.0.0-pre.22",
         "@oclif/command": "^1.5.16",
         "@oclif/config": "^1.13.2",
         "@oclif/plugin-help": "^2.2.0",
