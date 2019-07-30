@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-logger-signale",
-    "version": "2.0.0-rc.3",
+    "version": "2.0.2-rc.0",
     "description": "Signale integration for ARK Core",
     "license": "MIT",
     "contributors": [
@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "@blockpool-io/core-interfaces": "2.0.0-rc.3",
-        "@blockpool-io/core-logger": "2.0.0-rc.3",
+        "@blockpool-io/core-logger": "^2.0.2-rc.0",
         "signale": "^1.4.0"
     },
     "devDependencies": {
