@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-interfaces",
-    "version": "2.0.2-rc.0",
-    "description": "Interface types for essential ARK Core modules",
+    "version": "2.0.2-rc.3",
+    "description": "Interface types for essential Blockpool Core modules",
     "license": "MIT",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
@@ -23,7 +23,7 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/crypto": "^2.0.2-rc.0",
+        "@blockpool-io/crypto": "2.0.2-rc.3",
         "awilix": "^4.2.2",
         "dayjs": "^1.8.15"
     },

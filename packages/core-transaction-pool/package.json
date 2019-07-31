@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-transaction-pool",
-    "version": "2.0.2-rc.2",
-    "description": "Transaction Pool Manager for ARK Core",
+    "version": "2.0.2-rc.3",
+    "description": "Transaction Pool Manager for Blockpool Core",
     "license": "MIT",
     "contributors": [
         "Kristjan Košič <kristjan@ark.io>",
@@ -24,13 +24,13 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.2-rc.2",
-        "@blockpool-io/core-database": "^2.0.2-rc.2",
-        "@blockpool-io/core-event-emitter": "^2.0.2-rc.0",
-        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
-        "@blockpool-io/core-state": "^2.0.2-rc.2",
-        "@blockpool-io/core-transactions": "^2.0.2-rc.2",
-        "@blockpool-io/crypto": "^2.0.2-rc.0",
+        "@blockpool-io/core-container": "^2.0.2-rc.3",
+        "@blockpool-io/core-database": "^2.0.2-rc.3",
+        "@blockpool-io/core-event-emitter": "2.0.2-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.3",
+        "@blockpool-io/core-state": "^2.0.2-rc.3",
+        "@blockpool-io/core-transactions": "^2.0.2-rc.3",
+        "@blockpool-io/crypto": "2.0.2-rc.3",
         "@types/better-sqlite3": "^5.4.0",
         "@types/fs-extra": "^8.0.0",
         "@types/pluralize": "^0.0.29",
@@ -44,7 +44,7 @@
         "pluralize": "^8.0.0"
     },
     "devDependencies": {
-        "@blockpool-io/core-utils": "^2.0.2-rc.2",
+        "@blockpool-io/core-utils": "^2.0.2-rc.3",
         "@types/better-sqlite3": "^5.4.0",
         "@types/bip39": "^2.4.2",
         "@types/fs-extra": "^8.0.0",

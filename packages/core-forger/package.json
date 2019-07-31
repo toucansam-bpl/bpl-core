@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-forger",
-    "version": "2.0.2-rc.2",
-    "description": "Forger for ARK Core",
+    "version": "2.0.2-rc.3",
+    "description": "Forger for Blockpool Core",
     "license": "MIT",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
@@ -21,12 +21,12 @@
         "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.2-rc.2",
-        "@blockpool-io/core-event-emitter": "^2.0.2-rc.0",
-        "@blockpool-io/core-interfaces": "2.0.2-rc.0",
-        "@blockpool-io/core-p2p": "^2.0.2-rc.2",
-        "@blockpool-io/core-utils": "^2.0.2-rc.2",
-        "@blockpool-io/crypto": "^2.0.2-rc.0",
+        "@blockpool-io/core-container": "^2.0.2-rc.3",
+        "@blockpool-io/core-event-emitter": "2.0.2-rc.3",
+        "@blockpool-io/core-interfaces": "2.0.2-rc.3",
+        "@blockpool-io/core-p2p": "^2.0.2-rc.3",
+        "@blockpool-io/core-utils": "^2.0.2-rc.3",
+        "@blockpool-io/crypto": "2.0.2-rc.3",
         "delay": "^4.3.0",
         "lodash.isempty": "^4.4.0",
         "lodash.uniq": "^4.5.0",

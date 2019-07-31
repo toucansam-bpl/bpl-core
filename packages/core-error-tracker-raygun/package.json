@@ -18,7 +18,7 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.2-rc.2",
+        "@blockpool-io/core-container": "^2.0.2-rc.3",
         "raygun": "^0.10.1"
     },
     "devDependencies": {
