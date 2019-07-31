@@ -7,11 +7,10 @@
         "block": {
             "version": 0,
             "acceptExpiredTransactionTimestamps": false,
-            "idFullSha256": true,
             "maxTransactions": 150,
             "maxPayload": 6300000
         },
-        "epoch": "2019-07-24T16:12:48.587Z",
+        "epoch": "2019-07-31T02:34:21.784Z",
         "fees": {
             "staticFees": {
                 "transfer": 10000000,
