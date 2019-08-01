@@ -1,6 +1,6 @@
 {
     "name": "@blockpool-io/core-utils",
-    "version": "2.0.2-rc.3",
+    "version": "2.0.2-rc.4",
     "description": "Utilities for Blockpool Core",
     "license": "MIT",
     "contributors": [
@@ -18,9 +18,9 @@
         "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.2-rc.3",
-        "@blockpool-io/core-interfaces": "2.0.2-rc.3",
-        "@blockpool-io/crypto": "2.0.2-rc.3",
+        "@blockpool-io/core-container": "^2.0.2-rc.4",
+        "@blockpool-io/core-interfaces": "^2.0.2-rc.3",
+        "@blockpool-io/crypto": "^2.0.2-rc.4",
         "cli-table3": "^0.5.1",
         "dayjs": "^1.8.15",
         "fast-json-parse": "^1.0.3",

@@ -5,7 +5,7 @@
     "payloadHash": "b97b54199618a051cbcc02b41a0dca4913f7a40e666be62e590e1052b7fbf750",
     "payloadLength": 624901,
     "previousBlock": null,
-    "reward": 0,
+    "reward": "0",
     "timestamp": 0,
     "totalAmount": "3099030046446305",
     "totalFee": "0",

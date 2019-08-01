@@ -6,5 +6,5 @@
         { "ip": "169.48.241.147", "port": 9030 },
         { "ip": "169.48.241.158", "port": 9030 }
     ],
-    "sources": []
+    "sources": ["https://raw.githubusercontent.com/blockpool-io/peers/master/devnet.json"]
 }
