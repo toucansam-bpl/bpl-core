@@ -1,26 +1,26 @@
 {
     "name": "@blockpool-io/core-logger",
-    "description": "Logger Manager for BPL Core",
-    "version": "2.0.0-pre.5",
+    "version": "2.0.2-rc.4",
+    "description": "Logger Manager for Blockpool Core",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index",
-    "types": "dist/index",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
+    "types": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.5",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
+        "@blockpool-io/core-container": "^2.0.2-rc.4",
+        "@blockpool-io/core-interfaces": "^2.0.2-rc.3",
         "lodash.isempty": "^4.4.0"
     },
     "devDependencies": {
@@ -28,11 +28,11 @@
         "@types/lodash.isempty": "^4.4.6",
         "capture-console": "^1.0.1"
     },
-    "publishConfig": {
-        "access": "public"
-    },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

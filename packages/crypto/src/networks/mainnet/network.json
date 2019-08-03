@@ -6,13 +6,13 @@
         "private": 46089520
     },
     "pubKeyHash": 25,
-    "nethash": "8b3fe4d6865603a45c21ca86aab1dbeb7fcff047a8cad55bc13737b6c28d3847",
+    "nethash": "ff8efb69464f22e16d099c36d1160709a22be9d2f626228d3083987bcb692007",
     "wif": 170,
     "slip44": 111,
     "aip20": 0,
     "client": {
         "token": "BPL",
         "symbol": "β",
-        "explorer": "http://169.62.192.23:4200"
+        "explorer": "https://explorer.blockpool.io"
     }
 }

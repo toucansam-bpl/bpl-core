@@ -26,6 +26,9 @@ $ bpl forger:start --no-daemon
             default: true,
             allowNo: true,
         }),
+        env: flags.string({
+            default: "production",
+        }),
     };
 
     public getClass() {

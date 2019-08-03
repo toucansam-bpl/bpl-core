@@ -1,4 +1,4 @@
-import { crypto } from "@blockpool-io/crypto";
+import { Identities } from "@blockpool-io/crypto";
 
 export {};
 
@@ -15,7 +15,7 @@ expect.extend({
     toBePublicKey: received => {
         return {
             message: () => "Expected value to be a valid public key",
-            pass: crypto.validatePublicKey(received),
+            pass: Identities.PublicKey.validate(received),
         };
     },
 });

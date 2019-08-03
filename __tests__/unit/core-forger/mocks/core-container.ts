@@ -18,6 +18,12 @@ jest.mock("@blockpool-io/core-container", () => {
 
                 return {};
             },
+            resolveOptions: name => {
+                return {};
+            },
+            has: () => {
+                return false;
+            },
         },
     };
 });
