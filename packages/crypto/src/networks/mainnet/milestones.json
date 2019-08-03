@@ -6,11 +6,12 @@
         "blocktime": 15,
         "block": {
             "version": 0,
-            "maxTransactions": 50,
-            "maxPayload": 2097152,
-            "acceptExpiredTransactionTimestamps": true
+            "acceptExpiredTransactionTimestamps": false,
+            "idFullSha256": true,
+            "maxTransactions": 150,
+            "maxPayload": 6300000
         },
-        "epoch": "2019-06-05T22:27:05.400Z",
+        "epoch": "2019-08-03T16:34:49.986Z",
         "fees": {
             "staticFees": {
                 "transfer": 10000000,
@@ -21,13 +22,37 @@
                 "ipfs": 0,
                 "timelockTransfer": 0,
                 "multiPayment": 0,
-                "delegateResignation": 2500000000
+                "delegateResignation": 0
             }
         },
         "vendorFieldLength": 255
     },
     {
-        "height": 1000,
-        "reward": 500000000
+        "height": 40201,
+        "reward": 400000000
+    },
+    {
+        "height": 1091431,
+        "reward": 300000000
+    },
+    {
+        "height": 2668276,
+        "reward": 200000000
+    },
+    {
+        "height": 5821966,
+        "reward": 100000000
+    },
+    {
+        "height": 9515542,
+        "reward": 17327543
+    },
+    {
+        "height": 9515566,
+        "reward": 17327542
+    },
+    {
+        "height": 9515743,
+        "reward": 0
     }
 ]
