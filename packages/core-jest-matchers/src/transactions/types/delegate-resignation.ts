@@ -1,5 +1,5 @@
-import { constants } from "@blockpool-io/crypto";
-const { DelegateResignation } = constants.TransactionTypes;
+import { Enums } from "@blockpool-io/crypto";
+const { DelegateResignation } = Enums.TransactionTypes;
 
 export {};
 

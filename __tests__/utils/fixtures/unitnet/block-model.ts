@@ -1,6 +1,6 @@
-import { configManager, models } from "@blockpool-io/crypto";
-import genesisBlockJson from "../../config/unitnet/genesisBlock.json";
+import { Blocks, Managers } from "@blockpool-io/crypto";
+import { genesisBlock as GB } from "../../config/unitnet/genesisBlock";
 
-configManager.setFromPreset("unitnet");
+Managers.configManager.setFromPreset("unitnet");
 
-export const genesisBlock = new models.Block(genesisBlockJson);
+export const genesisBlock = Blocks.BlockFactory.fromData(GB);

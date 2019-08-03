@@ -1,49 +1,46 @@
 {
     "name": "@blockpool-io/core-webhooks",
-    "description": "Webhooks for BPL Core",
-    "version": "2.0.0-pre.5",
+    "version": "2.0.2-rc.4",
+    "description": "Webhooks for Blockpool Core",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "pretest": "bash ../../scripts/pre-test.sh",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build",
+        "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/core-container": "^2.0.0-pre.5",
-        "@blockpool-io/core-event-emitter": "^2.0.0-pre.3",
-        "@blockpool-io/core-http-utils": "^2.0.0-pre.5",
-        "@blockpool-io/core-interfaces": "^2.0.0-pre.5",
-        "@blockpool-io/core-utils": "^2.0.0-pre.5",
-        "boom": "^7.3.0",
-        "fs-extra": "^7.0.1",
-        "hapi-pagination": "^2.1.0",
-        "joi": "^14.3.1",
+        "@blockpool-io/core-container": "^2.0.2-rc.4",
+        "@blockpool-io/core-event-emitter": "^2.0.2-rc.3",
+        "@blockpool-io/core-http-utils": "^2.0.2-rc.4",
+        "@blockpool-io/core-interfaces": "^2.0.2-rc.3",
+        "@blockpool-io/core-utils": "^2.0.2-rc.4",
+        "@hapi/boom": "^7.4.2",
+        "@hapi/joi": "^15.1.0",
+        "fs-extra": "^8.1.0",
         "lowdb": "^1.0.0",
         "uuid": "^3.3.2"
     },
     "devDependencies": {
-        "@types/boom": "^7.2.1",
-        "@types/fs-extra": "^5.0.5",
-        "@types/joi": "^14.3.2",
-        "@types/sequelize": "^4.27.39",
-        "@types/sqlite3": "^3.1.5",
-        "@types/umzug": "^2.2.0"
-    },
-    "publishConfig": {
-        "access": "public"
+        "@types/fs-extra": "^8.0.0",
+        "@types/hapi__boom": "^7.4.0",
+        "@types/hapi__joi": "^15.0.2",
+        "@types/uuid": "^3.4.5"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

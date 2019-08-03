@@ -6,13 +6,13 @@
         "private": 46089520
     },
     "pubKeyHash": 25,
-    "nethash": "d1ae0eb52b938ccb69b318d62961310e514c0d0519874f687a3342527963a6a9",
+    "nethash": "b97b54199618a051cbcc02b41a0dca4913f7a40e666be62e590e1052b7fbf750",
     "wif": 170,
-    "slip44": 1,
-    "aip20": 1,
+    "slip44": 111,
+    "aip20": 0,
     "client": {
-        "token": "BPL",
-        "symbol": "β",
+        "token": "∂BPL",
+        "symbol": "∂β",
         "explorer": "http://169.62.192.23:4200"
     }
 }

@@ -1,6 +1,6 @@
-import { constants } from "@blockpool-io/crypto";
+import { Enums } from "@blockpool-io/crypto";
 
-const { Ipfs } = constants.TransactionTypes;
+const { Ipfs } = Enums.TransactionTypes;
 
 export {};
 

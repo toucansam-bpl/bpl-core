@@ -6,8 +6,10 @@
         "blocktime": 15,
         "block": {
             "version": 0,
+            "acceptExpiredTransactionTimestamps": false,
+            "idFullSha256": true,
             "maxTransactions": 150,
-            "maxPayload": 6291456
+            "maxPayload": 6300000
         },
         "epoch": "2019-07-02T23:19:03.069Z",
         "fees": {
@@ -20,13 +22,13 @@
                 "ipfs": 0,
                 "timelockTransfer": 0,
                 "multiPayment": 0,
-                "delegateResignation": 0
+                "delegateResignation": 2500000000
             }
         },
         "vendorFieldLength": 255
     },
     {
-        "height": 1000,
+        "height": 202,
         "reward": 400000000
     }
 ]

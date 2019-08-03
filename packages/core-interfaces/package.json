@@ -1,37 +1,37 @@
 {
     "name": "@blockpool-io/core-interfaces",
-    "description": "Interface types for essential BPL Core modules",
-    "version": "2.0.0-pre.5",
+    "version": "2.0.2-rc.3",
+    "description": "Interface types for essential Blockpool Core modules",
+    "license": "MIT",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
         "Brian Faust <brian@ark.io>",
         "Alex Barnsley <alex@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index",
-    "types": "dist/index",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
+    "types": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "pretest": "bash ../../scripts/pre-test.sh",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build",
+        "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@blockpool-io/crypto": "^2.0.0-pre.5",
-        "@faustbrian/dato": "^0.2.0",
-        "awilix": "^4.2.1"
-    },
-    "publishConfig": {
-        "access": "public"
+        "@blockpool-io/crypto": "^2.0.2-rc.4",
+        "awilix": "^4.2.2",
+        "dayjs": "^1.8.15"
     },
     "engines": {
         "node": ">=10.x"
     },
-    "gitHead": "de9c356efec9feb4c4d7042c70547a8b6fa05825"
+    "publishConfig": {
+        "access": "public"
+    },
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

@@ -47,6 +47,6 @@ $ bpl config:reset --network=mainnet
 
         await this.runTasks();
 
-        await PublishCommand.run(this.flagsToStrings(flags).split(" "));
+        return PublishCommand.run(this.flagsToStrings(flags).split(" "));
     }
 }

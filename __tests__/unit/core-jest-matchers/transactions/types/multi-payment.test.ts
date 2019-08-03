@@ -1,7 +1,7 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/multi-payment";
 
-import { constants } from "@blockpool-io/crypto";
-const { TransactionTypes } = constants;
+import { Enums } from "@blockpool-io/crypto";
+const { TransactionTypes } = Enums;
 
 describe(".toBeMultiPaymentType", () => {
     test("passes when given a valid transaction", () => {

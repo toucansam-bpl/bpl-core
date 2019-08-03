@@ -1,25 +1,29 @@
-import { Database } from "@blockpool-io/core-interfaces";
-import { TimelockTransferTransaction, Transaction, TransactionConstructor } from "@blockpool-io/crypto";
+import { Database, State } from "@blockpool-io/core-interfaces";
+import { Interfaces, Transactions } from "@blockpool-io/crypto";
 import { TransactionHandler } from "./transaction";
 
 export class TimelockTransferTransactionHandler extends TransactionHandler {
-    public getConstructor(): TransactionConstructor {
-        return TimelockTransferTransaction;
+    public getConstructor(): Transactions.TransactionConstructor {
+        return Transactions.TimelockTransferTransaction;
     }
 
-    public canBeApplied(
-        transaction: Transaction,
-        wallet: Database.IWallet,
-        walletManager?: Database.IWalletManager,
-    ): boolean {
-        return super.canBeApplied(transaction, wallet, walletManager);
-    }
-
-    public apply(transaction: Transaction, wallet: Database.IWallet): void {
+    public async bootstrap(connection: Database.IConnection, walletManager: State.IWalletManager): Promise<void> {
         return;
     }
 
-    public revert(transaction: Transaction, wallet: Database.IWallet): void {
+    public canBeApplied(
+        transaction: Interfaces.ITransaction,
+        wallet: State.IWallet,
+        databaseWalletManager: State.IWalletManager,
+    ): boolean {
+        return super.canBeApplied(transaction, wallet, databaseWalletManager);
+    }
+
+    protected applyToRecipient(transaction: Interfaces.ITransaction, walletManager: State.IWalletManager): void {
+        return;
+    }
+
+    protected revertForRecipient(transaction: Interfaces.ITransaction, walletManager: State.IWalletManager): void {
         return;
     }
 }

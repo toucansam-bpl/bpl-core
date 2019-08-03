@@ -1,6 +1,6 @@
-import { constants } from "@blockpool-io/crypto";
+import { Enums } from "@blockpool-io/crypto";
 
-const { Transfer } = constants.TransactionTypes;
+const { Transfer } = Enums.TransactionTypes;
 
 export {};
 
