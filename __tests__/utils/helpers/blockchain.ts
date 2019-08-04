@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Blockchain, TransactionPool } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Blockchain, TransactionPool } from "@blockpool-io/core-interfaces";
 
 export const resetBlockchain = async () => {
     // Resets everything so that it can be used in beforeAll to start clean a test suite

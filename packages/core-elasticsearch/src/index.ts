@@ -1,10 +1,10 @@
-import { Container } from "@arkecosystem/core-interfaces";
+import { Container } from "@blockpool-io/core-interfaces";
 import { client } from "./client";
 import { defaults } from "./defaults";
 import { watchIndices } from "./indices";
 import { startServer } from "./server";
 
-export const plugin: Container.PluginDescriptor = {
+export const plugin: Container.IPluginDescriptor = {
     pkg: require("../package.json"),
     defaults,
     alias: "elasticsearch",

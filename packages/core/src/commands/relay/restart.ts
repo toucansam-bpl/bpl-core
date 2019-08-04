@@ -7,7 +7,7 @@ export class RestartCommand extends AbstractRestartCommand {
 
     public static examples: string[] = [
         `Restart the relay
-$ ark relay:restart
+$ bpl relay:restart
 `,
     ];
 

@@ -1,4 +1,4 @@
-import { Database } from "@arkecosystem/core-interfaces";
+import { Database } from "@blockpool-io/core-interfaces";
 import { SearchParameterConverter } from "../../../../../packages/core-database/src/repositories/utils/search-parameter-converter";
 import { MockDatabaseModel } from "../../__fixtures__/mock-database-model";
 
@@ -10,7 +10,7 @@ describe("SearchParameterConverter", () => {
 
     it("should parse all supported operators", () => {
         const params = {
-            id: "343-guilty-spark",
+            id: "343-guilty-spbpl",
             timestamp: { from: "100", to: "1000" },
             sentence: "a partial",
             basket: ["apples", "pears", "bananas"],
@@ -19,10 +19,10 @@ describe("SearchParameterConverter", () => {
         const searchParameters = searchParameterConverter.convert(params);
 
         expect(searchParameters.orderBy).toHaveLength(0);
-        expect(searchParameters.paginate).toBeNull();
+        expect(searchParameters.paginate).toBeUndefined();
         expect(searchParameters.parameters).toHaveLength(5);
         expect(searchParameters.parameters[0].field).toEqual("id");
-        expect(searchParameters.parameters[0].value).toEqual("343-guilty-spark");
+        expect(searchParameters.parameters[0].value).toEqual("343-guilty-spbpl");
         expect(searchParameters.parameters[0].operator).toEqual(Database.SearchOperator.OP_EQ);
 
         expect(searchParameters.parameters[1].field).toEqual("timestamp");

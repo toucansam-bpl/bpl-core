@@ -1,6 +1,6 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
 import fs from "fs-extra";
 import { setUpLite } from "../utils";
@@ -12,7 +12,7 @@ export class VerifyCommand extends BaseCommand {
     public static flags = {
         ...BaseCommand.flags,
         blocks: flags.string({
-            description: "blocks to verify, corelates to folder name",
+            description: "blocks to verify, correlates to folder name",
         }),
         codec: flags.string({
             description: "codec name, default is msg-lite binary",

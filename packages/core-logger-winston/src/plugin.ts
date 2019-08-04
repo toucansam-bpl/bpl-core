@@ -1,13 +1,13 @@
-import { Container } from "@arkecosystem/core-interfaces";
-import { LoggerManager } from "@arkecosystem/core-logger";
+import { Container } from "@blockpool-io/core-interfaces";
+import { LoggerManager } from "@blockpool-io/core-logger";
 import { defaults } from "./defaults";
 import { WinstonLogger } from "./driver";
 
-export const plugin: Container.PluginDescriptor = {
+export const plugin: Container.IPluginDescriptor = {
     pkg: require("../package.json"),
     defaults,
     alias: "logger",
-    extends: "@arkecosystem/core-logger",
+    extends: "@blockpool-io/core-logger",
     async register(container: Container.IContainer, options) {
         return container.resolvePlugin<LoggerManager>("log-manager").createDriver(new WinstonLogger(options));
     },

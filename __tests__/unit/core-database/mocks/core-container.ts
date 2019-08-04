@@ -1,6 +1,7 @@
+import { stateStorageStub } from "../__fixtures__/state-storage-stub";
 import { emitter } from "./emitter";
 
-jest.mock("@arkecosystem/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {
@@ -26,6 +27,10 @@ jest.mock("@arkecosystem/core-container", () => {
 
                 if (name === "event-emitter") {
                     return emitter;
+                }
+
+                if (name === "state") {
+                    return { getStore: () => stateStorageStub };
                 }
 
                 return {};

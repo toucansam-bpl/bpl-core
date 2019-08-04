@@ -3,7 +3,6 @@ import Chalk from "chalk";
 import cli from "cli-ux";
 import { checkForUpdates, needsRefresh } from "../../helpers/update";
 
-// tslint:disable-next-line:only-arrow-functions
 export const init: Hook<"init"> = async function({ id, config }) {
     if (id === "update") {
         return;
@@ -19,7 +18,7 @@ export const init: Hook<"init"> = async function({ id, config }) {
         this.warn(
             `${state.name} update available from ${Chalk.greenBright(state.currentVersion)} to ${Chalk.greenBright(
                 state.updateVersion,
-            )}. Review the latest release and run "ark update" once you wish to update.`,
+            )}. Review the latest release and run "bpl update" once you wish to update.`,
         );
 
         const branch: Record<string, string> = {
@@ -27,9 +26,9 @@ export const init: Hook<"init"> = async function({ id, config }) {
             latest: "master",
         }[state.channel];
 
-        await cli.url(
+        cli.url(
             `Click here to read the changelog for ${state.currentVersion}.`,
-            `https://github.com/ARKEcosystem/core/blob/${branch}/CHANGELOG.md`,
+            `https://github.com/blockpool-io/core/blob/${branch}/CHANGELOG.md`,
         );
     }
 };

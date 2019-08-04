@@ -1,9 +1,9 @@
-import { app } from "@arkecosystem/core-container";
-import { EventEmitter } from "@arkecosystem/core-interfaces";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
+import { app } from "@blockpool-io/core-container";
+import { EventEmitter } from "@blockpool-io/core-interfaces";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
 import cliProgress from "cli-progress";
-import { setUpLite } from "../../helpers/snapshot";
+import { chooseSnapshot, setUpLite } from "../../helpers/snapshot";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
 
@@ -13,8 +13,7 @@ export class RestoreCommand extends BaseCommand {
     public static flags: CommandFlags = {
         ...BaseCommand.flagsSnapshot,
         blocks: flags.string({
-            description: "blocks to import, corelates to folder name",
-            required: true,
+            description: "blocks to import, correlates to folder name",
         }),
         truncate: flags.boolean({
             description: "empty all tables before running import",
@@ -33,7 +32,15 @@ export class RestoreCommand extends BaseCommand {
         await setUpLite(flags);
 
         if (!app.has("snapshots")) {
-            this.error("The @arkecosystem/core-snapshots plugin is not installed.");
+            this.error("The @blockpool-io/core-snapshots plugin is not installed.");
+        }
+
+        if (!flags.blocks) {
+            try {
+                await chooseSnapshot(flags, "What snapshot do you want to restore?");
+            } catch (error) {
+                this.error(error.message);
+            }
         }
 
         const emitter = app.resolvePlugin<EventEmitter.EventEmitter>("event-emitter");

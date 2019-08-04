@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { flags } from "@oclif/command";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
@@ -8,22 +8,22 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run a relay
-$ ark relay:run
+$ bpl relay:run
 `,
         `Run a genesis relay
-$ ark relay:run --networkStart
+$ bpl relay:run --networkStart
 `,
         `Disable any discovery by other peers
-$ ark relay:run --disableDiscovery
+$ bpl relay:run --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark relay:run --skipDiscovery
+$ bpl relay:run --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark relay:run --ignoreMinimumNetworkReach
+$ bpl relay:run --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark relay:run --launchMode=seed
+$ bpl relay:run --launchMode=seed
 `,
     ];
 
@@ -34,16 +34,19 @@ $ ark relay:run --launchMode=seed
             hidden: true,
             default: "relay",
         }),
+        env: flags.string({
+            default: "production",
+        }),
     };
 
     public async run(): Promise<void> {
         const { flags } = await this.parseWithNetwork(RunCommand);
 
         await super.buildApplication(app, flags, {
-            exclude: ["@arkecosystem/core-forger"],
+            exclude: ["@blockpool-io/core-forger"],
             options: {
-                "@arkecosystem/core-p2p": this.buildPeerOptions(flags),
-                "@arkecosystem/core-blockchain": {
+                "@blockpool-io/core-p2p": this.buildPeerOptions(flags),
+                "@blockpool-io/core-blockchain": {
                     networkStart: flags.networkStart,
                 },
             },

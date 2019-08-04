@@ -1,51 +1,55 @@
 {
-    "name": "@arkecosystem/core-blockchain",
-    "description": "Blockchain Manager for ARK Core",
-    "version": "2.3.23",
+    "name": "@blockpool-io/core-blockchain",
+    "version": "2.5.14",
+    "description": "Blockchain Manager for Blockpool Core",
+    "license": "MIT",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
         "Kristjan Košič <kristjan@ark.io>",
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index",
-    "types": "dist/index",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
+    "types": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "pretest": "bash ../../scripts/pre-test.sh",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build",
+        "pretest": "bash ../../scripts/pre-test.sh"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
-        "async": "^2.6.2",
-        "awilix": "^4.2.1",
-        "delay": "^4.1.0",
+        "@blockpool-io/core-container": "^2.5.14",
+        "@blockpool-io/core-database": "^2.5.14",
+        "@blockpool-io/core-event-emitter": "^2.5.14",
+        "@blockpool-io/core-interfaces": "^2.5.14",
+        "@blockpool-io/core-state": "^2.5.14",
+        "@blockpool-io/core-transactions": "^2.5.14",
+        "@blockpool-io/core-utils": "^2.5.14",
+        "@blockpool-io/crypto": "^2.5.14",
+        "async": "^3.1.0",
+        "delay": "^4.3.0",
         "immutable": "^4.0.0-rc.12",
         "lodash.get": "^4.4.2",
-        "pluralize": "^7.0.0",
-        "pretty-ms": "^4.0.0",
-        "xstate": "^4.3.3"
+        "pluralize": "^8.0.0",
+        "pretty-ms": "^5.0.0",
+        "xstate": "^4.6.7"
     },
     "devDependencies": {
-        "@arkecosystem/core-p2p": "^2.3.23",
-        "@types/async": "^2.4.1",
+        "@blockpool-io/core-p2p": "^2.5.14",
+        "@types/async": "^3.0.0",
         "@types/lodash.get": "^4.4.6",
         "@types/pluralize": "^0.0.29",
         "@types/pretty-ms": "^4.0.0"
     },
+    "engines": {
+        "node": ">=10.x"
+    },
     "publishConfig": {
         "access": "public"
     },
-    "engines": {
-        "node": ">=10.x"
-    }
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

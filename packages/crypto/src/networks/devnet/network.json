@@ -1,18 +1,18 @@
 {
     "name": "devnet",
-    "messagePrefix": "DARK message:\n",
+    "messagePrefix": "BPL message:\n",
     "bip32": {
         "public": 46090600,
         "private": 46089520
     },
-    "pubKeyHash": 30,
-    "nethash": "2a44f340d76ffc3df204c5f38cd355b7496c9065a1ade2ef92071436bd72e867",
+    "pubKeyHash": 25,
+    "nethash": "b97b54199618a051cbcc02b41a0dca4913f7a40e666be62e590e1052b7fbf750",
     "wif": 170,
-    "slip44": 1,
-    "aip20": 1,
+    "slip44": 111,
+    "aip20": 0,
     "client": {
-        "token": "DARK",
-        "symbol": "DѦ",
-        "explorer": "https://dexplorer.ark.io"
+        "token": "∂BPL",
+        "symbol": "∂β",
+        "explorer": "http://169.62.192.23:4200"
     }
 }

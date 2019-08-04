@@ -8,25 +8,25 @@ export class StartCommand extends AbstractStartCommand {
 
     public static examples: string[] = [
         `Run core with a daemon
-$ ark core:start
+$ bpl core:start
 `,
         `Run core as genesis
-$ ark core:start --networkStart
+$ bpl core:start --networkStart
 `,
         `Disable any discovery by other peers
-$ ark core:start --disableDiscovery
+$ bpl core:start --disableDiscovery
 `,
         `Skip the initial discovery
-$ ark core:start --skipDiscovery
+$ bpl core:start --skipDiscovery
 `,
         `Ignore the minimum network reach
-$ ark core:start --ignoreMinimumNetworkReach
+$ bpl core:start --ignoreMinimumNetworkReach
 `,
         `Start a seed
-$ ark core:start --launchMode=seed
+$ bpl core:start --launchMode=seed
 `,
         `Run core without a daemon
-$ ark core:start --no-daemon
+$ bpl core:start --no-daemon
 `,
     ];
 
@@ -42,6 +42,9 @@ $ ark core:start --no-daemon
         suffix: flags.string({
             hidden: true,
             default: "core",
+        }),
+        env: flags.string({
+            default: "production",
         }),
     };
 

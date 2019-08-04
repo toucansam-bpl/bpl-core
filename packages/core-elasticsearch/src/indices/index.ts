@@ -1,11 +1,11 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
+import { app } from "@blockpool-io/core-container";
+import { Logger } from "@blockpool-io/core-interfaces";
 import { Blocks } from "./blocks";
 import { Rounds } from "./rounds";
 import { Transactions } from "./transactions";
 import { Wallets } from "./wallets";
 
-export async function watchIndices(chunkSize: number): Promise<void> {
+export const watchIndices = async (chunkSize: number): Promise<void> => {
     const indicers = [Blocks, Transactions, Wallets, Rounds];
 
     for (const Indicer of indicers) {
@@ -17,4 +17,4 @@ export async function watchIndices(chunkSize: number): Promise<void> {
 
         instance.listen();
     }
-}
+};

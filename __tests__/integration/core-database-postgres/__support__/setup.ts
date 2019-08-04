@@ -1,36 +1,33 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
+import { plugin } from "../../../../packages/core-database-postgres/src/plugin";
+import { plugin as pluginDatabase } from "../../../../packages/core-database/src/plugin";
 import { registerWithContainer, setUpContainer } from "../../../utils/helpers/container";
 
 jest.setTimeout(60000);
 
-const options = {
-    connection: {
-        host: "localhost",
-        port: 5432,
-        database: "core_unitnet",
-        user: "core",
-        password: "password",
-    },
-};
-
 export const setUp = async () => {
     await setUpContainer({
-        exit: "@arkecosystem/core-database-postgres",
-        exclude: ["@arkecosystem/core-database-postgres"],
+        exit: "@blockpool-io/core-database-postgres",
+        exclude: ["@blockpool-io/core-database-postgres"],
     });
 
-    // register first core-database because core-database-postgres extends it
-    // (we might improve registerWithContainer to take care of extends)
-    const { plugin: pluginDatabase } = require("@arkecosystem/core-database");
-    await registerWithContainer(pluginDatabase, options);
+    process.env.CORE_RESET_DATABASE = "1";
 
-    const { plugin } = require("../../../../packages/core-database-postgres/src/plugin");
-    await registerWithContainer(plugin, options);
+    await registerWithContainer(pluginDatabase);
+
+    await registerWithContainer(plugin, {
+        connection: {
+            host: "localhost",
+            port: 5432,
+            database: "ark_unitnet",
+            user: "ark",
+            password: "password",
+        },
+    });
 };
 
 export const tearDown = async () => {
     await app.tearDown();
 
-    const { plugin } = require("../../../../packages/core-database-postgres/src/plugin");
-    await plugin.deregister(app, options);
+    await plugin.deregister(app);
 };

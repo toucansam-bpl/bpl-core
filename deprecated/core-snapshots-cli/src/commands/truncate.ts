@@ -1,5 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
+import { app } from "@blockpool-io/core-container";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { setUpLite } from "../utils";
 import { BaseCommand } from "./command";
 

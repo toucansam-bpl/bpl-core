@@ -4,8 +4,6 @@ services:
     image: "postgres:alpine"
     container_name: postgres-mainnet
     restart: always
-    ports:
-      - '127.0.0.1:5432:5432'
     volumes:
       - 'postgres:/var/lib/postgresql/data'
     networks:
@@ -22,6 +20,7 @@ services:
     ports:
      - "4001:4001"
      - "4003:4003"
+     - "4040:4040"
      - "127.0.0.1:4004:4004"
      - "127.0.0.1:4005:4005"
      - "127.0.0.1:8080:8080" 
@@ -30,9 +29,9 @@ services:
       - SYS_RESOURCE
       - SYS_TIME
     volumes:
-     - ~/.config/ark-core:/home/node/.config/ark-core
-     - ~/.local/share/ark-core:/home/node/.local/share/ark-core
-     - ~/.local/state/ark-core:/home/node/.local/state/ark-core
+     - ~/.config/bpl-core:/home/node/.config/bpl-core
+     - ~/.local/share/bpl-core:/home/node/.local/share/bpl-core
+     - ~/.local/state/bpl-core:/home/node/.local/state/bpl-core
      - /etc/localtime:/etc/localtime:ro
      - ./enc:/run/secrets
     networks:

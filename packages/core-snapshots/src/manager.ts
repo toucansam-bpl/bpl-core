@@ -1,9 +1,9 @@
 /* tslint:disable:max-line-length */
 
-import { app } from "@arkecosystem/core-container";
-import { PostgresConnection } from "@arkecosystem/core-database-postgres";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { roundCalculator } from "@arkecosystem/core-utils";
+import { app } from "@blockpool-io/core-container";
+import { PostgresConnection } from "@blockpool-io/core-database-postgres";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { roundCalculator } from "@blockpool-io/core-utils";
 
 import pick from "lodash.pick";
 
@@ -49,7 +49,7 @@ export class SnapshotManager {
 
         if (params.truncate) {
             await this.database.truncate();
-            params.lastBlock = null;
+            params.lastBlock = undefined;
         }
 
         await importTable("blocks", params);
@@ -70,8 +70,6 @@ export class SnapshotManager {
                 `Rolling back chain to last finished round with last block height ${newLastBlock.height.toLocaleString()}`,
             );
         }
-
-        await this.database.db.one("SELECT setval('rounds_id_seq', (SELECT MAX(id) FROM rounds) + 1)");
 
         this.database.close();
     }
@@ -139,6 +137,7 @@ export class SnapshotManager {
 
         const lastBlock = await this.database.getLastBlock();
         params.lastBlock = lastBlock;
+        params.lastRound = await this.database.getLastRound();
         params.chunkSize = this.options.chunkSize || 50000;
 
         if (exportAction) {
@@ -147,7 +146,7 @@ export class SnapshotManager {
             }
 
             params.meta = utils.setSnapshotInfo(params, lastBlock);
-            params.queries = await this.database.getExportQueries(params.meta.startHeight, params.meta.endHeight);
+            params.queries = await this.database.getExportQueries(params.meta);
 
             if (params.blocks) {
                 if (options.blocks === params.meta.folder) {

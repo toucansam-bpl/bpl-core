@@ -1,6 +1,5 @@
-import { app } from "@arkecosystem/core-container";
-import { Logger } from "@arkecosystem/core-interfaces";
-import { SnapshotManager } from "@arkecosystem/core-snapshots";
+import { app } from "@blockpool-io/core-container";
+import { SnapshotManager } from "@blockpool-io/core-snapshots";
 import { flags } from "@oclif/command";
 import { setUpLite } from "../../helpers/snapshot";
 import { CommandFlags } from "../../types";
@@ -25,7 +24,7 @@ export class RollbackCommand extends BaseCommand {
         await setUpLite(flags);
 
         if (!app.has("snapshots")) {
-            this.error("The @arkecosystem/core-snapshots plugin is not installed.");
+            this.error("The @blockpool-io/core-snapshots plugin is not installed.");
         }
 
         if (flags.height) {

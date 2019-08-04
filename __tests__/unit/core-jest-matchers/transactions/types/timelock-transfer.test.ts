@@ -1,7 +1,7 @@
 import "../../../../../packages/core-jest-matchers/src/transactions/types/timelock-transfer";
 
-import { constants } from "@arkecosystem/crypto";
-const { TransactionTypes } = constants;
+import { Enums } from "@blockpool-io/crypto";
+const { TransactionTypes } = Enums;
 
 describe(".toBeTimelockTransferType", () => {
     test("passes when given a valid transaction", () => {

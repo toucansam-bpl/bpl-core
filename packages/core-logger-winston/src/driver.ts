@@ -1,5 +1,5 @@
-import { Logger } from "@arkecosystem/core-interfaces";
-import { AbstractLogger } from "@arkecosystem/core-logger";
+import { Logger } from "@blockpool-io/core-interfaces";
+import { AbstractLogger } from "@blockpool-io/core-logger";
 import "colors";
 import * as winston from "winston";
 import { ITransport, ITransportStream } from "./interfaces";
@@ -15,7 +15,7 @@ export class WinstonLogger extends AbstractLogger {
         return this;
     }
 
-    public suppressConsoleOutput(suppress: boolean): void {
+    public suppressConsoleOutput(suppress: boolean = true): void {
         const consoleTransport = this.logger.transports.find(
             (transport: ITransportStream) => transport.name === "console",
         );

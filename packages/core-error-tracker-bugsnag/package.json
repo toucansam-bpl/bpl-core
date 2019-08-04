@@ -1,30 +1,31 @@
 {
-    "name": "@arkecosystem/core-error-tracker-bugsnag",
+    "name": "@blockpool-io/core-error-tracker-bugsnag",
+    "version": "2.5.14",
     "description": "Bugsnag error tracker integration for ARK Core.",
-    "version": "2.3.23",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@bugsnag/js": "^6.0.0"
+        "@blockpool-io/core-container": "^2.5.14",
+        "@bugsnag/js": "^6.3.2"
+    },
+    "engines": {
+        "node": ">=10.x"
     },
     "publishConfig": {
         "access": "public"
     },
-    "engines": {
-        "node": ">=10.x"
-    }
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

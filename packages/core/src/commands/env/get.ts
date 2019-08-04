@@ -8,7 +8,7 @@ export class GetCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Get the log level
-$ ark env:get CORE_LOG_LEVEL
+$ bpl env:get CORE_LOG_LEVEL
 `,
     ];
 
@@ -21,7 +21,7 @@ $ ark env:get CORE_LOG_LEVEL
     ];
 
     public async run(): Promise<void> {
-        const { args, flags, paths } = await this.parseWithNetwork(GetCommand);
+        const { args, paths } = await this.parseWithNetwork(GetCommand);
 
         const envFile = `${paths.config}/.env`;
 

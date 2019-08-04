@@ -1,4 +1,4 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
 import { registerWithContainer, setUpContainer } from "../../../core-test-utils/src/helpers/container";
 
 jest.setTimeout(60000);
@@ -13,7 +13,7 @@ export const setUp = async () => {
     process.env.CORE_GRAPHQL_ENABLED = "true";
 
     await setUpContainer({
-        exclude: ["@arkecosystem/core-api", "@arkecosystem/core-forger"],
+        exclude: ["@blockpool-io/core-api", "@blockpool-io/core-forger"],
     });
 
     const { plugin } = require("../../src");

@@ -6,7 +6,7 @@ import { BaseCommand } from "../command";
 export class LogCommand extends AbstractLogCommand {
     public static description: string = "Show the relay log";
 
-    public static examples: string[] = [`$ ark relay:log`];
+    public static examples: string[] = [`$ bpl relay:log`];
 
     public static flags: CommandFlags = {
         ...BaseCommand.flagsNetwork,

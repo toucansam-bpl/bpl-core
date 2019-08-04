@@ -1,4 +1,4 @@
-import { Logger } from "@arkecosystem/core-interfaces";
+import { Logger } from "@blockpool-io/core-interfaces";
 import { LoggerFactory } from "./factory";
 
 export class LoggerManager {

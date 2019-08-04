@@ -1,32 +1,36 @@
 {
-    "name": "@arkecosystem/core-logger-signale",
+    "name": "@blockpool-io/core-logger-signale",
+    "version": "2.5.14",
     "description": "Signale integration for ARK Core",
-    "version": "2.3.23",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index",
-    "types": "dist/index",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
+    "types": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-interfaces": "^2.3.23",
-        "@arkecosystem/core-logger": "^2.3.23",
+        "@blockpool-io/core-interfaces": "^2.5.14",
+        "@blockpool-io/core-logger": "^2.5.14",
         "signale": "^1.4.0"
+    },
+    "devDependencies": {
+        "@types/signale": "^1.2.1"
+    },
+    "engines": {
+        "node": ">=10.x"
     },
     "publishConfig": {
         "access": "public"
     },
-    "engines": {
-        "node": ">=10.x"
-    }
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

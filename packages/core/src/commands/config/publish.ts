@@ -1,4 +1,3 @@
-import { flags } from "@oclif/command";
 import fs from "fs-extra";
 import { resolve } from "path";
 import prompts from "prompts";
@@ -11,7 +10,7 @@ export class PublishCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Publish the configuration for the mainnet network
-$ ark config:publish --network=mainnet
+$ bpl config:publish --network=mainnet
 `,
     ];
 
@@ -67,7 +66,7 @@ $ ark config:publish --network=mainnet
         this.addTask("Prepare directories", async () => {
             if (fs.existsSync(coreConfigDest)) {
                 this.error(
-                    `${coreConfigDest} already exists. Please run "ark config:reset" if you wish to reset your configuration.`,
+                    `${coreConfigDest} already exists. Please run "bpl config:reset" if you wish to reset your configuration.`,
                 );
             }
 

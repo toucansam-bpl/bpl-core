@@ -1,5 +1,7 @@
-const { models } = require('@arkecosystem/crypto')
+const {
+    Blocks
+} = require('@blockpool-io/crypto')
 
 exports.deserialize = data => {
-    return models.Block.deserialize(data)
+    return Blocks.Block.deserialize(data)
 }

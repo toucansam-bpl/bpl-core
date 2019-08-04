@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-cd ~/ark-core
+cd ~/bpl-core
 pm2 delete all
 git reset --hard
 git pull

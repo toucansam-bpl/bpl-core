@@ -1,11 +1,35 @@
-import { app } from "@arkecosystem/core-container";
-import { Container } from "@arkecosystem/core-interfaces";
-import "@arkecosystem/core-jest-matchers";
+import { app } from "@blockpool-io/core-container";
+import { Container } from "@blockpool-io/core-interfaces";
+import "@blockpool-io/core-jest-matchers";
 import { asValue } from "awilix";
 import isString from "lodash.isstring";
 import * as path from "path";
 
-export async function setUpContainer(options: any): Promise<Container.IContainer> {
+// copied from core-container registrars/plugin
+const castOptions = options => {
+    const blacklist: any = [];
+    const regex = new RegExp(/^\d+$/);
+
+    for (const key of Object.keys(options)) {
+        const value = options[key];
+        if (isString(value) && !blacklist.includes(key) && regex.test(value)) {
+            options[key] = +value;
+        }
+    }
+
+    return options;
+};
+
+// copied from core-container registrars/plugin and slightly modified
+const applyToDefaults = (defaults, options) => {
+    if (defaults) {
+        options = Object.assign(defaults, options);
+    }
+
+    return castOptions(options);
+};
+
+export const setUpContainer = async (options: any): Promise<Container.IContainer> => {
     options.network = options.network || "testnet";
 
     process.env.CORE_PATH_DATA = options.data || `${process.env.HOME}/.core`;
@@ -16,18 +40,18 @@ export async function setUpContainer(options: any): Promise<Container.IContainer
     await app.setUp(
         "2.1.1",
         {
-            token: options.token || "ark",
+            token: options.token || "bpl",
             network: options.network,
         },
         options,
     );
     return app;
-}
+};
 
 // copied from core-container registrars/plugin and slightly modified
-export async function registerWithContainer(plugin, options = {}) {
+export const registerWithContainer = async (plugin, options = {}) => {
     if (!plugin.register) {
-        return;
+        return undefined;
     }
 
     const name = plugin.name || plugin.pkg.name;
@@ -49,28 +73,4 @@ export async function registerWithContainer(plugin, options = {}) {
     );
 
     return pluginRegistered;
-}
-
-// copied from core-container registrars/plugin and slightly modified
-function applyToDefaults(defaults, options) {
-    if (defaults) {
-        options = Object.assign(defaults, options);
-    }
-
-    return castOptions(options);
-}
-
-// copied from core-container registrars/plugin
-function castOptions(options) {
-    const blacklist: any = [];
-    const regex = new RegExp(/^\d+$/);
-
-    Object.keys(options).forEach(key => {
-        const value = options[key];
-        if (isString(value) && !blacklist.includes(key) && regex.test(value)) {
-            options[key] = +value;
-        }
-    });
-
-    return options;
-}
+};

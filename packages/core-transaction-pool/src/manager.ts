@@ -1,4 +1,4 @@
-import { TransactionPool } from "@arkecosystem/core-interfaces";
+import { TransactionPool } from "@blockpool-io/core-interfaces";
 import { ConnectionFactory } from "./factory";
 
 export class ConnectionManager {
@@ -8,13 +8,13 @@ export class ConnectionManager {
         TransactionPool.IConnection
     >();
 
-    public connection(name = "default"): TransactionPool.IConnection {
+    public connection(name: string = "default"): TransactionPool.IConnection {
         return this.connections.get(name);
     }
 
     public async createConnection(
         connection: TransactionPool.IConnection,
-        name = "default",
+        name: string = "default",
     ): Promise<TransactionPool.IConnection> {
         this.connections.set(name, await this.factory.make(connection));
 

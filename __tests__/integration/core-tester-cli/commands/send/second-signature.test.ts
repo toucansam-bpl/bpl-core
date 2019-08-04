@@ -1,20 +1,22 @@
-import { httpie } from "@arkecosystem/core-utils";
 import "jest-extended";
+
+import { httpie } from "@blockpool-io/core-utils";
+import { Managers } from "@blockpool-io/crypto";
 import nock from "nock";
 import { SecondSignatureRegistrationCommand } from "../../../../../packages/core-tester-cli/src/commands/send/second-signature-registration";
-import { arkToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
+import { bplToSatoshi, captureTransactions, expectTransactions, toFlags } from "../../shared";
 
 beforeEach(() => {
     // Just passthru. We'll test the Command class logic in its own test file more thoroughly
     nock("http://localhost:4003")
-        .get("/api/v2/node/configuration")
+        .get("/api/node/configuration")
         .thrice()
         .reply(200, { data: { constants: {} } });
 
-    nock("http://localhost:4000")
-        .get("/config")
+    nock("http://localhost:4003")
+        .get("/api/node/configuration/crypto")
         .thrice()
-        .reply(200, { data: { network: { name: "unitnet" } } });
+        .reply(200, { data: Managers.configManager.getPreset("unitnet") });
 
     jest.spyOn(httpie, "get");
     jest.spyOn(httpie, "post");
@@ -39,7 +41,7 @@ describe("Commands - Second signature", () => {
         expect(httpie.post).toHaveBeenCalledTimes(2);
 
         expectTransactions(expectedTransactions, {
-            fee: arkToSatoshi(opts.signatureFee),
+            fee: bplToSatoshi(opts.signatureFee),
             asset: {
                 signature: {
                     publicKey: expect.any(String),

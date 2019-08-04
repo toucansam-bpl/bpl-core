@@ -1,4 +1,5 @@
-import { app } from "@arkecosystem/core-container";
+import { app } from "@blockpool-io/core-container";
+import { flags } from "@oclif/command";
 import { CommandFlags } from "../../types";
 import { BaseCommand } from "../command";
 
@@ -7,16 +8,19 @@ export class RunCommand extends BaseCommand {
 
     public static examples: string[] = [
         `Run a forger with a bip39 passphrase
-$ ark forger:run --bip39="..."
+$ bpl forger:run --bip39="..."
 `,
         `Run a forger with an encrypted bip38
-$ ark forger:run --bip38="..." --password="..."
+$ bpl forger:run --bip38="..." --password="..."
 `,
     ];
 
     public static flags: CommandFlags = {
         ...BaseCommand.flagsNetwork,
         ...BaseCommand.flagsForger,
+        env: flags.string({
+            default: "production",
+        }),
     };
 
     public async run(): Promise<void> {
@@ -24,14 +28,14 @@ $ ark forger:run --bip38="..." --password="..."
 
         await this.buildApplication(app, flags, {
             include: [
-                "@arkecosystem/core-event-emitter",
-                "@arkecosystem/core-config",
-                "@arkecosystem/core-logger",
-                "@arkecosystem/core-logger-pino",
-                "@arkecosystem/core-forger",
+                "@blockpool-io/core-event-emitter",
+                "@blockpool-io/core-config",
+                "@blockpool-io/core-logger",
+                "@blockpool-io/core-logger-pino",
+                "@blockpool-io/core-forger",
             ],
             options: {
-                "@arkecosystem/core-forger": await this.buildBIP38(flags),
+                "@blockpool-io/core-forger": await this.buildBIP38(flags),
             },
         });
     }

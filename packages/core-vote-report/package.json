@@ -1,40 +1,38 @@
 {
-    "name": "@arkecosystem/core-vote-report",
+    "name": "@blockpool-io/core-vote-report",
+    "version": "2.5.14",
     "description": "Vote Report for ARK Core",
-    "version": "2.3.23",
+    "license": "MIT",
     "contributors": [
         "Brian Faust <brian@ark.io>"
     ],
-    "license": "MIT",
-    "main": "dist/index.js",
     "files": [
         "dist"
     ],
+    "main": "dist/index",
     "scripts": {
-        "prepublishOnly": "yarn build",
-        "compile": "../../node_modules/typescript/bin/tsc",
         "build": "yarn clean && yarn compile && cp -r src/templates dist/templates",
         "build:watch": "yarn clean && yarn compile -w",
-        "clean": "del dist"
+        "clean": "del dist",
+        "compile": "../../node_modules/typescript/bin/tsc",
+        "prepublishOnly": "yarn build"
     },
     "dependencies": {
-        "@arkecosystem/core-container": "^2.3.23",
-        "@arkecosystem/core-http-utils": "^2.3.23",
-        "@arkecosystem/core-utils": "^2.3.23",
-        "@arkecosystem/crypto": "^2.3.23",
-        "handlebars": "^4.1.0",
-        "lodash.sumby": "^4.6.0",
+        "@blockpool-io/core-container": "^2.5.14",
+        "@blockpool-io/core-http-utils": "^2.5.14",
+        "@blockpool-io/core-utils": "^2.5.14",
+        "@blockpool-io/crypto": "^2.5.14",
+        "handlebars": "^4.1.2",
         "vision": "^5.4.4"
     },
     "devDependencies": {
-        "@types/handlebars": "^4.1.0",
-        "@types/lodash.sumby": "^4.6.6",
         "@types/vision": "^5.3.6"
+    },
+    "engines": {
+        "node": ">=10.x"
     },
     "publishConfig": {
         "access": "public"
     },
-    "engines": {
-        "node": ">=10.x"
-    }
+    "gitHead": "1eb2e9238d9d18aa1c79514c88bf85e524b68256"
 }

@@ -1,6 +1,6 @@
-import { constants } from "@arkecosystem/crypto";
+import { Enums } from "@blockpool-io/crypto";
 
-const { TimelockTransfer } = constants.TransactionTypes;
+const { TimelockTransfer } = Enums.TransactionTypes;
 
 export {};
 

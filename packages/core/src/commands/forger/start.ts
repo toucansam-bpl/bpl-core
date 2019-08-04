@@ -8,13 +8,13 @@ export class StartCommand extends AbstractStartCommand {
 
     public static examples: string[] = [
         `Run a forger with a bip39 passphrase
-$ ark forger:start --bip39="..."
+$ bpl forger:start --bip39="..."
 `,
         `Run a forger with an encrypted bip38
-$ ark forger:start --bip38="..." --password="..."
+$ bpl forger:start --bip38="..." --password="..."
 `,
         `Run a forger without a daemon
-$ ark forger:start --no-daemon
+$ bpl forger:start --no-daemon
 `,
     ];
 
@@ -25,6 +25,9 @@ $ ark forger:start --no-daemon
             description: "start the process as a daemon",
             default: true,
             allowNo: true,
+        }),
+        env: flags.string({
+            default: "production",
         }),
     };
 

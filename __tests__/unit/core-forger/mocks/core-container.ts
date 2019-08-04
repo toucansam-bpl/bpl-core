@@ -1,4 +1,4 @@
-jest.mock("@arkecosystem/core-container", () => {
+jest.mock("@blockpool-io/core-container", () => {
     return {
         app: {
             getConfig: () => {
@@ -17,6 +17,12 @@ jest.mock("@arkecosystem/core-container", () => {
                 }
 
                 return {};
+            },
+            resolveOptions: name => {
+                return {};
+            },
+            has: () => {
+                return false;
             },
         },
     };

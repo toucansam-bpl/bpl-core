@@ -1,25 +1,10 @@
 {
     "list": [
-        {
-            "ip": "167.114.29.51",
-            "port": 4002
-        },
-        {
-            "ip": "167.114.29.52",
-            "port": 4002
-        },
-        {
-            "ip": "167.114.29.53",
-            "port": 4002
-        },
-        {
-            "ip": "167.114.29.54",
-            "port": 4002
-        },
-        {
-            "ip": "167.114.29.55",
-            "port": 4002
-        }
+        { "ip": "169.62.192.23", "port": 9030 },
+        { "ip": "169.48.241.157", "port": 9030 },
+        { "ip": "169.48.241.154", "port": 9030 },
+        { "ip": "169.48.241.147", "port": 9030 },
+        { "ip": "169.48.241.158", "port": 9030 }
     ],
-    "sources": ["https://raw.githubusercontent.com/ARKEcosystem/peers/master/devnet.json"]
+    "sources": ["https://raw.githubusercontent.com/blockpool-io/peers/master/devnet.json"]
 }
