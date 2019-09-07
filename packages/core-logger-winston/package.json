@@ -1,7 +1,7 @@
 {
     "name": "@blockpool-io/core-logger-winston",
     "version": "2.5.14",
-    "description": "Winston Logger for ARK Core",
+    "description": "Winston Logger for Blockpool Core",
     "license": "MIT",
     "contributors": [
         "François-Xavier Thoorens <fx@ark.io>",
